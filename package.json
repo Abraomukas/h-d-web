@@ -1,0 +1,23 @@
+{
+  "name": "h-d-intranet",
+  "version": "1.0.0",
+  "description": "H&D intranet - PoC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Abraomukas/h-d-intranet.git"
+  },
+  "keywords": [
+    "poc",
+    "node"
+  ],
+  "author": "abraomukas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abraomukas/h-d-intranet/issues"
+  },
+  "homepage": "https://github.com/Abraomukas/h-d-intranet#readme"
+}
