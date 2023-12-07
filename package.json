@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Abraomukas/h-d-intranet/issues"
   },
-  "homepage": "https://github.com/Abraomukas/h-d-intranet#readme"
+  "homepage": "https://github.com/Abraomukas/h-d-intranet#readme",
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  }
 }
