@@ -9,7 +9,7 @@ import Hero from './Hero';
 import AboutUs from './AboutUs';
 
 function Main() {
-	const sections = [Hero];
+	const sections = [Hero, Hero, Hero];
 
 	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
