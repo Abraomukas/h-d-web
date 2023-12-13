@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import i18next from 'i18next';
 
@@ -33,14 +34,14 @@ function Navbar(props) {
 				<div className='collapse navbar-collapse' id='navbarSupportedContent'>
 					<ul className='navbar-nav me-auto mb-2 mb-lg-0'>
 						<li className='nav-item'>
-							<a className='nav-link' href='#'>
+							<Link className='nav-link' to='/offices'>
 								Oficinas
-							</a>
+							</Link>
 						</li>
 						<li className='nav-item'>
-							<a className='nav-link' href='#'>
+							<Link className='nav-link' to='/vacation'>
 								Vacaciones
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
@@ -60,7 +61,7 @@ function Navbar(props) {
 			</div>
 			<div className='navbar-right'>
 				<div className='container'>
-					<div class='row d-flex align-items-center'>
+					<div className='row d-flex align-items-center'>
 						<div class='col'>
 							{/* LANGUAGES */}
 							<div className='dropdown'>
@@ -101,10 +102,16 @@ function Navbar(props) {
 								</ul>
 							</div>
 						</div>
-						<div class='col'>
-							<div class='d-grid gap-2'>
-								<button class='btn btn-primary' type='button'>
-									acceso
+						<div className='col'>
+							<div className='d-grid gap-2'>
+								<button
+									className={`btn btn-${isLoggedIn ? 'danger' : 'primary'}`}
+									type='button'
+									style={{ minWidth: '100px' }}
+									onClick={() => {
+										setIsLoggedIn(!isLoggedIn);
+									}}>
+									{isLoggedIn ? 'salir' : 'acceso'}
 								</button>
 							</div>
 						</div>
