@@ -8,6 +8,11 @@ const languages = [
 	{ name: 'Deutsch', country_code: 'de' },
 ];
 
+const sections = [
+	{ label: 'Oficinas', to: '/offices' },
+	{ label: 'Vacaciones', to: '/vacation' },
+];
+
 function Navbar(props) {
 	const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -33,16 +38,16 @@ function Navbar(props) {
 				</button>
 				<div className='collapse navbar-collapse' id='navbarSupportedContent'>
 					<ul className='navbar-nav me-auto mb-2 mb-lg-0'>
-						<li className='nav-item'>
-							<Link className='nav-link' to='/offices'>
-								Oficinas
-							</Link>
-						</li>
-						<li className='nav-item'>
-							<Link className='nav-link' to='/vacation'>
-								Vacaciones
-							</Link>
-						</li>
+						{/* SECTIONS */}
+						{sections.map(({ label, to }, index) => {
+							return (
+								<li key={index} className='nav-item'>
+									<Link key={index} className='nav-link' to={to}>
+										{label}
+									</Link>
+								</li>
+							);
+						})}
 					</ul>
 				</div>
 			</div>
@@ -62,7 +67,7 @@ function Navbar(props) {
 			<div className='navbar-right'>
 				<div className='container'>
 					<div className='row d-flex align-items-center'>
-						<div class='col'>
+						<div className='col'>
 							{/* LANGUAGES */}
 							<div className='dropdown'>
 								<a
@@ -77,10 +82,11 @@ function Navbar(props) {
 								<ul
 									className='dropdown-menu dropdown-menu-end'
 									aria-labelledby='navbarDropdownMenuLink'>
-									{languages.map(({ name, country_code, index }) => {
+									{languages.map(({ name, country_code }, index) => {
 										return (
 											<li key={index}>
 												<button
+													key={index}
 													className='dropdown-item'
 													onClick={() => {
 														i18next.changeLanguage(country_code);
@@ -88,11 +94,13 @@ function Navbar(props) {
 													}}
 													disabled={country_code === currentLngCode}>
 													<span
+														key={index}
 														className={`fi fi-${country_code} fis mx-3`}
 														style={{
 															opacity:
 																country_code === currentLngCode ? 0.5 : 1,
-														}}></span>
+														}}
+													/>
 
 													{name}
 												</button>

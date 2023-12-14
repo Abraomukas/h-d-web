@@ -6,7 +6,6 @@ import Footer from '../components/Footer';
 
 //* PAGES
 import Hero from './Hero';
-import AboutUs from './AboutUs';
 
 function Main() {
 	const sections = [Hero, Hero, Hero];
