@@ -17,13 +17,20 @@ const spinnerFallback = (
 /**
  * PAGES
  */
+
 import ErrorPage from './pages/Error';
 import Main from './pages/Main';
+import Offices from './pages/Offices';
 
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <Main />,
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: '/offices',
+		element: <Offices />,
 		errorElement: <ErrorPage />,
 	},
 ]);
