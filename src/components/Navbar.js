@@ -10,7 +10,7 @@ const languages = [
 
 const sections = [
 	{ label: 'Oficinas', to: '/offices' },
-	{ label: 'Vacaciones', to: '/vacation' },
+	{ label: 'Vacaciones', to: '/vacations' },
 ];
 
 function Navbar(props) {

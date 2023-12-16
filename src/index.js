@@ -21,6 +21,7 @@ const spinnerFallback = (
 import ErrorPage from './pages/Error';
 import Main from './pages/Main';
 import Offices from './pages/Offices';
+import Vacations from './pages/Vacations';
 
 const router = createBrowserRouter([
 	{
@@ -31,6 +32,11 @@ const router = createBrowserRouter([
 	{
 		path: '/offices',
 		element: <Offices />,
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: '/vacations',
+		element: <Vacations />,
 		errorElement: <ErrorPage />,
 	},
 ]);
