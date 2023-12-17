@@ -16,7 +16,7 @@ function Vacations() {
 					alignItems: 'center',
 					height: '100vh',
 				}}>
-				<div>VACATIONS</div>
+				<div>VACACIONES</div>
 			</div>
 
 			<Footer />

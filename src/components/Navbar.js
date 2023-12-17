@@ -111,7 +111,7 @@ function Navbar(props) {
 							</div>
 						</div>
 						<div className='col'>
-							<div className='d-grid gap-2'>
+							<div className='d-grid gap-3'>
 								{isLoggedIn ? (
 									<div className='d-flex justify-content-between align-items-center'>
 										<img
@@ -122,7 +122,7 @@ function Navbar(props) {
 										/>
 
 										<button
-											className={`btn btn-${isLoggedIn ? 'danger' : 'primary'}`}
+											className='btn btn-danger'
 											type='button'
 											style={{ minWidth: '100px' }}
 											onClick={() => {
@@ -134,13 +134,13 @@ function Navbar(props) {
 								) : (
 									<div>
 										<button
-											className={`btn btn-${isLoggedIn ? 'danger' : 'primary'}`}
+											className='btn btn-primary'
 											type='button'
 											style={{ minWidth: '100px' }}
 											onClick={() => {
 												setIsLoggedIn(!isLoggedIn);
 											}}>
-											{isLoggedIn ? 'salir' : 'acceso'}
+											acceso
 										</button>
 									</div>
 								)}

@@ -16,7 +16,7 @@ function Offices() {
 					alignItems: 'center',
 					height: '100vh',
 				}}>
-				<div>OFFICES</div>
+				<div>OFICINAS</div>
 			</div>
 
 			<Footer />
