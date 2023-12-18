@@ -3,6 +3,7 @@ import React from 'react';
 //* COMPONENTS
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import OfficeGraph from '../components/OfficeGraph';
 
 function Offices() {
 	return (
@@ -16,7 +17,16 @@ function Offices() {
 					alignItems: 'center',
 					height: '100vh',
 				}}>
-				<div>OFICINAS</div>
+				{/* MADRID */}
+				<div>
+					<OfficeGraph title='Madrid' />
+				</div>
+
+				{/* VALENCIA */}
+
+				<div>
+					<OfficeGraph title='Valencia' />
+				</div>
 			</div>
 
 			<Footer />
