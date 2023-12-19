@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Plot from 'react-plotly.js';
 
 const OfficeGraph = (props) => {
@@ -52,7 +52,8 @@ const OfficeGraph = (props) => {
 					},
 				},
 			]}
-			layout={{ width: '800', height: '700', title: `${props.title}` }}></Plot>
+			layout={{ width: '800', height: '700', title: `${props.title}` }}
+		/>
 	);
 };
 

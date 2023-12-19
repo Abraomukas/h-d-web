@@ -3,6 +3,7 @@ import React from 'react';
 //* COMPONENTS
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import VacationsGraph from '../components/VacationsGraph';
 
 function Vacations() {
 	return (
@@ -16,7 +17,10 @@ function Vacations() {
 					alignItems: 'center',
 					height: '100vh',
 				}}>
-				<div>VACACIONES</div>
+				{/* VACATIONS*/}
+				<div>
+					<VacationsGraph />
+				</div>
 			</div>
 
 			<Footer />
