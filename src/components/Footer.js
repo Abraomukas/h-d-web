@@ -7,23 +7,28 @@ function Footer() {
 			<div className='container p-4'>
 				{/* SOCIAL MEDIA */}
 				<section className='mb-4'>
-					{/* LINKEDIN */}
-					<a
-						className='btn btn-primary btn-floating m-1'
-						style={{ backgroundColor: '#3b5998' }}
-						href='https://www.linkedin.com/company/hh-asd'
-						role='button'>
-						<i className='fab fa-linkedin'></i>
-					</a>
+					<div className='btn-group' role='group'>
+						{/* LINKEDIN */}
+						<Link to='https://www.linkedin.com/company/hh-asd' target='_blank'>
+							<button
+								type='button'
+								className='btn btn-outline-primary'
+								style={{ backgroundColor: '#3b5998' }}>
+								<i className='fab fa-linkedin text-white'></i>
+							</button>
+						</Link>
 
-					{/*WEB */}
-					<a
-						className='btn btn-primary btn-floating m-1'
-						style={{ backgroundColor: 'lightblue' }}
-						href='https://hyd.com.es/'
-						role='button'>
-						<i className='fas fa-globe'></i>
-					</a>
+						{/*WEB */}
+						<Link to='https://hyd.com.es/' target='_blank'>
+							<button
+								type='button'
+								className='btn btn-outline-primary'
+								style={{ backgroundColor: '#3b5998' }}
+								onClick={() => {}}>
+								<i className='fas fa-globe text-white'></i>
+							</button>
+						</Link>
+					</div>
 				</section>
 				{/* TEXT */}
 				<section>
@@ -45,5 +50,6 @@ function Footer() {
 		</nav>
 	);
 }
+import { Link } from 'react-router-dom';
 
 export default Footer;
