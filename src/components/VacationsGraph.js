@@ -6,8 +6,8 @@ const VacationsGraph = (props) => {
 		<Plot
 			data={[
 				{
-					values: [16, 15, 12, 6, 5, 4, 42],
-					labels: ['US', 'China', 'EU', 'Russia', 'Brazil', 'India', 'TEST'],
+					values: [30, 50, 1],
+					labels: ['Holiday', 'Sick leave', 'Moving'],
 					domain: { column: 0 },
 					name: 'Vacations',
 					hoverinfo: 'label+percent+name',
@@ -16,12 +16,12 @@ const VacationsGraph = (props) => {
 				},
 			]}
 			layout={{
-				title: 'Vacation TEST',
+				title: 'My holidays',
 				annotations: [
 					{
-						font: { size: 20 },
+						font: { size: 30 },
 						showarrow: false,
-						text: '???',
+						text: '',
 						x: 0.82,
 						y: 0.5,
 					},
