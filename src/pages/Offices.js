@@ -17,15 +17,21 @@ function Offices() {
 					alignItems: 'center',
 					height: '100vh',
 				}}>
-				{/* MADRID */}
-				<div>
-					<OfficeGraph title='Madrid' />
-				</div>
-
-				{/* VALENCIA */}
-
-				<div>
-					<OfficeGraph title='Valencia' />
+				<div className='container'>
+					<div className='row'>
+						<div className='col'>
+							{/* MADRID */}
+							<div>
+								<OfficeGraph title='Madrid' />
+							</div>
+						</div>
+						<div className='col'>
+							{/* VALENCIA */}
+							<div>
+								<OfficeGraph title='Valencia' />
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 
