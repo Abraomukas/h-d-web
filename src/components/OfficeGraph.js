@@ -52,7 +52,7 @@ const OfficeGraph = (props) => {
 					},
 				},
 			]}
-			layout={{ width: '800', height: '700', title: `${props.title}` }}
+			layout={{ width: '600', height: '600', title: `${props.title}` }}
 		/>
 	);
 };
