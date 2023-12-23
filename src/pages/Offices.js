@@ -32,6 +32,14 @@ function Offices() {
 							</div>
 						</div>
 					</div>
+					<div className='row'>
+						<div className='col'>
+							{/* BARCELONA */}
+							<div>
+								<OfficeGraph title='Barcelona' />
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 
