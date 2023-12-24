@@ -14,6 +14,7 @@ const sections = [
 ];
 
 function Navbar(props) {
+	const [isDarkMode, setIsDarkMode] = useState(false);
 	const [isLoggedIn, setIsLoggedIn] = useState(false);
 
 	const handleLoginStatus = () => {
@@ -67,6 +68,25 @@ function Navbar(props) {
 			<div className='navbar-right'>
 				<div className='container'>
 					<div className='row d-flex align-items-center'>
+						<div className='col'>
+							{/* DARK MODE */}
+							<div className='dropdown'>
+								<a
+									className='text-reset me-3'
+									href='#'
+									role='button'
+									aria-expanded='false'
+									onClick={() => {
+										setIsDarkMode(!isDarkMode);
+									}}>
+									{isDarkMode ? (
+										<i className='fas fa-moon' style={{ color: '#000000' }} />
+									) : (
+										<i className='fas fa-sun' style={{ color: '#000000' }} />
+									)}
+								</a>
+							</div>
+						</div>
 						<div className='col'>
 							{/* LANGUAGES */}
 							<div className='dropdown'>
