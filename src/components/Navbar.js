@@ -9,8 +9,8 @@ const languages = [
 ];
 
 const sections = [
-	{ label: 'Oficinas', to: '/offices' },
-	{ label: 'Vacaciones', to: '/vacations' },
+	{ label: 'Quiénes somos', to: '/who-we-are' },
+	{ label: 'Servicios', to: '/vacations' },
 ];
 
 function Navbar(props) {
