@@ -11,6 +11,8 @@ const languages = [
 const sections = [
 	{ label: 'Quiénes somos', to: '/who-we-are' },
 	{ label: 'Servicios', to: '/vacations' },
+	{ label: 'Ofertas de trabajo', to: '/careers' },
+	{ label: 'Noticias', to: '/blog' },
 ];
 
 function Navbar(props) {
