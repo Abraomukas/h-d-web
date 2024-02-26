@@ -28,6 +28,19 @@ function Navbar(props) {
 	return (
 		<nav className='navbar navbar-expand-lg navbar-light bg-light h-100 d-flex justify-content-between align-items-center'>
 			<div className='navbar-left'>
+				{/* BRAND */}
+				<div className='navbar-middle d-flex align-items-center mx-auto'>
+					<a href='/'>
+						<img
+							src='./images/logo.png'
+							height='80'
+							alt='H&D Logo'
+							loading='lazy'
+						/>
+					</a>
+				</div>
+			</div>
+			<div className='navbar-middle'>
 				{/* LINKS */}
 				<button
 					className='navbar-brand navbar-toggler'
@@ -52,19 +65,6 @@ function Navbar(props) {
 							);
 						})}
 					</ul>
-				</div>
-			</div>
-			<div className='navbar-middle'>
-				{/* BRAND */}
-				<div className='navbar-middle d-flex align-items-center mx-auto'>
-					<a href='/'>
-						<img
-							src='./images/logo.png'
-							height='80'
-							alt='H&D Logo'
-							loading='lazy'
-						/>
-					</a>
 				</div>
 			</div>
 			<div className='navbar-right'>
