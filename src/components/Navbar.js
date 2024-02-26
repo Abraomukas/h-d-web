@@ -26,7 +26,12 @@ function Navbar(props) {
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
 	return (
-		<nav className='navbar navbar-expand-lg navbar-light bg-light h-100 d-flex justify-content-between align-items-center'>
+		<nav
+			className={`navbar navbar-expand-lg navbar-${
+				isDarkMode ? 'dark' : 'light'
+			} bg-${
+				isDarkMode ? 'dark' : 'light'
+			} h-100 d-flex justify-content-between align-items-center`}>
 			<div className='navbar-left'>
 				{/* BRAND */}
 				<div className='navbar-middle d-flex align-items-center mx-auto'>
@@ -82,9 +87,9 @@ function Navbar(props) {
 										setIsDarkMode(!isDarkMode);
 									}}>
 									{isDarkMode ? (
-										<i className='fas fa-moon' style={{ color: '#000000' }} />
+										<i className='fas fa-sun' style={{ color: '#ffffff' }} />
 									) : (
-										<i className='fas fa-sun' style={{ color: '#000000' }} />
+										<i className='fas fa-moon' style={{ color: '#000000' }} />
 									)}
 								</a>
 							</div>
@@ -99,7 +104,9 @@ function Navbar(props) {
 									role='button'
 									data-mdb-toggle='dropdown'
 									aria-expanded='false'>
-									<i className='fas fa-globe' style={{ color: '#000000' }}></i>
+									<i
+										className='fas fa-globe'
+										style={{ color: isDarkMode ? '#ffffff' : '#000000' }}></i>
 								</a>
 								<ul
 									className='dropdown-menu dropdown-menu-end'
