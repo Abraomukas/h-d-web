@@ -139,42 +139,6 @@ function Navbar(props) {
 								</ul>
 							</div>
 						</div>
-						<div className='col'>
-							<div className='d-grid gap-3'>
-								{isLoggedIn ? (
-									<div className='d-flex justify-content-between align-items-center'>
-										<img
-											src='./images/yvonne.jpeg'
-											alt='Bootstrap'
-											width='45'
-											height='45'
-										/>
-
-										<button
-											className='btn btn-danger'
-											type='button'
-											style={{ minWidth: '100px' }}
-											onClick={() => {
-												setIsLoggedIn(!isLoggedIn);
-											}}>
-											salir
-										</button>
-									</div>
-								) : (
-									<div>
-										<button
-											className='btn btn-primary'
-											type='button'
-											style={{ minWidth: '100px' }}
-											onClick={() => {
-												setIsLoggedIn(!isLoggedIn);
-											}}>
-											acceso
-										</button>
-									</div>
-								)}
-							</div>
-						</div>
 					</div>
 					{/* BUTTONS */}
 				</div>
