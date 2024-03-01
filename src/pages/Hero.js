@@ -9,7 +9,7 @@ function Hero() {
 				alignItems: 'center',
 				height: '100vh',
 			}}>
-			<div>H&D INTRANET</div>
+			<div>CONTENT - HERO</div>
 		</div>
 	);
 }
