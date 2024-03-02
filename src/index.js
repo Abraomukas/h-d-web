@@ -20,8 +20,10 @@ const spinnerFallback = (
 
 import ErrorPage from './pages/Error';
 import Main from './pages/Main';
-import Offices from './pages/Offices';
-import Vacations from './pages/Vacations';
+import Services from './pages/Services';
+import News from './pages/News';
+import AboutUs from './pages/AboutUs';
+import Careers from './pages/Careers';
 
 const router = createBrowserRouter([
 	{
@@ -30,13 +32,23 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: '/offices',
-		element: <Offices />,
+		path: '/services',
+		element: <Services />,
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: '/vacations',
-		element: <Vacations />,
+		path: '/news',
+		element: <News />,
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: '/about-us',
+		element: <AboutUs />,
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: '/careers',
+		element: <Careers />,
 		errorElement: <ErrorPage />,
 	},
 ]);

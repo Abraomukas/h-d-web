@@ -9,19 +9,14 @@ const languages = [
 ];
 
 const sections = [
-	{ label: 'Servicios', to: '/vacations' },
-	{ label: 'Noticias', to: '/blog' },
-	{ label: 'Quiénes somos', to: '/who-we-are' },
+	{ label: 'Servicios', to: '/services' },
+	{ label: 'Noticias', to: '/news' },
+	{ label: 'Quiénes somos', to: '/about-us' },
 	{ label: 'Ofertas de trabajo', to: '/careers' },
 ];
 
 function Navbar(props) {
 	const [isDarkMode, setIsDarkMode] = useState(false);
-	const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-	const handleLoginStatus = () => {
-		setIsLoggedIn(!isLoggedIn);
-	};
 
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
