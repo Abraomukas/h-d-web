@@ -2,6 +2,7 @@ import React from 'react';
 
 //* COMPONENTS
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function Services() {
 	return (
@@ -17,6 +18,8 @@ function Services() {
 				}}>
 				CONTENT - SERVICES
 			</div>
+
+			<Footer />
 		</div>
 	);
 }
