@@ -2,6 +2,7 @@ import React from 'react';
 
 //* COMPONENTS
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function AboutUs() {
 	return (
@@ -79,6 +80,8 @@ function AboutUs() {
 					</div>
 				</div>
 			</div>
+
+			<Footer />
 		</div>
 	);
 }
