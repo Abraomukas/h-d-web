@@ -2,6 +2,7 @@ import React from 'react';
 
 //* COMPONENTS
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function Careers() {
 	return (
@@ -17,6 +18,8 @@ function Careers() {
 				}}>
 				CONTENT - CAREERS
 			</div>
+
+			<Footer />
 		</div>
 	);
 }
