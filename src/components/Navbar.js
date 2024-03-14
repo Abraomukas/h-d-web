@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import i18next from 'i18next';
+import { Translation } from 'react-i18next';
 
 const languages = [
 	{ name: 'Español', country_code: 'es' },
@@ -9,7 +10,7 @@ const languages = [
 ];
 
 const sections = [
-	{ label: 'Servicios', to: '/services' },
+	{ label: 'pages.services', to: '/services' },
 	{ label: 'Noticias', to: '/news' },
 	{ label: 'Quiénes somos', to: '/about-us' },
 	{ label: 'Ofertas de trabajo', to: '/careers' },
@@ -58,9 +59,13 @@ function Navbar(props) {
 						{sections.map(({ label, to }, index) => {
 							return (
 								<li key={index} className='nav-item'>
-									<Link key={index} className='nav-link' to={to}>
-										{label}
-									</Link>
+									<Translation>
+										{(t) => {
+											<Link key={index} className='nav-link' to={to}>
+												{t(label)}
+											</Link>;
+										}}
+									</Translation>
 								</li>
 							);
 						})}
