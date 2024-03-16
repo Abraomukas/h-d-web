@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import i18next from 'i18next';
-import { Translation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
 const languages = [
 	{ name: 'Español', country_code: 'es' },
@@ -11,15 +11,17 @@ const languages = [
 
 const sections = [
 	{ label: 'pages.services', to: '/services' },
-	{ label: 'Noticias', to: '/news' },
-	{ label: 'Quiénes somos', to: '/about-us' },
-	{ label: 'Ofertas de trabajo', to: '/careers' },
+	{ label: 'pages.news', to: '/news' },
+	{ label: 'pages.about-us', to: '/about-us' },
+	{ label: 'pages.careers', to: '/careers' },
 ];
 
 function Navbar(props) {
 	const [isDarkMode, setIsDarkMode] = useState(false);
 
 	const currentLngCode = Cookies.get('i18next') || 'es';
+
+	const { t } = useTranslation();
 
 	return (
 		<nav
@@ -59,13 +61,11 @@ function Navbar(props) {
 						{sections.map(({ label, to }, index) => {
 							return (
 								<li key={index} className='nav-item'>
-									<Translation>
-										{(t) => {
-											<Link key={index} className='nav-link' to={to}>
-												{t(label)}
-											</Link>;
-										}}
-									</Translation>
+									<Trans i18nKey={`pages.${label}`}>
+										<Link key={index} className='nav-link' to={to}>
+											{t(label)}
+										</Link>
+									</Trans>
 								</li>
 							);
 						})}
