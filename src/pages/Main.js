@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import Hero from './Hero';
 
 function Main() {
-	const sections = [Hero, Hero, Hero];
+	const sections = [Hero];
 
 	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
