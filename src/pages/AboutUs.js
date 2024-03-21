@@ -1,4 +1,6 @@
 import React from 'react';
+import Cookies from 'js-cookie';
+import { Trans, useTranslation } from 'react-i18next';
 
 //* COMPONENTS
 import Navbar from '../components/Navbar';
@@ -40,7 +42,9 @@ function AboutUs() {
 						<div className='col-lg-4 col-md-5'>
 							<div className='container'>
 								<h1 className='display-1 fw-bold'>
-									<strong>¿Quiénes somos?</strong>
+									<Trans i18nKey={'about-us.heading'}>
+										<strong></strong>
+									</Trans>
 								</h1>
 
 								<br />
