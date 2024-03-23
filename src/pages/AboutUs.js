@@ -7,6 +7,8 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 function AboutUs() {
+	const currentLngCode = Cookies.get('i18next') || 'es';
+
 	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
 			<Navbar />
