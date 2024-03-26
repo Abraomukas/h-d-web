@@ -22,9 +22,14 @@ function Careers() {
 	];
 
 	return (
-		<div style={{ position: 'relative', minHeight: '100vh' }}>
+		<div style={{ position: 'relative' }}>
 			<Navbar />
 
+			<div className='container text-center'>
+				<h1 className='display-7 fw-bold text-body-emphasis lh-1 mb-3'>
+					<Trans i18nKey={'careers.heading'} />
+				</h1>
+			</div>
 			<div
 				style={{
 					display: 'flex',
@@ -32,9 +37,19 @@ function Careers() {
 					alignItems: 'center',
 					height: '100vh',
 				}}>
-				<h1 className='display-7 fw-bold text-body-emphasis lh-1 mb-3'>
-					<Trans i18nKey={'careers.heading'} />
-				</h1>
+				<div className='container text-center'>
+					<div className='row'></div>
+					<div className='row'>
+						<div className='container text-center'>
+							<div className='row row-cols-3'>
+								<div className='col'>Column</div>
+								<div className='col'>Column</div>
+								<div className='col'>Column</div>
+								<div className='col'>Column</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<Footer />
