@@ -12,15 +12,14 @@ function Careers() {
 	console.log('careers.jobs');
 
 	const jobLabels = [
-		'lead-full-stack',
-		'java',
-		'dot-net',
-		'frontend',
-		'product-owner',
-		'qa',
-		'devops',
-		'java-synergo',
-		'rust',
+		{ label: 'lead-full-stack', to: '' },
+		{ label: 'java', to: '' },
+		{ label: 'dot-net', to: '' },
+		{ label: 'frontend', to: '' },
+		{ label: 'product-owner', to: '' },
+		{ label: 'qa', to: '' },
+		{ label: 'devops', to: '' },
+		{ label: 'rust', to: '' },
 	];
 
 	return (
@@ -34,28 +33,25 @@ function Careers() {
 					height: '100vh',
 				}}>
 				<div className='container text-center'>
-					<h1 className='display-7 fw-bold text-body-emphasis lh-1 mb-3'>
-						<Trans i18nKey={'careers.heading'} />
-					</h1>
-
-					<br />
-
-					<br />
-
-					<br />
-
-					<br />
-
-					<br />
-
-					<div className='container text-center'>
+					{/* GRID */}
+					<div
+						style={{ position: 'relative', minHeight: '100vh' }}
+						className='d-flex justify-content-between align-items-center my-5'>
 						<div className='container text-center'>
-							<div className='row row-cols-3'>
-								<div className='col'>
-									<button type='button' className='btn btn-primary btn-lg'>
-										<Trans i18nKey={'careers.jobs.lead-full-stack'} />
-									</button>
-								</div>
+							<div className='row row-cols-3 row-cols-md-3 g-3'>
+								{jobLabels.map(({ label }, index) => {
+									return (
+										<div key={index} className='col'>
+											<div class='d-grid gap-2 mx-auto'>
+												<button
+													type='button'
+													className='btn btn-primary btn-lg'>
+													<Trans i18nKey={`careers.jobs.${label}`} />
+												</button>
+											</div>
+										</div>
+									);
+								})}
 							</div>
 						</div>
 					</div>
