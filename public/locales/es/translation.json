@@ -10,5 +10,17 @@
 		"subheading": "Empresa respaldada por su matriz AKDB, operativa como institución pública de Baviera en Alemania. Una cultura laboral diferente para crecer profesionalmente."
 	},
 	"about-us": { "heading": "¿Quiénes somos?" },
-	"careers": { "heading": "Ofertas de trabajo destacadas" }
+	"careers": {
+		"heading": "Ofertas de trabajo destacadas",
+		"jobs": {
+			"lead-full-stack": "Lead Full Stack Developer",
+			"java": "Java Developer",
+			"dot-net": ".NET Developer",
+			"frontend": "Frontend Developer para RRHH",
+			"product-owner": "Proxy Product Owner",
+			"qa": "Software QA Manager",
+			"devops": "DevOps / sysadmin",
+			"rust": "Rust Developer"
+		}
+	}
 }
