@@ -30,31 +30,8 @@ function Careers() {
 					display: 'flex',
 					height: '100vh',
 				}}>
+				{/* 
 				<div className='container text-center'>
-					{/* GRID */}
-					{/* 
-					<div
-						style={{ position: 'relative', minHeight: '100vh' }}
-						className='d-flex justify-content-between align-items-center my-5'>
-						<div className='container text-center'>
-							<div className='row row-cols-3 row-cols-md-3 g-3'>
-								{jobLabels.map(({ label }, index) => {
-									return (
-										<div key={index} className='col'>
-											<div className='d-grid gap-2 mx-auto'>
-												<button
-													type='button'
-													className='btn btn-primary btn-lg'>
-													<Trans i18nKey={`careers.jobs.${label}`} />
-												</button>
-											</div>
-										</div>
-									);
-								})}
-							</div>
-						</div>
-					</div>
-					 */}
 					<div className='position-relative p-3 p-md-5 m-md-3 text-center bg-body-tertiary'>
 						<div className='col-md-6 p-lg-5 mx-auto my-5'>
 							<h1 className='display-3 fw-bold'>
@@ -89,6 +66,14 @@ function Careers() {
 								</div>
 							</div>
 						</div>
+					</div>
+				</div> 
+				*/}
+				<div className='col-md-6 p-lg-5 mx-auto my-5'>
+					<div className='p-5 text-center bg-light'>
+						<h1 className='display-3 fw-bold'>
+							<Trans i18nKey={'careers.heading'} />
+						</h1>
 					</div>
 				</div>
 			</div>
