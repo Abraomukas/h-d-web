@@ -23,14 +23,10 @@ function Careers() {
 	];
 
 	return (
-		<div style={{ position: 'relative' }}>
+		<div style={{ position: 'relative', minHeight: '100vh' }}>
 			<Navbar />
-			<div
-				style={{
-					display: 'flex',
-					height: '100vh',
-				}}>
-				{/* 
+
+			{/* 
 				<div className='container text-center'>
 					<div className='position-relative p-3 p-md-5 m-md-3 text-center bg-body-tertiary'>
 						<div className='col-md-6 p-lg-5 mx-auto my-5'>
@@ -69,11 +65,32 @@ function Careers() {
 					</div>
 				</div> 
 				*/}
-				<div className='col-md-6 p-lg-5 mx-auto my-5'>
-					<div className='p-5 text-center bg-light'>
+
+			<div className='container'>
+				{/* HEADER */}
+
+				<div className='position-relative p-3 p-md-5 m-md-3 text-center bg-body-tertiary'>
+					<div className='col-md-6 p-lg-5 mx-auto my-5'>
 						<h1 className='display-3 fw-bold'>
 							<Trans i18nKey={'careers.heading'} />
 						</h1>
+					</div>
+				</div>
+
+				{/* GRID */}
+
+				<div className='container'>
+					<div className='row gx-3'>
+						{jobLabels.map((job, index) => {
+							return (
+								<div className='text-bg-dark col-lg-4 col-md-12 mb-3 text-center mx-auto'>
+									<div className='my-3 py-3'>
+										<h2 className='display-5'>Another headline</h2>
+										<p className='lead'>And an even wittier subheading.</p>
+									</div>
+								</div>
+							);
+						})}
 					</div>
 				</div>
 			</div>
