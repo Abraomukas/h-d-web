@@ -26,51 +26,11 @@ function Careers() {
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
 			<Navbar />
 
-			{/* 
-				<div className='container text-center'>
-					<div className='position-relative p-3 p-md-5 m-md-3 text-center bg-body-tertiary'>
-						<div className='col-md-6 p-lg-5 mx-auto my-5'>
-							<h1 className='display-3 fw-bold'>
-								<Trans i18nKey={'careers.heading'} />
-							</h1>
-						</div>
-					</div>
-					<div className='d-md-flex'>
-						<div className='row row-cols-3 g-3'>
-							<div className='col'>
-								<div className='text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
-									<div className='my-3 py-3'>
-										<h2 className='display-5'>Another headline</h2>
-										<p className='lead'>And an even wittier subheading.</p>
-									</div>
-								</div>
-							</div>
-							<div className='col'>
-								<div className='text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
-									<div className='my-3 py-3'>
-										<h2 className='display-5'>Another headline</h2>
-										<p className='lead'>And an even wittier subheading.</p>
-									</div>
-								</div>
-							</div>
-							<div className='col'>
-								<div className='text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden'>
-									<div className='my-3 py-3'>
-										<h2 className='display-5'>Another headline</h2>
-										<p className='lead'>And an even wittier subheading.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> 
-				*/}
-
 			<div className='container'>
 				{/* HEADER */}
 
-				<div className='position-relative p-3 p-md-5 m-md-3 text-center bg-body-tertiary'>
-					<div className='col-md-6 p-lg-5 mx-auto my-5'>
+				<div className='position-relative p-3 p-md-1 m-md-1 text-center'>
+					<div className='col-md-6 p-lg-5 mx-auto my-3'>
 						<h1 className='display-3 fw-bold'>
 							<Trans i18nKey={'careers.heading'} />
 						</h1>
@@ -79,7 +39,7 @@ function Careers() {
 
 				{/* GRID */}
 
-				<div className='container'>
+				<div className='container my-3'>
 					<div className='row gx-3'>
 						{jobLabels.map((job, index) => {
 							return (
