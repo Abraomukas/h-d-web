@@ -29,8 +29,8 @@ function Careers() {
 			<div className='container'>
 				{/* HEADER */}
 
-				<div className='position-relative p-3 p-md-1 m-md-1 text-center'>
-					<div className='col-md-6 p-lg-5 mx-auto my-3'>
+				<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
+					<div className='col-md-6 p-lg-5 mx-auto mt-3'>
 						<h1 className='display-3 fw-bold'>
 							<Trans i18nKey={'careers.heading'} />
 						</h1>
@@ -39,14 +39,22 @@ function Careers() {
 
 				{/* GRID */}
 
-				<div className='container my-3'>
-					<div className='row gx-3'>
+				<div className='container mb-7'>
+					<div className='row gx-3 d-flex justify-content-center'>
 						{jobLabels.map((job, index) => {
 							return (
-								<div className='text-bg-dark col-lg-4 col-md-12 mb-3 text-center mx-auto'>
-									<div className='my-3 py-3'>
-										<h2 className='display-5'>Another headline</h2>
-										<p className='lead'>And an even wittier subheading.</p>
+								<div
+									index={index}
+									className='col-lg-4 col-md-12 mb-3 text-center'>
+									<div index={index}>
+										<div className='text-bg-dark m-auto p-3'>
+											<h2 index={index} className='display-5'>
+												Another headline
+											</h2>
+											<p index={index} className='lead'>
+												And an even wittier subheading.
+											</p>
+										</div>
 									</div>
 								</div>
 							);
