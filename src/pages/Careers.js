@@ -49,7 +49,7 @@ function Careers() {
 									<div index={index}>
 										<div className='text-bg-dark m-auto p-3'>
 											<h2 index={index} className='display-5'>
-												Another headline
+												<Trans i18nKey={`careers.jobs.${job.label}`} />
 											</h2>
 											<p index={index} className='lead'>
 												And an even wittier subheading.
