@@ -51,9 +51,6 @@ function Careers() {
 											<h2 index={index} className='display-5'>
 												<Trans i18nKey={`careers.jobs.${job.label}`} />
 											</h2>
-											<p index={index} className='lead'>
-												And an even wittier subheading.
-											</p>
 										</div>
 									</div>
 								</div>
