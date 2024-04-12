@@ -27,10 +27,10 @@ function Hero() {
 					</div>
 					<div className='col-lg-6'>
 						<h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
-							<Trans i18nKey={'hero.heading'} />
+							<Trans i18nKey={'hero.header'} />
 						</h1>
 						<p className='lead'>
-							<Trans i18nKey={'hero.subheading'} />
+							<Trans i18nKey={'hero.subheader'} />
 						</p>
 					</div>
 				</div>
