@@ -6,15 +6,15 @@
 		"careers": "Ofertas de trabajo"
 	},
 	"hero": {
-		"heading": "Forma parte de una empresa líder en software para la administración pública alemana",
-		"subheading": "Empresa respaldada por su matriz AKDB, operativa como institución pública de Baviera en Alemania. Una cultura laboral diferente para crecer profesionalmente."
+		"header": "Forma parte de una empresa líder en software para la administración pública alemana",
+		"subheader": "Empresa respaldada por su matriz AKDB, operativa como institución pública de Baviera en Alemania. Una cultura laboral diferente para crecer profesionalmente."
 	},
 	"news": { "heading": "Sigue la actualidad en H&D España" },
 	"about-us": { "heading": "¿Quiénes somos?" },
 	"careers": {
 		"heading": "Ofertas de trabajo destacadas",
 		"jobs": {
-			"lead-full-stack": "Desarrollador jefe  Full Stack",
+			"lead-full-stack": "Desarrollador jefe Full Stack",
 			"java": "Desarrollador Java",
 			"dot-net": "Desarrollador .NET",
 			"frontend": "Desarrollador Frontend",
