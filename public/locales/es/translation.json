@@ -12,7 +12,7 @@
 	"news": { "heading": "Sigue la actualidad en H&D España" },
 	"about-us": { "heading": "¿Quiénes somos?" },
 	"careers": {
-		"heading": "Ofertas de trabajo destacadas",
+		"header": "Ofertas de trabajo destacadas",
 		"jobs": {
 			"lead-full-stack": "Desarrollador jefe Full Stack",
 			"java": "Desarrollador Java",
