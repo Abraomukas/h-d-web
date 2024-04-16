@@ -18,7 +18,7 @@ function News() {
 			<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
 				<div className='col-md-6 p-lg-5 mx-auto mt-3'>
 					<h1 className='display-3 fw-bold'>
-						<Trans i18nKey={'news.heading'} />
+						<Trans i18nKey={'news.header'} />
 					</h1>
 				</div>
 			</div>
