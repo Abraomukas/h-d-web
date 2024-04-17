@@ -12,6 +12,16 @@
 	"news": { "header": "Neuigkeiten bei H&D Spanien" },
 	"about-us": { "header": "Wer sind wir?", "subheader": "H&D Spanien" },
 	"careers": {
-		"header": "Ausgewählte Stellenangebote"
+		"header": "Ausgewählte Stellenangebote",
+		"jobs": {
+			"lead-full-stack": "Full Stack Chefentwickler",
+			"java": "Java-Entwickler",
+			"dot-net": ".NET-Entwickler",
+			"frontend": "Frontend Entwickler",
+			"product-owner": "Proxy Product Owner",
+			"qa": "Software QA Leiter",
+			"devops": "DevOps / sysadmin",
+			"rust": "Rust-Entwickler"
+		}
 	}
 }
