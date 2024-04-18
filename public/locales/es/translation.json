@@ -10,7 +10,7 @@
 		"subheader": "Empresa respaldada por su matriz AKDB, operativa como institución pública de Baviera en Alemania. Una cultura laboral diferente para crecer profesionalmente."
 	},
 	"news": { "header": "Sigue la actualidad en H&D España" },
-	"about-us": { "heading": "¿Quiénes somos?" },
+	"about-us": { "header": "¿Quiénes somos?", "subheader": "H&D España" },
 	"careers": {
 		"header": "Ofertas de trabajo destacadas",
 		"jobs": {

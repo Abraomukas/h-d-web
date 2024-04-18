@@ -44,7 +44,7 @@ function AboutUs() {
 						<div className='col-lg-4 col-md-5'>
 							<div className='container'>
 								<h1 className='display-1 fw-bold'>
-									<Trans i18nKey={'about-us.heading'}>
+									<Trans i18nKey={'about-us.header'}>
 										<strong></strong>
 									</Trans>
 								</h1>
@@ -52,7 +52,9 @@ function AboutUs() {
 								<br />
 
 								<h3>
-									<strong>H&D España</strong>
+									<Trans i18nKey={'about-us.subheader'}>
+										<strong></strong>
+									</Trans>
 								</h3>
 
 								<br />
