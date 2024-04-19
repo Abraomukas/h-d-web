@@ -18,8 +18,8 @@ function Footer() {
 							</button>
 						</Link>
 
-						{/*WEB */}
-						<Link to='https://hyd.com.es/' target='_blank'>
+						{/* WEB */}
+						<Link to='https://akdb.de/' target='_blank'>
 							<button
 								type='button'
 								className='btn btn-outline-primary'
