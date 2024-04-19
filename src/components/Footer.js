@@ -1,14 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
 	return (
 		<nav className='navbar navbar-expand-lg navbar-light bg-light h-100 d-flex justify-content-between align-items-center'>
-			{/* GRID CONTAINER */}
 			<div className='container p-4'>
 				{/* SOCIAL MEDIA */}
+
 				<section className='mb-4'>
 					<div className='btn-group' role='group'>
 						{/* LINKEDIN */}
+
 						<Link to='https://www.linkedin.com/company/hh-asd' target='_blank'>
 							<button
 								type='button'
@@ -19,6 +21,7 @@ function Footer() {
 						</Link>
 
 						{/* WEB */}
+
 						<Link to='https://akdb.de/' target='_blank'>
 							<button
 								type='button'
@@ -30,16 +33,25 @@ function Footer() {
 						</Link>
 					</div>
 				</section>
+
 				{/* TEXT */}
+
 				<section>
 					<div>
-						{/* GRID ROW */}
 						<div className='row d-flex justify-content-center'>
-							{/* GRID COLUMN */}
 							<div className='col-auto'>
 								<p>
 									<strong>
 										H&D Aplicaciones, Software y Desarrollo S.L.U.
+									</strong>
+								</p>
+							</div>
+						</div>
+						<div className='row d-flex justify-content-center'>
+							<div className='col-auto'>
+								<p>
+									<strong>
+										Poeta Joan Maragall, 23, 28020, Madrid, España
 									</strong>
 								</p>
 							</div>
@@ -50,6 +62,5 @@ function Footer() {
 		</nav>
 	);
 }
-import { Link } from 'react-router-dom';
 
 export default Footer;
