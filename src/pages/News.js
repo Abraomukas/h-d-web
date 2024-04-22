@@ -9,6 +9,15 @@ import Footer from '../components/Footer';
 function News() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
+	const news = [
+		{ label: 'dec-24', picture: '', to: '' },
+		{ label: 'jan-24', picture: '', to: '' },
+		{ label: 'feb-24', picture: '', to: '' },
+		{ label: 'mar-24', picture: '', to: '' },
+		{ label: 'apr-24', picture: '', to: '' },
+		{ label: 'may-24', picture: '', to: '' },
+	];
+
 	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
 			<Navbar />
@@ -20,6 +29,54 @@ function News() {
 					<h1 className='display-3 fw-bold'>
 						<Trans i18nKey={'news.header'} />
 					</h1>
+				</div>
+			</div>
+
+			{/* GRID */}
+
+			<div className='container mb-7'>
+				<div className='row gx-3 d-flex justify-content-center'>
+					{news.map((post, index) => {
+						return (
+							<div
+								index={index}
+								className='col-lg-4 col-md-12 mb-3 text-center'>
+								<div index={index}>
+									<div className='card'>
+										<div
+											className='bg-image hover-overlay'
+											data-mdb-ripple-init
+											data-mdb-ripple-color='light'>
+											<img
+												src='https://mdbootstrap.com/img/new/standard/nature/184.jpg'
+												className='img-fluid'
+											/>
+											<a href='#!'>
+												<div
+													className='mask'
+													style={{
+														backgroundColor: 'rgba(251, 251, 251, 0.15)',
+													}}></div>
+											</a>
+										</div>
+										<div className='card-body'>
+											<h5 className='card-title'>Post title</h5>
+											<p className='card-text'>
+												Some quick example text to build on the card title and
+												make up the bulk of the card's content.
+											</p>
+											<a
+												href='#!'
+												className='btn btn-primary'
+												data-mdb-ripple-init>
+												Read
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						);
+					})}
 				</div>
 			</div>
 
