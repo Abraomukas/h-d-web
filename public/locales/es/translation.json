@@ -9,7 +9,17 @@
 		"header": "Forma parte de una empresa líder en software para la administración pública alemana",
 		"subheader": "Empresa respaldada por su matriz AKDB, operativa como institución pública de Baviera en Alemania. Una cultura laboral diferente para crecer profesionalmente."
 	},
-	"news": { "header": "Sigue la actualidad en H&D España" },
+	"news": {
+		"header": "Sigue la actualidad en H&D España",
+		"posts": {
+			"dec-23": "Team Day en H&D España - Diciembre 2023",
+			"jan-24": "Team Day en H&D España - Enero 2024",
+			"feb-24": "Team Day en H&D España - Febrero 2024",
+			"mar-24": "Team Day en H&D España - Marzo 2024",
+			"apr-24": "Team Building en Valencia - Abril 2024",
+			"may-24": "Team Day en H&D España - Mayo  2024"
+		}
+	},
 	"about-us": { "header": "¿Quiénes somos?", "subheader": "H&D España" },
 	"careers": {
 		"header": "Ofertas de trabajo destacadas",
