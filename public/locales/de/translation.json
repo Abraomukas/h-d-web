@@ -9,7 +9,17 @@
 		"header": "Sei Teil eines führenden deutschen Softwareunternehmens für die öffentliche Verwaltung",
 		"subheader": "Das Unternehmen wird von seiner Muttergesellschaft AKDB unterstützt, die als öffentliche Einrichtung des Freistaats Bayern in Deutschland tätig ist. Eine besondere Arbeitskultur für berufliches Wachstum."
 	},
-	"news": { "header": "Neuigkeiten bei H&D Spanien" },
+	"news": {
+		"header": "Neuigkeiten bei H&D Spanien",
+		"posts": {
+			"dec-23": "Team Day bei H&D Spanien - Dezember 2023",
+			"jan-24": "Team Day bei H&D Spanien - Januar 2024",
+			"feb-24": "Team Day bei H&D Spanien - Februar 2024",
+			"mar-24": "Team Day bei H&D Spanien - März 2024",
+			"apr-24": "Team Building in Valencia - April 2024",
+			"may-24": "Team Day bei H&D Spanien - Mai  2024"
+		}
+	},
 	"about-us": { "header": "Wer sind wir?", "subheader": "H&D Spanien" },
 	"careers": {
 		"header": "Ausgewählte Stellenangebote",
