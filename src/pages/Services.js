@@ -76,13 +76,34 @@ function Services() {
 
 				<div className='container mb-7'>
 					<div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5'>
-						<FeatureEntry icon={'fa-bars'} text={'services.features.tech'} />
-						<FeatureEntry icon={'fa-bars'} text={'services.features.agile'} />
-						<FeatureEntry icon={'fa-bars'} text={'services.features.ai-ml'} />
-						<FeatureEntry icon={'fa-bars'} text={'services.features.mobile'} />
-						<FeatureEntry icon={'fa-bars'} text={'services.features.ci-cd'} />
-						<FeatureEntry icon={'fa-bars'} text={'services.features.audit'} />
-						<FeatureEntry icon={'fa-bars'} text={'services.features.monitor'} />
+						<FeatureEntry
+							icon={'fas fa-microchip'}
+							text={'services.features.tech'}
+						/>
+						<FeatureEntry
+							icon={'fa-solid fa-graduation-cap'}
+							text={'services.features.agile'}
+						/>
+						<FeatureEntry
+							icon={'fa-solid fa-robot'}
+							text={'services.features.ai-ml'}
+						/>
+						<FeatureEntry
+							icon={'fa-solid fa-mobile-screen-button'}
+							text={'services.features.mobile'}
+						/>
+						<FeatureEntry
+							icon={'	fa-solid fa-arrows-rotate'}
+							text={'services.features.ci-cd'}
+						/>
+						<FeatureEntry
+							icon={'fa-solid fa-lock'}
+							text={'services.features.audit'}
+						/>
+						<FeatureEntry
+							icon={'fa-solid fa-user-secret'}
+							text={'services.features.monitor'}
+						/>
 					</div>
 				</div>
 			</section>
