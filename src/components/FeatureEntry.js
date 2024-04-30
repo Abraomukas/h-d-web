@@ -14,7 +14,7 @@ function FeatureEntry(props) {
 			/>
 			<div>
 				<h3 className='fw-bold mb-0 fs-4 text-body-emphasis'>
-					<i className={`fas ${props.icon}`} />
+					<i className={`${props.icon}`} />
 				</h3>
 				<h3 className='fw-bold mb-0 fs-4 text-body-emphasis'>
 					<Trans i18nKey={`${props.text}`} />
