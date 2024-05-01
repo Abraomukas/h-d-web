@@ -1,6 +1,7 @@
 import React from 'react';
 import Cookies from 'js-cookie';
 import { Trans, useTranslation } from 'react-i18next';
+
 import Placeholder from '../components/Placeholder';
 
 function Hero() {

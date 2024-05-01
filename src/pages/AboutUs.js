@@ -5,6 +5,7 @@ import { Trans, useTranslation } from 'react-i18next';
 //* COMPONENTS
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Placeholder from '../components/Placeholder';
 
 function AboutUs() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
@@ -34,11 +35,7 @@ function AboutUs() {
 							<div
 								className='bg-image hover-overlay ripple shadow-2-strong rounded-3'
 								data-mdb-ripple-color='light'>
-								<img
-									src='./images/hero.jpg'
-									className='img-fluid'
-									alt='H&D España'
-								/>
+								<Placeholder width={600} height={700} />
 							</div>
 						</div>
 						<div className='col-lg-4 col-md-5'>

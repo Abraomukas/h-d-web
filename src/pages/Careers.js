@@ -47,7 +47,7 @@ function Careers() {
 									index={index}
 									className='col-lg-4 col-md-12 mb-3 text-center'>
 									<div index={index}>
-										<div className='text-bg-dark p-3'>
+										<div className='text-bg-primary p-3'>
 											<h2
 												index={index}
 												className='display-5 d-flex align-items-center justify-content-center'
