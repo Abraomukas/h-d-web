@@ -9,6 +9,20 @@
 		"header": "Forma parte de una empresa líder en software para la administración pública alemana",
 		"subheader": "Empresa respaldada por su matriz AKDB, operativa como institución pública de Baviera en Alemania. Una cultura laboral diferente para crecer profesionalmente."
 	},
+	"services": {
+		"header": "Desde la implantación hasta la evolución del producto digital",
+		"subheader": "Un proceso completo de acompañamiento al cliente, respaldado con sólidas alianzas de un gran número de filiales especializadas en el sector público.",
+		"features-header": "Principales servicios",
+		"features": {
+			"tech": "Java, C++ y las últimas tecnologías web",
+			"agile": "Scrum y Kanban",
+			"ai-ml": "Inteligencia Artificial y Machine Learning",
+			"mobile": "Desarrollo de aplicaciones móviles",
+			"ci-cd": "Automatización (CI/CD)",
+			"audit": "Auditoría de ciberseguridad",
+			"monitor": "Vigilancia y monitoreo"
+		}
+	},
 	"news": {
 		"header": "Sigue la actualidad en H&D España",
 		"posts": {
