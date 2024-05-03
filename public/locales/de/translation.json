@@ -9,6 +9,20 @@
 		"header": "Sei Teil eines führenden deutschen Softwareunternehmens für die öffentliche Verwaltung",
 		"subheader": "Das Unternehmen wird von seiner Muttergesellschaft AKDB unterstützt, die als öffentliche Einrichtung des Freistaats Bayern in Deutschland tätig ist. Eine besondere Arbeitskultur für berufliches Wachstum."
 	},
+	"services": {
+		"header": "Von der Implementierung bis zur Entwicklung des digitalen Produkts",
+		"subheader": "Ein kompletter Kundenbetreuungsprozess, der durch starke Partnerschaften mit einer Vielzahl von spezialisierten Tochtergesellschaften im öffentlichen Sektor unterstützt wird.",
+		"features-header": "Hauptleistungen",
+		"features": {
+			"tech": "Java, C++ und die neuesten Webtechnologien",
+			"agile": "Scrum und Kanban",
+			"ai-ml": "Künstliche Intelligenz und Machine Learning",
+			"mobile": "Entwicklung mobiler Applikationen",
+			"ci-cd": "Automatisierung (CI/CD)",
+			"audit": "Cybersicherheitsaudit",
+			"monitor": "Überwachung und Monitoring"
+		}
+	},
 	"news": {
 		"header": "Neuigkeiten bei H&D Spanien",
 		"posts": {
