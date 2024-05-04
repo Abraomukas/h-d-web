@@ -10,7 +10,7 @@ function News() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
 	const news = [
-		{ label: 'dec-24', picture: '', to: '' },
+		{ label: 'dec-23', picture: '', to: '' },
 		{ label: 'jan-24', picture: '', to: '' },
 		{ label: 'feb-24', picture: '', to: '' },
 		{ label: 'mar-24', picture: '', to: '' },
@@ -60,17 +60,11 @@ function News() {
 											</a>
 										</div>
 										<div className='card-body'>
-											<h5 className='card-title'>Post title</h5>
-											<p className='card-text'>
-												Some quick example text to build on the card title and
-												make up the bulk of the card's content.
-											</p>
-											<a
-												href='#!'
-												className='btn btn-primary'
-												data-mdb-ripple-init>
-												Read
-											</a>
+											<h5 className='card-title'>
+												<strong>
+													<Trans i18nKey={`news.posts.${post.label}`} />
+												</strong>
+											</h5>
 										</div>
 									</div>
 								</div>
