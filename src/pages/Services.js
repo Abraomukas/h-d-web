@@ -11,6 +11,16 @@ import FeatureEntry from '../components/FeatureEntry';
 function Services() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
+	const services = [
+		{ icon: 'fas fa-microchip', text: 'tech', to: '' },
+		{ icon: 'fa-solid fa-graduation-cap', text: 'agile', to: '' },
+		{ icon: 'fa-solid fa-robot', text: 'ai-ml', to: '' },
+		{ icon: 'fa-solid fa-mobile-screen-button', text: 'mobile', to: '' },
+		{ icon: 'fa-solid fa-arrows-rotate', text: 'ci-cd', to: '' },
+		{ icon: 'fa-solid fa-lock', text: 'audit', to: '' },
+		{ icon: 'fa-solid fa-user-secret', text: 'monitor', to: '' },
+	];
+
 	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
 			<Navbar />
@@ -76,34 +86,15 @@ function Services() {
 
 				<div className='container mb-7'>
 					<div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5'>
-						<FeatureEntry
-							icon={'fas fa-microchip'}
-							text={'services.features.tech'}
-						/>
-						<FeatureEntry
-							icon={'fa-solid fa-graduation-cap'}
-							text={'services.features.agile'}
-						/>
-						<FeatureEntry
-							icon={'fa-solid fa-robot'}
-							text={'services.features.ai-ml'}
-						/>
-						<FeatureEntry
-							icon={'fa-solid fa-mobile-screen-button'}
-							text={'services.features.mobile'}
-						/>
-						<FeatureEntry
-							icon={'	fa-solid fa-arrows-rotate'}
-							text={'services.features.ci-cd'}
-						/>
-						<FeatureEntry
-							icon={'fa-solid fa-lock'}
-							text={'services.features.audit'}
-						/>
-						<FeatureEntry
-							icon={'fa-solid fa-user-secret'}
-							text={'services.features.monitor'}
-						/>
+						{services.map((service, index) => {
+							return (
+								<FeatureEntry
+									index={index}
+									icon={service.icon}
+									text={`services.features.${service.text}`}
+								/>
+							);
+						})}
 					</div>
 				</div>
 			</section>
