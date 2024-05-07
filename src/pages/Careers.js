@@ -9,9 +9,7 @@ import Footer from '../components/Footer';
 function Careers() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
-	console.log('careers.jobs');
-
-	const jobLabels = [
+	const jobs = [
 		{ label: 'lead-full-stack', to: '' },
 		{ label: 'java', to: '' },
 		{ label: 'dot-net', to: '' },
@@ -41,7 +39,7 @@ function Careers() {
 
 				<div className='container mb-7'>
 					<div className='row gx-3 d-flex justify-content-center'>
-						{jobLabels.map((job, index) => {
+						{jobs.map((job, index) => {
 							return (
 								<div
 									index={index}
