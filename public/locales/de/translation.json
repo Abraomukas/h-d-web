@@ -7,7 +7,12 @@
 	},
 	"hero": {
 		"header": "Sei Teil eines führenden deutschen Softwareunternehmens für die öffentliche Verwaltung",
-		"subheader": "Das Unternehmen wird von seiner Muttergesellschaft AKDB unterstützt, die als öffentliche Einrichtung des Freistaats Bayern in Deutschland tätig ist. Eine besondere Arbeitskultur für berufliches Wachstum."
+		"subheader": "Das Unternehmen wird von seiner Muttergesellschaft AKDB unterstützt, die als öffentliche Einrichtung des Freistaats Bayern in Deutschland tätig ist. Eine besondere Arbeitskultur für berufliches Wachstum.",
+		"values": {
+			"diversity": "Diversität",
+			"trust": "Vertrauen und Kooperation",
+			"productivity": "Produktivität"
+		}
 	},
 	"services": {
 		"header": "Von der Implementierung bis zur Entwicklung des digitalen Produkts",
