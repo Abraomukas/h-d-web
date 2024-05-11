@@ -9,9 +9,9 @@ function Hero() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
 	const values = [
-		{ icon: 'fas fa-microchip', tag: 'diversity', to: '' },
-		{ icon: 'fa-solid fa-graduation-cap', tag: 'trust', to: '' },
-		{ icon: 'fa-solid fa-robot', tag: 'productivity', to: '' },
+		{ icon: 'fa-solid fa-person', tag: 'diversity', to: '' },
+		{ icon: 'fa-solid fa-users', tag: 'trust', to: '' },
+		{ icon: 'fa-solid fa-stopwatch', tag: 'productivity', to: '' },
 	];
 
 	return (
@@ -76,13 +76,19 @@ function Hero() {
 							<div className='row row-cols-1 g-4'>
 								{values.map((value, index) => {
 									return (
-										<div>
-											<i className='fa-solid fa-robot' />
+										<div index={index}>
+											<i index={index} className={`${value.icon}`} />
 											<h3>
-												<Trans i18nKey={`hero.values.${value.tag}`} />
+												<Trans
+													index={index}
+													i18nKey={`hero.values.${value.tag}`}
+												/>
 											</h3>
-											<p className='fst-italic'>
-												<Trans i18nKey={`hero.values-text.${value.tag}`} />
+											<p index={index} className='fst-italic'>
+												<Trans
+													index={index}
+													i18nKey={`hero.values-text.${value.tag}`}
+												/>
 											</p>
 										</div>
 									);

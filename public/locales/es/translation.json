@@ -7,7 +7,17 @@
 	},
 	"hero": {
 		"header": "Forma parte de una empresa líder en software para la administración pública alemana",
-		"subheader": "Empresa respaldada por su matriz AKDB, operativa como institución pública de Baviera en Alemania. Una cultura laboral diferente para crecer profesionalmente."
+		"subheader": "Empresa respaldada por su matriz AKDB, operativa como institución pública de Baviera en Alemania. Una cultura laboral diferente para crecer profesionalmente.",
+		"values": {
+			"diversity": "Diversidad e inclusión",
+			"trust": "Confianza y colaboración",
+			"productivity": "Productividad"
+		},
+		"values-text": {
+			"diversity": "Cada persona en el trabajo puede ser ella misma",
+			"trust": "Pensamos que la base del liderazgo es la confianza",
+			"productivity": "En un entorno laboral favorable las personas alcanzan niveles de productividad más elevados"
+		}
 	},
 	"services": {
 		"header": "Desde la implantación hasta la evolución del producto digital",
