@@ -12,6 +12,11 @@
 			"diversity": "Diversität",
 			"trust": "Vertrauen und Kooperation",
 			"productivity": "Produktivität"
+		},
+		"values-text": {
+			"diversity": "Jeder kann bei der Arbeit er selbst sein",
+			"trust": "Wir glauben, dass die Grundlage der Führung Vertrauen ist",
+			"productivity": "In einem günstigen Arbeitsumfeld erreichen die Menschen ein höheres Produktivitätsniveau"
 		}
 	},
 	"services": {
