@@ -16,6 +16,7 @@ function News() {
 		{ label: 'mar-24', picture: '', to: '' },
 		{ label: 'apr-24', picture: '', to: '' },
 		{ label: 'may-24', picture: '', to: '' },
+		{ label: 'jun-24', picture: '', to: '' },
 	];
 
 	return (
@@ -32,7 +33,7 @@ function News() {
 				</div>
 			</div>
 
-			{/* GRID */}
+			{/* NEWS GRID */}
 
 			<div className='container mb-7'>
 				<div className='row gx-3 d-flex justify-content-center'>
