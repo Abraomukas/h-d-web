@@ -1,6 +1,7 @@
 import React from 'react';
 import Cookies from 'js-cookie';
 import { Trans, useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 //* COMPONENTS
 import Navbar from '../components/Navbar';
@@ -10,14 +11,14 @@ function Careers() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
 	const jobs = [
-		{ label: 'lead-full-stack', to: '' },
-		{ label: 'java', to: '' },
-		{ label: 'dot-net', to: '' },
-		{ label: 'frontend', to: '' },
-		{ label: 'product-owner', to: '' },
-		{ label: 'qa', to: '' },
-		{ label: 'devops', to: '' },
-		{ label: 'rust', to: '' },
+		{ label: 'lead-full-stack' },
+		{ label: 'java' },
+		{ label: 'dot-net' },
+		{ label: 'frontend' },
+		{ label: 'product-owner' },
+		{ label: 'qa' },
+		{ label: 'devops' },
+		{ label: 'rust' },
 	];
 
 	return (
@@ -45,14 +46,16 @@ function Careers() {
 									index={index}
 									className='col-lg-4 col-md-12 mb-3 text-center'>
 									<div index={index}>
-										<div className='text-bg-primary p-3'>
-											<h2
-												index={index}
-												className='display-5 d-flex align-items-center justify-content-center'
-												style={{ minHeight: '115px' }}>
-												<Trans i18nKey={`careers.jobs.${job.label}`} />
-											</h2>
-										</div>
+										<Link to={`${job.label}`} index={index}>
+											<div className='text-bg-primary p-3'>
+												<h2
+													index={index}
+													className='display-5 d-flex align-items-center justify-content-center'
+													style={{ minHeight: '115px' }}>
+													<Trans i18nKey={`careers.jobs.${job.label}`} />
+												</h2>
+											</div>
+										</Link>
 									</div>
 								</div>
 							);
