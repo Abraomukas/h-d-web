@@ -17,8 +17,8 @@ function Main() {
 			{/* SECTIONS */}
 			{sections.map((SectionComponent, index) => (
 				<section key={index}>
-					<div>
-						<SectionComponent />
+					<div key={index}>
+						<SectionComponent key={index} />
 					</div>
 				</section>
 			))}
