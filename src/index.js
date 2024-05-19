@@ -25,6 +25,7 @@ import Services from './pages/Services';
 import News from './pages/News';
 import AboutUs from './pages/AboutUs';
 import Careers from './pages/Careers';
+import JobDetails from './pages/JobDetails';
 
 const router = createBrowserRouter([
 	{
@@ -50,6 +51,11 @@ const router = createBrowserRouter([
 	{
 		path: '/careers',
 		element: <Careers />,
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: '/careers/:job',
+		element: <JobDetails />,
 		errorElement: <ErrorPage />,
 	},
 ]);

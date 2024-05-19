@@ -43,16 +43,19 @@ function Careers() {
 						{jobs.map((job, index) => {
 							return (
 								<div
-									index={index}
+									key={index}
 									className='col-lg-4 col-md-12 mb-3 text-center'>
-									<div index={index}>
-										<Link to={`${job.label}`} index={index}>
-											<div className='text-bg-primary p-3'>
+									<div key={index}>
+										<Link key={index} to={`${job.label}`}>
+											<div key={index} className='text-bg-primary p-3'>
 												<h2
-													index={index}
+													key={index}
 													className='display-5 d-flex align-items-center justify-content-center'
 													style={{ minHeight: '115px' }}>
-													<Trans i18nKey={`careers.jobs.${job.label}`} />
+													<Trans
+														key={index}
+														i18nKey={`careers.jobs.${job.label}`}
+													/>
 												</h2>
 											</div>
 										</Link>
