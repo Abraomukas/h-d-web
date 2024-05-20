@@ -50,7 +50,7 @@
 		"header": "Ofertas de trabajo destacadas",
 		"jobs": {
 			"lead-full-stack": "Desarrollador jefe Full Stack",
-			"java": "Desarrollador Java",
+			"java": { "header": "Desarrollador Java", "": "" },
 			"dot-net": "Desarrollador .NET",
 			"frontend": "Desarrollador Frontend",
 			"product-owner": "Proxy Product Owner",
