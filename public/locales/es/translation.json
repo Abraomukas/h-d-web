@@ -51,7 +51,7 @@
 		"jobs": {
 			"lead-full-stack": { "header": "Desarrollador jefe Full Stack" },
 			"java": { "header": "Desarrollador Java" },
-			"dot-net": "Desarrollador .NET",
+			"dot-net": { "header": "Desarrollador .NET" },
 			"frontend": "Desarrollador Frontend",
 			"product-owner": "Proxy Product Owner",
 			"qa": "Mánager para Software QA",
