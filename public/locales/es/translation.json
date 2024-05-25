@@ -53,7 +53,7 @@
 			"java": { "header": "Desarrollador Java" },
 			"dot-net": { "header": "Desarrollador .NET" },
 			"frontend": { "header": "Desarrollador Frontend" },
-			"product-owner": "Proxy Product Owner",
+			"product-owner": { "header": "Proxy Product Owner" },
 			"qa": "Mánager para Software QA",
 			"devops": "DevOps / sysadmin",
 			"rust": "Desarrollador Rust"
