@@ -54,7 +54,7 @@
 			"dot-net": { "header": "Desarrollador .NET" },
 			"frontend": { "header": "Desarrollador Frontend" },
 			"product-owner": { "header": "Proxy Product Owner" },
-			"qa": "Mánager para Software QA",
+			"qa": { "header": "Mánager para Software QA" },
 			"devops": "DevOps / sysadmin",
 			"rust": "Desarrollador Rust"
 		}
