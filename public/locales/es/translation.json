@@ -55,7 +55,7 @@
 			"frontend": { "header": "Desarrollador Frontend" },
 			"product-owner": { "header": "Proxy Product Owner" },
 			"qa": { "header": "Mánager para Software QA" },
-			"devops": "DevOps / sysadmin",
+			"devops": { "header": "DevOps / sysadmin" },
 			"rust": "Desarrollador Rust"
 		}
 	}
