@@ -56,7 +56,7 @@
 			"product-owner": { "header": "Proxy Product Owner" },
 			"qa": { "header": "Mánager para Software QA" },
 			"devops": { "header": "DevOps / sysadmin" },
-			"rust": "Desarrollador Rust"
+			"rust": { "header": "Desarrollador Rust" }
 		}
 	}
 }
