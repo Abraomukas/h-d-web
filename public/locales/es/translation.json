@@ -49,14 +49,22 @@
 	"careers": {
 		"header": "Ofertas de trabajo destacadas",
 		"jobs": {
-			"lead-full-stack": { "header": "Desarrollador jefe Full Stack" },
-			"java": { "header": "Desarrollador Java" },
-			"dot-net": { "header": "Desarrollador .NET" },
-			"frontend": { "header": "Desarrollador Frontend" },
-			"product-owner": { "header": "Proxy Product Owner" },
-			"qa": { "header": "Mánager para Software QA" },
-			"devops": { "header": "DevOps / sysadmin" },
-			"rust": { "header": "Desarrollador Rust" }
+			"lead-full-stack": {
+				"header": "Desarrollador jefe Full Stack",
+				"req": "",
+				"plus": ""
+			},
+			"java": { "header": "Desarrollador Java", "req": "", "plus": "" },
+			"dot-net": { "header": "Desarrollador .NET", "req": "", "plus": "" },
+			"frontend": { "header": "Desarrollador Frontend", "req": "", "plus": "" },
+			"product-owner": {
+				"header": "Proxy Product Owner",
+				"req": "",
+				"plus": ""
+			},
+			"qa": { "header": "Mánager para Software QA", "req": "", "plus": "" },
+			"devops": { "header": "DevOps / sysadmin", "req": "", "plus": "" },
+			"rust": { "header": "Desarrollador Rust", "req": "", "plus": "" }
 		}
 	}
 }
