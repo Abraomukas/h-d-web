@@ -56,7 +56,8 @@
 			"product-owner": "Proxy Product Owner",
 			"qa": "Software QA Leiter",
 			"devops": "DevOps / sysadmin",
-			"rust": "Rust-Entwickler"
+			"rust": "Rust-Entwickler",
+			"perks": {}
 		}
 	}
 }
