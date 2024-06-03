@@ -57,7 +57,7 @@
 			"qa": "Software QA Leiter",
 			"devops": "DevOps / sysadmin",
 			"rust": "Rust-Entwickler",
-			"bonus": { "code": "", "exp": "", "": "", "": "" },
+			"bonus": { "code": "", "exp": "", "lang": "", "": "" },
 			"perks": {}
 		}
 	}
