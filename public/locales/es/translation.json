@@ -65,7 +65,7 @@
 			"qa": { "header": "Mánager para Software QA", "req": "", "plus": "" },
 			"devops": { "header": "DevOps / sysadmin", "req": "", "plus": "" },
 			"rust": { "header": "Desarrollador Rust", "req": "", "plus": "" },
-			"bonus": {},
+			"bonus": { "code": "" },
 			"perks": {
 				"salary": "fa-solid fa-hand-holding-dollar",
 				"vacation": "fa-solid fa-bed",
