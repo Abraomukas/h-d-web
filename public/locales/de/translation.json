@@ -58,7 +58,7 @@
 			"devops": "DevOps / sysadmin",
 			"rust": "Rust-Entwickler",
 			"bonus": { "code": "", "exp": "", "lang": "", "digi": "" },
-			"perks": { "salary": "", "vacation": "", "extra-h": "" }
+			"perks": { "salary": "", "vacation": "", "extra-h": "", "social": "" }
 		}
 	}
 }
