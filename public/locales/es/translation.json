@@ -66,7 +66,7 @@
 			"devops": { "header": "DevOps / sysadmin", "req": "", "plus": "" },
 			"rust": { "header": "Desarrollador Rust", "req": "", "plus": "" },
 			"bonus": {},
-			"perks": { "salary": "", "vacation": "", "extra-h": "" }
+			"perks": { "salary": "", "vacation": "", "extra-h": "", "social": "" }
 		}
 	}
 }
