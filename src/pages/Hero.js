@@ -3,7 +3,6 @@ import Cookies from 'js-cookie';
 import { Trans, useTranslation } from 'react-i18next';
 
 import Placeholder from '../components/Placeholder';
-import FeatureEntry from '../components/FeatureEntry';
 
 function Hero() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
