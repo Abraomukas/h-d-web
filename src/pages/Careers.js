@@ -54,7 +54,7 @@ function Careers() {
 													style={{ minHeight: '115px' }}>
 													<Trans
 														key={index}
-														i18nKey={`careers.jobs.${job.label}`}
+														i18nKey={`careers.${job.label}.header`}
 													/>
 												</h2>
 											</div>
