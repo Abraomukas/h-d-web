@@ -44,6 +44,11 @@ function JobDetails() {
 					</div>
 				</section>
 				{/* STACK */}
+				<section>
+					<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
+						<h1 className='display-5 fw-bold'>TEST</h1>
+					</div>
+				</section>
 				{/* SOFT SKILLS */}
 				{/* BENEFITS */}
 				{/* SEND ME YOUR CV */}
