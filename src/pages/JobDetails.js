@@ -46,10 +46,19 @@ function JobDetails() {
 				{/* STACK */}
 				<section>
 					<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
-						<h1 className='display-5 fw-bold'>TEST</h1>
+						<h1 className='display-5 fw-bold'>
+							<Trans i18nKey={`careers.${job}.req`} />
+						</h1>
 					</div>
 				</section>
 				{/* SOFT SKILLS */}
+				<section>
+					<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
+						<h1 className='display-5 fw-bold'>
+							<Trans i18nKey={`careers.bonus`} />
+						</h1>
+					</div>
+				</section>
 				{/* BENEFITS */}
 				{/* SEND ME YOUR CV */}
 			</div>
