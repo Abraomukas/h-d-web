@@ -60,7 +60,21 @@ function JobDetails() {
 					</div>
 				</section>
 				{/* BENEFITS */}
+				<section>
+					<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
+						<h1 className='display-5 fw-bold'>
+							<Trans i18nKey={`careers.perks`} />
+						</h1>
+					</div>
+				</section>
 				{/* SEND ME YOUR CV */}
+				<section>
+					<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
+						<button type='button' class='btn btn-large btn-primary'>
+							TEXT
+						</button>
+					</div>
+				</section>
 			</div>
 
 			<Footer />
