@@ -53,7 +53,7 @@
 			"req": "",
 			"plus": ""
 		},
-		"java": { "header": "Desarrollador Java", "req": "", "plus": "" },
+		"java": { "header": "Desarrollador Java", "req": {}, "plus": "" },
 		"dot-net": { "header": "Desarrollador .NET", "req": "", "plus": "" },
 		"frontend": { "header": "Desarrollador Frontend", "req": "", "plus": "" },
 		"product-owner": {
@@ -75,6 +75,7 @@
 			"stability": "",
 			"agile": "",
 			"travel": ""
-		}
+		},
+		"submit_cv": "Envía tu CV"
 	}
 }
