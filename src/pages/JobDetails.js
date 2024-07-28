@@ -70,8 +70,8 @@ function JobDetails() {
 				{/* SEND ME YOUR CV */}
 				<section>
 					<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
-						<button type='button' class='btn btn-large btn-primary'>
-							TEXT
+						<button type='button' className='btn btn-large btn-primary'>
+							<Trans i18nKey={`careers.submit_cv`} />
 						</button>
 					</div>
 				</section>
