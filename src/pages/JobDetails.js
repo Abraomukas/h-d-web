@@ -47,23 +47,23 @@ function JobDetails() {
 				<section>
 					<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
 						<h1 className='display-5 fw-bold'>
-							<Trans i18nKey={`careers.${job}.req`} />
+							<Trans i18nKey={`careers.${job}.stack.header`} />
 						</h1>
 					</div>
 				</section>
-				{/* BONUSES */}
+				{/* CAREER BENEFITS */}
 				<section>
 					<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
 						<h1 className='display-5 fw-bold'>
-							<Trans i18nKey={`careers.bonus`} />
+							<Trans i18nKey={`careers.career-benefits.header`} />
 						</h1>
 					</div>
 				</section>
-				{/* BENEFITS */}
+				{/* SOCIAL BENEFITS */}
 				<section>
 					<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
 						<h1 className='display-5 fw-bold'>
-							<Trans i18nKey={`careers.perks`} />
+							<Trans i18nKey={`careers.social-benefits.header`} />
 						</h1>
 					</div>
 				</section>
