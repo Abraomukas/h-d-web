@@ -48,7 +48,11 @@
 	"about-us": { "header": "Wer sind wir?", "subheader": "H&D Spanien" },
 	"careers": {
 		"header": "Ausgewählte Stellenangebote",
-		"lead-full-stack": "Full Stack Chefentwickler",
+		"lead-full-stack": {
+			"header": "Full Stack Chefentwickler",
+			"req": "",
+			"plus": ""
+		},
 		"java": "Java-Entwickler",
 		"dot-net": ".NET-Entwickler",
 		"frontend": "Frontend Entwickler",
