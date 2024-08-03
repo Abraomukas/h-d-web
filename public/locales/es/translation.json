@@ -53,7 +53,11 @@
 			"req": "",
 			"plus": ""
 		},
-		"java": { "header": "Desarrollador Java", "req": {}, "plus": "" },
+		"java": {
+			"header": "Desarrollador Java",
+			"stack": { "header": "Stack técnico" },
+			"plus": ""
+		},
 		"dot-net": { "header": "Desarrollador .NET", "req": "", "plus": "" },
 		"frontend": { "header": "Desarrollador Frontend", "req": "", "plus": "" },
 		"product-owner": {
@@ -64,8 +68,15 @@
 		"qa": { "header": "Mánager para Software QA", "req": "", "plus": "" },
 		"devops": { "header": "DevOps / sysadmin", "req": "", "plus": "" },
 		"rust": { "header": "Desarrollador Rust", "req": "", "plus": "" },
-		"bonus": { "code": "", "exp": "", "lang": "", "digi": "" },
-		"perks": {
+		"career-benefits": {
+			"header": "Beneficios laborales",
+			"code": "",
+			"exp": "",
+			"lang": "",
+			"digi": ""
+		},
+		"social-benefits": {
+			"header": "Beneficios sociales",
 			"salary": "fa-solid fa-hand-holding-dollar",
 			"vacation": "fa-solid fa-bed",
 			"extra-h": "fa-solid fa-hourglass-end",
