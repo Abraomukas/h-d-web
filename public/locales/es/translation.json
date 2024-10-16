@@ -87,6 +87,7 @@
 			"agile": "",
 			"travel": ""
 		},
-		"submit_cv": "Envía tu CV"
+		"submit_cv_header": "¿Quieres trabajar con nosotros?",
+		"submit_cv": "Envíanos tu CV"
 	}
 }
