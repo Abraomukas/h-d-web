@@ -27,7 +27,6 @@ function Careers() {
 
 			<div className='container'>
 				{/* HEADER */}
-
 				<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
 					<div className='col-md-6 p-lg-5 mx-auto mt-3'>
 						<h1 className='display-3 fw-bold'>
@@ -35,10 +34,8 @@ function Careers() {
 						</h1>
 					</div>
 				</div>
-
 				{/* GRID */}
-
-				<div className='container mb-7'>
+				<div className='container mb-3'>
 					<div className='row gx-3 d-flex justify-content-center'>
 						{jobs.map((job, index) => {
 							return (
@@ -63,6 +60,19 @@ function Careers() {
 								</div>
 							);
 						})}
+					</div>
+				</div>
+				{/* CTA */}
+				<div className='position-relative p-3 p-md-1 m-md-1 text-center'>
+					<div className='col-md-8 p-lg-5 mx-auto mt-3'>
+						<h1 className='display-5 fw-bold'>
+							<Trans i18nKey={'careers.submit_cv_header'} />
+						</h1>
+						<button
+							type='button'
+							className='btn btn-outline-primary btn-lg mt-2'>
+							<Trans i18nKey={'careers.submit_cv'} />
+						</button>
 					</div>
 				</div>
 			</div>
