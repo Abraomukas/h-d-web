@@ -82,6 +82,8 @@
 			"stability": "",
 			"agile": "",
 			"travel": ""
-		}
+		},
+		"submit_cv_header": "Möchten Sie mit uns zusammenarbeiten?",
+		"submit_cv": "Senden Sie uns Ihren Lebenslauf"
 	}
 }
