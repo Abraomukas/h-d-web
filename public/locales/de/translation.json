@@ -1,7 +1,7 @@
 {
 	"pages": {
 		"services": "Lösungen",
-		"news": "Blog",
+		"events": "Blog",
 		"about-us": "Unternehmen & Team",
 		"careers": "Karriere"
 	},
@@ -33,7 +33,7 @@
 			"monitor": "Überwachung und Monitoring"
 		}
 	},
-	"news": {
+	"events": {
 		"header": "Neuigkeiten bei H&D Spanien",
 		"posts": {
 			"dec-23": "Teamtag Dezember 2023",

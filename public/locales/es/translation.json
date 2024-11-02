@@ -1,7 +1,7 @@
 {
 	"pages": {
 		"services": "Servicios",
-		"news": "Noticias",
+		"events": "Noticias",
 		"about-us": "Quiénes somos",
 		"careers": "Ofertas de trabajo"
 	},
@@ -33,7 +33,7 @@
 			"monitor": "Vigilancia y monitoreo"
 		}
 	},
-	"news": {
+	"events": {
 		"header": "Sigue la actualidad en H&D España",
 		"posts": {
 			"dec-23": "Team Day Diciembre 2023",
