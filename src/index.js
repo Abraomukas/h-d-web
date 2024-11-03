@@ -22,7 +22,8 @@ const spinnerFallback = (
 import ErrorPage from './pages/Error';
 import Main from './pages/Main';
 import Services from './pages/Services';
-import News from './pages/News';
+import Events from './pages/Events';
+import EventDetails from './pages/EventDetails';
 import AboutUs from './pages/AboutUs';
 import Careers from './pages/Careers';
 import JobDetails from './pages/JobDetails';
@@ -39,8 +40,13 @@ const router = createBrowserRouter([
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: '/news',
-		element: <News />,
+		path: '/events',
+		element: <Events />,
+		errorElement: <ErrorPage />,
+	},
+	{
+		path: '/events/:event',
+		element: <EventDetails />,
 		errorElement: <ErrorPage />,
 	},
 	{

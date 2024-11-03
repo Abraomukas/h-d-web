@@ -6,7 +6,7 @@ import { Trans, useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-function News() {
+function Events() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
 	const news = [
@@ -17,6 +17,9 @@ function News() {
 		{ label: 'apr-24', picture: '', to: '' },
 		{ label: 'may-24', picture: '', to: '' },
 		{ label: 'jun-24', picture: '', to: '' },
+		{ label: 'jul-24', picture: '', to: '' },
+		{ label: 'oct-1-24', picture: '', to: '' },
+		{ label: 'oct-2-24', picture: '', to: '' },
 	];
 
 	return (
@@ -28,12 +31,12 @@ function News() {
 			<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
 				<div className='col-md-6 p-lg-5 mx-auto mt-3'>
 					<h1 className='display-3 fw-bold'>
-						<Trans i18nKey={'news.header'} />
+						<Trans i18nKey={'events.header'} />
 					</h1>
 				</div>
 			</div>
 
-			{/* NEWS GRID */}
+			{/* EVENTS GRID */}
 
 			<div className='container mb-7'>
 				<div className='row gx-3 d-flex justify-content-center'>
@@ -63,7 +66,7 @@ function News() {
 										<div className='card-body'>
 											<h5 className='card-title'>
 												<strong>
-													<Trans i18nKey={`news.posts.${post.label}`} />
+													<Trans i18nKey={`events.posts.${post.label}`} />
 												</strong>
 											</h5>
 										</div>
@@ -80,4 +83,4 @@ function News() {
 	);
 }
 
-export default News;
+export default Events;

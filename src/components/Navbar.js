@@ -11,7 +11,7 @@ const languages = [
 
 const sections = [
 	{ label: 'pages.services', to: '/services' },
-	{ label: 'pages.news', to: '/news' },
+	{ label: 'pages.events', to: '/events' },
 	{ label: 'pages.about-us', to: '/about-us' },
 	{ label: 'pages.careers', to: '/careers' },
 ];
@@ -60,8 +60,8 @@ function Navbar(props) {
 						{/* SECTIONS */}
 						{sections.map(({ label, to }, index) => {
 							return (
-								<li key={index} className='nav-item'>
-									<Trans i18nKey={`pages.${label}`}>
+								<li key={index} className='nav-item m-2'>
+									<Trans i18nKey={`${label}`}>
 										<Link key={index} className='nav-link' to={to}>
 											{t(label)}
 										</Link>
