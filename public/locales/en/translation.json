@@ -1,7 +1,8 @@
 {
+	"titles": { "hero_header": "INSERT HEADER HERE" },
 	"pages": {
 		"services": "Services",
-		"news": "News",
+		"events": "Our Events",
 		"about-us": "About Us",
 		"careers": "Careers"
 	}
