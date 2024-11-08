@@ -1,6 +1,6 @@
 {
 	"titles": { "hero_header": "INSERT HEADER HERE" },
-	"pages": {
+	"navbar": {
 		"services": "Services",
 		"events": "Our Events",
 		"about-us": "About Us",
