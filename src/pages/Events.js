@@ -46,27 +46,33 @@ function Events() {
 								index={index}
 								className='col-lg-4 col-md-12 mb-3 text-center'>
 								<div index={index}>
-									<div className='card'>
+									<div index={index} className='card'>
 										<div
+											index={index}
 											className='bg-image hover-overlay'
 											data-mdb-ripple-init
 											data-mdb-ripple-color='light'>
 											<img
+												index={index}
 												src='https://mdbootstrap.com/img/new/standard/nature/184.jpg'
 												className='img-fluid'
 											/>
-											<a href='#!'>
+											<a index={index} href='#!'>
 												<div
+													index={index}
 													className='mask'
 													style={{
 														backgroundColor: 'rgba(251, 251, 251, 0.15)',
 													}}></div>
 											</a>
 										</div>
-										<div className='card-body'>
-											<h5 className='card-title'>
+										<div index={index} className='card-body'>
+											<h5 index={index} className='card-title'>
 												<strong>
-													<Trans i18nKey={`events.posts.${post.label}`} />
+													<Trans
+														index={index}
+														i18nKey={`events.posts.${post.label}`}
+													/>
 												</strong>
 											</h5>
 										</div>
