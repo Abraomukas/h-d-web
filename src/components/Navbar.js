@@ -11,149 +11,17 @@ const languages = [
 ];
 
 const sections = [
-	{ label: 'pages.services', to: '/services' },
-	{ label: 'pages.events', to: '/events' },
-	{ label: 'pages.about-us', to: '/about-us' },
-	{ label: 'pages.careers', to: '/careers' },
+	{ label: 'services' },
+	{ label: 'events' },
+	{ label: 'careers' },
 ];
-
-// function Navbar() {
-// 	const [isDarkMode, setIsDarkMode] = useState(false);
-
-// 	const currentLngCode = Cookies.get('i18next') || 'es';
-
-// 	const { t } = useTranslation();
-
-// 	return (
-// 		<nav
-// 			className={`navbar navbar-expand-lg navbar-${
-// 				isDarkMode ? 'dark' : 'light'
-// 			} bg-${
-// 				isDarkMode ? 'dark' : 'light'
-// 			} h-100 d-flex justify-content-between align-items-center`}>
-// 			<div className='navbar-left'>
-// 				{/* BRAND */}
-// 				<div className='navbar-middle d-flex align-items-center mx-auto'>
-// 					<a href='/'>
-// 						<img
-// 							src='./images/logo.png'
-// 							height='80'
-// 							alt='H&D Logo'
-// 							loading='lazy'
-// 						/>
-// 					</a>
-// 				</div>
-// 			</div>
-// 			<div className='navbar-middle'>
-// 				{/* LINKS */}
-// 				<button
-// 					className='navbar-brand navbar-toggler'
-// 					type='button'
-// 					data-mdb-toggle='collapse'
-// 					data-mdb-target='#navbarSupportedContent'
-// 					aria-controls='navbarSupportedContent'
-// 					aria-expanded='false'
-// 					aria-label='Toggle navigation'>
-// 					<i className='fas fa-bars'></i>
-// 				</button>
-// 				<div className='collapse navbar-collapse' id='navbarSupportedContent'>
-// 					<ul className='navbar-nav me-auto mb-2 mb-lg-0'>
-// 						{/* SECTIONS */}
-// 						{sections.map(({ label, to }, index) => {
-// 							return (
-// 								<li key={index} className='nav-item m-2'>
-// 									<Trans i18nKey={`${label}`}>
-// 										<Link key={index} className='nav-link' to={to}>
-// 											{t(label)}
-// 										</Link>
-// 									</Trans>
-// 								</li>
-// 							);
-// 						})}
-// 					</ul>
-// 				</div>
-// 			</div>
-// 			<div className='navbar-right'>
-// 				<div className='container'>
-// 					<div className='row d-flex align-items-center'>
-// 						<div className='col'>
-// 							{/* DARK MODE */}
-// 							<div className='dropdown'>
-// 								<a
-// 									className='text-reset me-3'
-// 									href='#'
-// 									role='button'
-// 									aria-expanded='false'
-// 									onClick={() => {
-// 										setIsDarkMode(!isDarkMode);
-// 									}}>
-// 									{isDarkMode ? (
-// 										<i className='fas fa-sun' style={{ color: '#ffffff' }} />
-// 									) : (
-// 										<i className='fas fa-moon' style={{ color: '#000000' }} />
-// 									)}
-// 								</a>
-// 							</div>
-// 						</div>
-// 						<div className='col'>
-// 							{/* LANGUAGES */}
-// 							<div className='dropdown'>
-// 								<a
-// 									className='text-reset me-3 dropdown-toggle hidden-arrow'
-// 									href='#'
-// 									id='navbarDropdownMenuLink'
-// 									role='button'
-// 									data-mdb-toggle='dropdown'
-// 									aria-expanded='false'>
-// 									<i
-// 										className='fas fa-globe'
-// 										style={{ color: isDarkMode ? '#ffffff' : '#000000' }}></i>
-// 								</a>
-// 								<ul
-// 									className='dropdown-menu dropdown-menu-end'
-// 									aria-labelledby='navbarDropdownMenuLink'>
-// 									{languages.map(({ name, country_code }, index) => {
-// 										return (
-// 											<li key={index}>
-// 												<button
-// 													key={index}
-// 													className='dropdown-item'
-// 													onClick={() => {
-// 														i18next.changeLanguage(country_code);
-// 														window.location.reload();
-// 													}}
-// 													disabled={country_code === currentLngCode}>
-// 													<span
-// 														key={index}
-// 														className={`fi fi-${country_code} fis mx-3`}
-// 														style={{
-// 															opacity:
-// 																country_code === currentLngCode ? 0.5 : 1,
-// 														}}
-// 													/>
-
-// 													{name}
-// 												</button>
-// 											</li>
-// 										);
-// 									})}
-// 								</ul>
-// 							</div>
-// 						</div>
-// 					</div>
-// 					{/* BUTTONS */}
-// 				</div>
-// 			</div>
-// 		</nav>
-// 	);
-// }
 
 export default function Navbar() {
 	const [isDarkMode, setIsDarkMode] = useState(false);
 
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
-	const { t } = useTranslation();
+	useTranslation();
 
 	return (
 		<nav
@@ -185,14 +53,15 @@ export default function Navbar() {
 				</button>
 				<div className='collapse navbar-collapse' id='navbarSupportedContent'>
 					<ul className='navbar-nav me-auto mb-2 mb-lg-0'>
-						{sections.map(({ label, to }, index) => {
+						{sections.map((section, index) => {
 							return (
 								<li key={index} className='nav-item m-2'>
-									<Trans i18nKey={`${label}`}>
-										<Link key={index} className='nav-link' to={to}>
-											{t(label)}
-										</Link>
-									</Trans>
+									<Link
+										key={index}
+										className='nav-link'
+										to={`/${section.label}`}>
+										<Trans key={index} i18nKey={`navbar.${section.label}`} />
+									</Link>
 								</li>
 							);
 						})}
@@ -204,6 +73,7 @@ export default function Navbar() {
 				<div className='container'>
 					<div className='row d-flex align-items-center'>
 						<div className='col'>
+							{/* DARK MODE */}
 							<div className='dropdown'>
 								<a
 									className='text-reset me-3'
@@ -222,21 +92,20 @@ export default function Navbar() {
 							</div>
 						</div>
 						<div className='col'>
+							{/* LANGUAGES */}
 							<div className='dropdown'>
-								<a
-									className='text-reset me-3 dropdown-toggle hidden-arrow'
-									href='#'
-									id='navbarDropdownMenuLink'
-									role='button'
-									data-mdb-toggle='dropdown'
+								<button
+									className='btn dropdown-toggle'
+									type='button'
+									data-bs-toggle='dropdown'
 									aria-expanded='false'>
 									<i
 										className='fas fa-globe'
-										style={{ color: isDarkMode ? '#ffffff' : '#000000' }}></i>
-								</a>
-								<ul
-									className='dropdown-menu dropdown-menu-end'
-									aria-labelledby='navbarDropdownMenuLink'>
+										style={{
+											color: isDarkMode ? '#ffffff' : '#000000',
+										}}></i>{' '}
+								</button>
+								<ul className='dropdown-menu dropdown-menu-end'>
 									{languages.map(({ name, country_code }, index) => {
 										return (
 											<li key={index}>
@@ -270,4 +139,4 @@ export default function Navbar() {
 			</div>
 		</nav>
 	);
-};
+}
