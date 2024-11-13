@@ -7,6 +7,8 @@ import Placeholder from '../components/Placeholder';
 function Hero() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
+	useTranslation();
+
 	const values = [
 		{ icon: 'fa-solid fa-person', tag: 'diversity', to: '' },
 		{ icon: 'fa-solid fa-users', tag: 'trust', to: '' },
@@ -73,20 +75,17 @@ function Hero() {
 
 						<div className='col-10 col-sm-8 col-lg-6'>
 							<div className='row row-cols-1 g-4'>
-								{values.map((value, index) => {
+								{values.map(({ icon, tag, to }, index) => {
 									return (
-										<div index={index}>
-											<i index={index} className={`${value.icon}`} />
-											<h3>
-												<Trans
-													index={index}
-													i18nKey={`hero.values.${value.tag}`}
-												/>
+										<div key={index++}>
+											<i key={index++} className={`${icon}`} />
+											<h3 key={index++}>
+												<Trans key={index++} i18nKey={`hero.values.${tag}`} />
 											</h3>
-											<p index={index} className='fst-italic'>
+											<p key={index++} className='fst-italic'>
 												<Trans
-													index={index}
-													i18nKey={`hero.values-text.${value.tag}`}
+													key={index++}
+													i18nKey={`hero.values-text.${tag}`}
 												/>
 											</p>
 										</div>
