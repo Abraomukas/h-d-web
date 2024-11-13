@@ -9,6 +9,8 @@ import Footer from '../components/Footer';
 import Placeholder from '../components/Placeholder';
 
 function JobDetails() {
+	useTranslation();
+
 	const currentLngCode = Cookies.get('i18next') || 'es';
 	const { job } = useParams();
 

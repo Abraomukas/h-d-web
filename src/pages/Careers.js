@@ -8,6 +8,8 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 function Careers() {
+	useTranslation();
+	
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
 	const jobs = [
