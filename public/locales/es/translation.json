@@ -50,27 +50,8 @@
 	},
 	"about-us": { "header": "¿Quiénes somos?", "subheader": "H&D España" },
 	"careers": {
-		"header": "Ofertas de trabajo destacadas",
-		"lead-full-stack": {
-			"header": "Desarrollador jefe Full Stack",
-			"req": "",
-			"plus": ""
-		},
-		"java": {
-			"header": "Desarrollador Java",
-			"stack": { "header": "Stack técnico" },
-			"plus": ""
-		},
-		"dot-net": { "header": "Desarrollador .NET", "req": "", "plus": "" },
-		"frontend": { "header": "Desarrollador Frontend", "req": "", "plus": "" },
-		"product-owner": {
-			"header": "Proxy Product Owner",
-			"req": "",
-			"plus": ""
-		},
-		"qa": { "header": "Mánager para Software QA", "req": "", "plus": "" },
-		"devops": { "header": "DevOps / sysadmin", "req": "", "plus": "" },
-		"rust": { "header": "Desarrollador Rust", "req": "", "plus": "" },
+		"header": "Ofertas disponibles",
+		"generic": "Oferta genérica",
 		"career-benefits": {
 			"header": "Beneficios laborales",
 			"code": "",

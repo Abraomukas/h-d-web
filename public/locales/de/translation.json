@@ -48,23 +48,8 @@
 	},
 	"about-us": { "header": "Wer sind wir?", "subheader": "H&D Spanien" },
 	"careers": {
-		"header": "Ausgewählte Stellenangebote",
-		"lead-full-stack": {
-			"header": "Full Stack Chefentwickler",
-			"req": "",
-			"plus": ""
-		},
-		"java": {
-			"header": "Java Entwickler",
-			"stack": { "header": "Technischer Stack" },
-			"plus": ""
-		},
-		"dot-net": ".NET-Entwickler",
-		"frontend": "Frontend Entwickler",
-		"product-owner": "Proxy Product Owner",
-		"qa": "Software QA Leiter",
-		"devops": "DevOps / sysadmin",
-		"rust": "Rust-Entwickler",
+		"header": "Verfügbare Arbeitsstelle",
+		"generic": "allgemeine Stellenangebot",
 		"career-benefits": {
 			"header": "Arbeitsvergünstigungen",
 			"code": "",

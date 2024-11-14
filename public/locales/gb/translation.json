@@ -4,5 +4,15 @@
 		"events": "Events",
 		"about": "About Us",
 		"careers": "Careers"
-	}
+	},
+	"hero": {},
+	"services": {},
+	"events": {},
+	"about-us": {},
+	"careers": {
+		"header": "Available positions",
+		"generic": "Generic job offer"
+	},
+	"submit_cv_header": "Do you want to work with us?",
+	"submit_cv": "Send your CV"
 }
