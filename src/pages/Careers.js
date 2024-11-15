@@ -9,19 +9,9 @@ import Footer from '../components/Footer';
 
 function Careers() {
 	useTranslation();
-	
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
-	const jobs = [
-		{ label: 'lead-full-stack' },
-		{ label: 'java' },
-		{ label: 'dot-net' },
-		{ label: 'frontend' },
-		{ label: 'product-owner' },
-		{ label: 'qa' },
-		{ label: 'devops' },
-		{ label: 'rust' },
-	];
+	const jobs = [{ label: 'generic' }];
 
 	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
@@ -51,10 +41,7 @@ function Careers() {
 													key={index}
 													className='display-5 d-flex align-items-center justify-content-center'
 													style={{ minHeight: '115px' }}>
-													<Trans
-														key={index}
-														i18nKey={`careers.${job.label}.header`}
-													/>
+													<Trans key={index} i18nKey={`careers.${job.label}`} />
 												</h2>
 											</div>
 										</Link>
