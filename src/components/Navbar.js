@@ -25,7 +25,7 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`navbar navbar-expand-lg d-flex navbar-${
+			className={`navbar sticky-top navbar-expand-lg d-flex navbar-${
 				isDarkMode ? 'dark' : 'light'
 			} bg-${isDarkMode ? 'dark' : 'light'}`}>
 			{/* BRAND */}
