@@ -5,7 +5,15 @@
 		"about": "About Us",
 		"careers": "Careers"
 	},
-	"hero": {},
+	"hero": {
+		"header": "Be part of a leading company that delivers software for Germany's public sector",
+		"subheader": "Company backed by its parent company AKDB, operating as a public institution of Bavaria in Germany. A different work culture for professional growth.",
+		"value": {
+			"diverisity": "Diversity and inclusion",
+			"trust": "Confidence and collaboration",
+			"productivity": "Productivity"
+		}
+	},
 	"services": {},
 	"events": {},
 	"about-us": {},
