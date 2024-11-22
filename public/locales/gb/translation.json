@@ -14,7 +14,12 @@
 			"productivity": "Productivity"
 		}
 	},
-	"services": {},
+	"services": {
+		"header": "From implementation to evolution of a digital product",
+		"subheader": "",
+		"features-header": "Main services",
+		"features": {}
+	},
 	"events": {},
 	"about-us": {},
 	"careers": {
