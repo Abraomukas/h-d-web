@@ -18,7 +18,15 @@
 		"header": "From implementation to evolution of a digital product",
 		"subheader": "",
 		"features-header": "Main services",
-		"features": {}
+		"features": {
+			"tech": "Java, C++, and the latest web technologies",
+			"agile": "Scrum and Kanban",
+			"ai-ml": "Artificial Intelligence and Machine Learning",
+			"mobile": "Mobile application development",
+			"ci-cd": "CI/CD automation",
+			"audit": "Cibersecurity audit",
+			"monitor": "Surveillance and monitoring"
+		}
 	},
 	"events": {},
 	"about-us": {},
