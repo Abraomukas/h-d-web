@@ -21,7 +21,7 @@
 	},
 	"services": {
 		"header": "Desde la implantación hasta la evolución del producto digital",
-		"subheader": "Un proceso completo de acompañamiento al cliente, respaldado con sólidas alianzas de un gran número de filiales especializadas en el sector público.",
+		"subheader": "Un proceso completo de acompañamiento al cliente, respaldado con sólidas alianzas de un gran número de filiales especializadas en el sector público",
 		"features-header": "Principales servicios",
 		"features": {
 			"tech": "Java, C++ y las últimas tecnologías web",
@@ -36,7 +36,7 @@
 	"events": {
 		"header": "Sigue la actualidad en H&D España",
 		"posts": {
-			"dec-23": "Team Day Diciembre 2023",
+			"dec-23": "Cena de Navidad 2023",
 			"jan-24": "Team Day Enero 2024",
 			"feb-24": "Team Day Febrero 2024",
 			"mar-24": "Team Day Marzo 2024",
@@ -45,7 +45,9 @@
 			"jun-24": "Team Day Junio 2024",
 			"jul-24": "Team Day Julio 2024",
 			"oct-1-24": "Team Day Octubre I 2024",
-			"oct-2-24": "Team Day Octubre II 2024"
+			"oct-2-24": "Team Day Octubre II 2024",
+			"nov-24": "Team Day Noviembre 2024",
+			"dec-24": "Cena de Navidad 2024"
 		}
 	},
 	"about-us": { "header": "¿Quiénes somos?", "subheader": "H&D España" },
