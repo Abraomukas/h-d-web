@@ -12,11 +12,16 @@
 			"diverisity": "Diversity and inclusion",
 			"trust": "Confidence and collaboration",
 			"productivity": "Productivity"
+		},
+		"values-text": {
+			"diversity": "Every individual can be their true self at work",
+			"trust": "We believe that trust is the foundation of leadership",
+			"productivity": "People reach higher levels of productivity in a favorable work environment"
 		}
 	},
 	"services": {
 		"header": "From implementation to evolution of a digital product",
-		"subheader": "",
+		"subheader": "A fully-fledged process of client guidance, backed with solid partnerships with a high number of specialized entities in the public sector",
 		"features-header": "Main services",
 		"features": {
 			"tech": "Java, C++, and the latest web technologies",
@@ -28,7 +33,23 @@
 			"monitor": "Surveillance and monitoring"
 		}
 	},
-	"events": {},
+	"events": {
+		"header": "Follow the latest news in H&D Spain",
+		"posts": {
+			"dec-23": "Christmas Dinner 2023",
+			"jan-24": "Team Day January 2024",
+			"feb-24": "Team Day February 2024",
+			"mar-24": "Team Day March 2024",
+			"apr-24": "Team Building in Valencia - April 2024",
+			"may-24": "Team Day May 2024",
+			"jun-24": "Team Day June 2024",
+			"jul-24": "Team Day July 2024",
+			"oct-1-24": "Team Day October I 2024",
+			"oct-2-24": "Team Day October II 2024",
+			"nov-24": "Team Day November 2024",
+			"dec-24": "Christmas Dinner 2024"
+		}
+	},
 	"about-us": {},
 	"careers": {
 		"header": "Available positions",
