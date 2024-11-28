@@ -50,10 +50,32 @@
 			"dec-24": "Christmas Dinner 2024"
 		}
 	},
-	"about-us": {},
+	"about-us": {
+		"header": "Who are we?",
+		"subheader": "H&D Spain"
+	},
 	"careers": {
 		"header": "Available positions",
-		"generic": "Generic job offer"
+		"generic": "Generic job offer",
+		"career-benefits": {
+			"header": "Career benefits",
+			"code": "",
+			"exp": "",
+			"lang": "",
+			"digi": ""
+		},
+		"social-benefits": {
+			"header": "Social benefits",
+			"salary": "",
+			"vacation": "",
+			"extra-h": "",
+			"social": "",
+			"flex-h": "",
+			"flex-gps": "",
+			"stability": "",
+			"agile": "",
+			"travel": ""
+		}
 	},
 	"submit_cv_header": "Do you want to work with us?",
 	"submit_cv": "Send your CV"
