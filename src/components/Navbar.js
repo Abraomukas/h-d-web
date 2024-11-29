@@ -73,20 +73,6 @@ export default function Navbar() {
 				<div className='container'>
 					<div className='row d-flex align-items-center'>
 						<div className='col'>
-							{/* LINKEDIN */}
-
-							<Link
-								to='https://www.linkedin.com/company/hh-asd'
-								target='_blank'>
-								<button
-									type='button'
-									className='btn btn-outline-primary'
-									style={{ backgroundColor: '#3b5998' }}>
-									<i className='fab fa-linkedin text-white'></i>
-								</button>
-							</Link>
-						</div>
-						<div className='col'>
 							{/* DARK MODE */}
 							<div className='dropdown'>
 								<a
@@ -103,6 +89,22 @@ export default function Navbar() {
 										<i className='fas fa-moon' style={{ color: '#000000' }} />
 									)}
 								</a>
+							</div>
+						</div>
+						<div className='col'>
+							{/* LINKEDIN */}
+							<div className='dropdown'>
+								<Link
+									to='https://www.linkedin.com/company/hh-asd'
+									target='_blank'>
+									<button
+										type='button'
+										className='btn'
+										aria-expanded='false'
+										style={{ backgroundColor: '#3b5998' }}>
+										<i className='fab fa-linkedin text-white'></i>
+									</button>
+								</Link>
 							</div>
 						</div>
 						<div className='col'>
