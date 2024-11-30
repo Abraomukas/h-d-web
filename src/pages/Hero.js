@@ -16,14 +16,10 @@ function Hero() {
 	];
 
 	return (
-		<div
-			style={{
-				position: 'relative',
-				minHeight: '100vh',
-			}}>
+		<div style={{ minHeight: '100vh' }}>
+			{/* COVER IMAGE WITH MESSAGE */}
 			<section
 				style={{
-					backgroundColor: 'cyan',
 					minHeight: '100vh',
 					display: 'flex',
 					justifyContent: 'center',
@@ -46,56 +42,27 @@ function Hero() {
 				</div>
 			</section>
 
+			{/* TIMELINE */}
 			<section>
-				<div className='container col-xxl-8 px-4 py-5'>
-					<div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
-						<div className='col-lg-6'>
-							<h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
-								<Trans i18nKey={'hero.header'} />
-							</h1>
-							<p className='lead'>
-								<Trans i18nKey={'hero.subheader'} />
-							</p>
-						</div>
-						<div className='col-10 col-sm-8 col-lg-6'>
-							<Placeholder width={500} height={400} />
-						</div>
+				<div className='container-fluid px-5 pb-5'>
+					<div className='row '>
+						<div
+							className='col-lg-4 col-md-12'
+							style={{ backgroundColor: 'red' }}></div>
+
+						<div
+							className='col-lg-4 col-md-6'
+							style={{ backgroundColor: 'green' }}></div>
+
+						<div
+							className='col-lg-4 col-md-6'
+							style={{ backgroundColor: 'blue', minHeight: '100vh' }}></div>
 					</div>
 				</div>
 			</section>
 
-			<section>
-				<div className='container col-xxl-8 px-4 py-5'>
-					<div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
-						<div className='col-10 col-sm-8 col-lg-6'>
-							<Placeholder width={500} height={400} />
-						</div>
-
-						{/* VALUES */}
-
-						<div className='col-10 col-sm-8 col-lg-6'>
-							<div className='row row-cols-1 g-4'>
-								{values.map(({ icon, tag, to }, index) => {
-									return (
-										<div key={index++}>
-											<i key={index++} className={`${icon}`} />
-											<h3 key={index++}>
-												<Trans key={index++} i18nKey={`hero.values.${tag}`} />
-											</h3>
-											<p key={index++} className='fst-italic'>
-												<Trans
-													key={index++}
-													i18nKey={`hero.values-text.${tag}`}
-												/>
-											</p>
-										</div>
-									);
-								})}
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+			{/* CTA for Services */}
+			<section></section>
 		</div>
 	);
 }
