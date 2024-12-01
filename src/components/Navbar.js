@@ -14,6 +14,7 @@ const sections = [
 	{ label: 'services' },
 	{ label: 'events' },
 	{ label: 'careers' },
+	{ label: 'about' },
 ];
 
 export default function Navbar() {
