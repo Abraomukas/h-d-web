@@ -45,18 +45,25 @@ function Hero() {
 			{/* TIMELINE */}
 			<section>
 				<div className='container-fluid px-5 pb-5'>
-					<div className='row '>
-						<div
-							className='col-lg-4 col-md-12'
-							style={{ backgroundColor: 'red' }}></div>
+					<div className='row'>
+						<div className='container-fluid text-center'>
+							<h1 className='display-7 fw-bold lh-1 mb-3'>
+								{/* <Trans i18nKey={'hero.header'} /> */}THIS IS A TEST
+							</h1>
+						</div>
+						<div className='row '>
+							<div
+								className='col-lg-4 col-md-12'
+								style={{ backgroundColor: 'red' }}></div>
 
-						<div
-							className='col-lg-4 col-md-6'
-							style={{ backgroundColor: 'green' }}></div>
+							<div
+								className='col-lg-4 col-md-6'
+								style={{ backgroundColor: 'green' }}></div>
 
-						<div
-							className='col-lg-4 col-md-6'
-							style={{ backgroundColor: 'blue', minHeight: '100vh' }}></div>
+							<div
+								className='col-lg-4 col-md-6'
+								style={{ backgroundColor: 'blue', minHeight: '100vh' }}></div>
+						</div>
 					</div>
 				</div>
 			</section>
