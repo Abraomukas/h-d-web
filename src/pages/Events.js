@@ -23,6 +23,8 @@ function Events() {
 		{ label: 'jul-24', picture: '' },
 		{ label: 'oct-1-24', picture: '' },
 		{ label: 'oct-2-24', picture: '' },
+		{ label: 'nov-24', picture: '' },
+		{ label: 'dec-24', picture: '' },
 	];
 
 	return (
