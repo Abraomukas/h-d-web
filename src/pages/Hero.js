@@ -4,6 +4,9 @@ import { Trans, useTranslation } from 'react-i18next';
 
 export default function Hero() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
+	const width = window.innerWidth;
+	const height = window.innerHeight;
+	const imageUrl = `https://picsum.photos/${width}/${height}`;
 
 	useTranslation();
 
@@ -19,10 +22,8 @@ export default function Hero() {
 			<section>
 				<div
 					style={{ minHeight: '100vh' }}
-					className='container-fluid px-5 pb-5'>
-					<div className='row'>
-						<div className='col-12' style={{ backgroundColor: 'black' }}></div>
-					</div>
+					className='container-fluid px-5 py-5'>
+					<img src={imageUrl} className='img-fluid' />
 				</div>
 			</section>
 
