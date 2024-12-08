@@ -35,7 +35,7 @@ export default function Hero() {
 					<div className='row'>
 						<div className='container-fluid text-center'>
 							<h1 className='display-7 fw-bold lh-1 mb-3'>
-								{/* <Trans i18nKey={'hero.header'} /> */}THIS IS A TEST
+								<Trans i18nKey={'hero.timeline-header'} />
 							</h1>
 						</div>
 						<div className='row '>
