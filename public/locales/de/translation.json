@@ -64,9 +64,9 @@
 		},
 		"social-benefits": {
 			"header": "Sozialleistungen",
-			"salary": "",
-			"vacation": "",
-			"extra-h": "",
+			"salary": "fa-solid fa-hand-holding-dollar",
+			"vacation": "fa-solid fa-bed",
+			"extra-h": "fa-solid fa-hourglass-end",
 			"social": "",
 			"flex-h": "",
 			"flex-gps": "",
