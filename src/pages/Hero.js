@@ -12,7 +12,7 @@ export default function Hero() {
   const width = window.innerWidth;
   const height = window.innerHeight;
   const imageUrl = cld
-    .image("samples/cloudinary-group")
+    .image("h-d-web/jan-24")
     .format("auto")
     .quality("auto")
     .resize(auto().gravity(autoGravity()).width(width).height(height))

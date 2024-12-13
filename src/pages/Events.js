@@ -51,13 +51,11 @@ function Events() {
         <div className="row gx-3 d-flex justify-content-center">
           {news.map((post, index) => {
             let imageUrl = cld
-              .image("samples/landscapes/girl-urban-view")
+              .image("h-d-web/jan-24")
               .format("auto")
               .quality("auto")
               .resize(auto().gravity(autoGravity()))
               .toURL();
-
-            console.log(imageUrl);
 
             return (
               <div
