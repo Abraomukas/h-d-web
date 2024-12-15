@@ -33,7 +33,7 @@ export default function Navbar() {
 			<div className='d-flex align-items-center'>
 				<a href='/'>
 					<img
-						src='./images/logo.png'
+						src='./images/HyD-Spain.png'
 						height='80'
 						alt='H&D Logo'
 						loading='lazy'
