@@ -5,6 +5,7 @@ import { autoGravity } from "@cloudinary/url-gen/qualifiers/gravity";
 import Cookies from "js-cookie";
 import { Trans, useTranslation } from "react-i18next";
 import TimelineEntry from '../components/TimelineEntry';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
 	const cld = new Cloudinary({ cloud: { cloudName: 'abraomukas' } });
@@ -40,7 +41,7 @@ export default function Hero() {
 			{/* COVER IMAGE WITH MESSAGE */}
 			<section>
 				<div className='container-fluid px-5 py-5'>
-					<img src={imageUrl} className='img-fluid' />
+					<img src={imageUrl} className='img-fluid' alt='Background' />
 				</div>
 			</section>
 
@@ -82,7 +83,30 @@ export default function Hero() {
 
 			{/* CTA for Services */}
 			<section>
-				<div style={{ minHeight: '100vh' }}></div>
+				<div
+					className='container-fluid px-5 py-5'
+					style={{ position: 'relative', overflow: 'hidden' }}>
+					<img
+						src={imageUrl}
+						alt='CTA background'
+						style={{ objectFit: 'cover' }}
+						className='img-fluid'
+					/>
+					<button
+						type='button'
+						className='btn btn-outline-secondary'
+						style={{
+							position: 'absolute',
+							top: '50%',
+							left: '50%',
+							right: '5%',
+							transform: 'translate(-50%, -50%)',
+							zIndex: 1,
+							cursor: 'pointer',
+						}}>
+						TO SERVICES
+					</button>
+				</div>
 			</section>
 		</div>
 	);
