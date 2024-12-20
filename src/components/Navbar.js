@@ -59,7 +59,7 @@ export default function Navbar() {
 								<li key={index} className='nav-item m-2'>
 									<Link
 										key={index}
-										className='nav-link'
+										className='nav-link fw-bolder'
 										to={`/${section.label}`}>
 										<Trans key={index} i18nKey={`navbar.${section.label}`} />
 									</Link>
