@@ -92,8 +92,8 @@ export default function Hero() {
 						style={{ objectFit: 'cover' }}
 						className='img-fluid'
 					/>
-					<button
-						type='button'
+					<Link
+						to='/services'
 						className='btn btn-outline-secondary'
 						style={{
 							position: 'absolute',
@@ -102,10 +102,9 @@ export default function Hero() {
 							right: '5%',
 							transform: 'translate(-50%, -50%)',
 							zIndex: 1,
-							cursor: 'pointer',
 						}}>
 						TO SERVICES
-					</button>
+					</Link>
 				</div>
 			</section>
 		</div>
