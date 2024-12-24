@@ -40,8 +40,27 @@ export default function Hero() {
 		<div>
 			{/* COVER IMAGE WITH MESSAGE */}
 			<section>
-				<div className='container-fluid px-5 py-5'>
-					<img src={imageUrl} className='img-fluid' alt='Background' />
+				<div
+					className='container-fluid px-5 py-5'
+					style={{ position: 'relative', overflow: 'hidden' }}>
+					<img
+						style={{ objectFit: 'cover' }}
+						src={imageUrl}
+						className='img-fluid'
+						alt='Background'
+					/>
+					<h1
+						className='display-7 fw-bold mb-5 text-white'
+						style={{
+							position: 'absolute',
+							top: '50%',
+							left: '50%',
+							right: '5%',
+							transform: 'translate(-50%, -50%)',
+							zIndex: 1,
+						}}>
+						<Trans i18nKey={'hero.motto'} />
+					</h1>
 				</div>
 			</section>
 
