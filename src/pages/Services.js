@@ -8,7 +8,7 @@ import { autoGravity } from '@cloudinary/url-gen/qualifiers/gravity';
 //* COMPONENTS
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Placeholder from '../components/Placeholder';
+import TeamEntry from '../components/TeamEntry';
 import FeatureEntry from '../components/FeatureEntry';
 
 function Services() {
@@ -23,6 +23,17 @@ function Services() {
 		.quality('auto')
 		.resize(auto().gravity(autoGravity()).width(width).height(height))
 		.toURL();
+
+	const teams = [
+		{
+			name: 'OK.PERS',
+			name: 'OK.PERS+',
+			name: 'OK.FINN',
+			name: 'OK.EWO',
+			name: 'SYNERGO',
+			name: 'Ausländerwesen',
+		},
+	];
 
 	const services = [
 		{ icon: 'fas fa-microchip', text: 'tech', to: '' },
@@ -68,36 +79,29 @@ function Services() {
 				<div className='position-relative p-md-1 m-md-1 text-center'>
 					<div className='col-md-6 p-lg-5 mx-auto mt-3'>
 						<h1 className='display-5 fw-bold'>
-							<Trans i18nKey={'services.our-teams'} />
+							<Trans i18nKey={'services.teams-header'} />
 						</h1>
 					</div>
 				</div>
 
 				<div className='container mb-7'>
 					<div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5'>
-						{services.map((service, index) => {
-							return (
-								<FeatureEntry
-									index={index}
-									icon={service.icon}
-									text={`services.features.${service.text}`}
-								/>
-							);
+						{teams.map((team, index) => {
+							return <TeamEntry />;
 						})}
 					</div>
 				</div>
 			</section>
 
+			{/* SERVICES */}
 			<section>
 				<div className='position-relative p-md-1 m-md-1 text-center'>
 					<div className='col-md-6 p-lg-5 mx-auto mt-3'>
 						<h1 className='display-5 fw-bold'>
-							<Trans i18nKey={'services.our-teams'} />
+							<Trans i18nKey={'services.features-header'} />
 						</h1>
 					</div>
 				</div>
-
-				{/* SERVICES */}
 
 				<div className='container mb-7'>
 					<div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5'>
