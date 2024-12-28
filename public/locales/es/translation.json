@@ -29,6 +29,16 @@
 	"services": {
 		"header": "Desde la implantación hasta la evolución del producto digital",
 		"subheader": "Un proceso completo de acompañamiento al cliente, respaldado con sólidas alianzas de un gran número de filiales especializadas en el sector público",
+		"teams-header": "Nuestros equipos",
+		"teams-names": {
+			"pers": "OK.PERS",
+			"pers-plus": "OK.PERS+",
+			"finn": "OK.FINN",
+			"ewo": "OK.EWO",
+			"synergo": "SYNERGO",
+			"hyd-aus": "Ausländerwesen"
+		},
+		"": { "": "" },
 		"features-header": "Principales servicios",
 		"features": {
 			"tech": "Java, C++ y las últimas tecnologías web",
