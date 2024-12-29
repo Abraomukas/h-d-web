@@ -38,7 +38,14 @@
 			"synergo": "SYNERGO",
 			"hyd-aus": "Ausländerwesen"
 		},
-		"": { "": "" },
+		"teams-descriptions": {
+			"pers": "LORE IPSUM",
+			"pers-plus": "LORE IPSUM",
+			"finn": "LORE IPSUM",
+			"ewo": "LORE IPSUM",
+			"synergo": "LORE IPSUM",
+			"hyd-aus": "LORE IPSUM"
+		},
 		"features-header": "Principales servicios",
 		"features": {
 			"tech": "Java, C++ y las últimas tecnologías web",
