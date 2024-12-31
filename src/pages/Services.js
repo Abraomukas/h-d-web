@@ -25,14 +25,13 @@ function Services() {
 		.toURL();
 
 	const teams = [
-		{
-			name: 'OK.PERS',
-			name: 'OK.PERS+',
-			name: 'OK.FINN',
-			name: 'OK.EWO',
-			name: 'SYNERGO',
-			name: 'Ausländerwesen',
-		},
+		{ name: 'pers' },
+		{ name: 'pers-plus' },
+		{ name: 'finn' },
+		{ name: 'ewo' },
+		{ name: 'synergo' },
+		{ name: 'hyd-aus' },
+		,
 	];
 
 	const services = [
@@ -51,7 +50,7 @@ function Services() {
 
 			{/* COVER IMAGE */}
 			<section>
-				<div className='container-fluid px-5 py-5'>
+				<div className='container-fluid px-5 my-3'>
 					<img
 						style={{ objectFit: 'cover' }}
 						src={imageUrl}
@@ -60,7 +59,7 @@ function Services() {
 					/>
 				</div>
 
-				<div className='container px-5	'>
+				<div className='container pt-5'>
 					<div className='row'>
 						<div className='container-fluid text-center'>
 							<h1 className='display-7 fw-bold lh-1 mb-5'>
@@ -78,16 +77,22 @@ function Services() {
 			<section>
 				<div className='position-relative p-md-1 m-md-1 text-center'>
 					<div className='col-md-6 p-lg-5 mx-auto mt-3'>
-						<h1 className='display-5 fw-bold'>
+						<h1 className='display-7 fw-bold'>
 							<Trans i18nKey={'services.teams-header'} />
 						</h1>
 					</div>
 				</div>
 
-				<div className='container mb-7'>
+				<div className='container'>
 					<div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5'>
 						{teams.map((team, index) => {
-							return <TeamEntry />;
+							return (
+								<div
+									key={index++}
+									className='col-lg-4 col-md-12 mb-3 text-center'>
+									<TeamEntry index={index++} team={team.name} />
+								</div>
+							);
 						})}
 					</div>
 				</div>
@@ -97,7 +102,7 @@ function Services() {
 			<section>
 				<div className='position-relative p-md-1 m-md-1 text-center'>
 					<div className='col-md-6 p-lg-5 mx-auto mt-3'>
-						<h1 className='display-5 fw-bold'>
+						<h1 className='display-7 fw-bold'>
 							<Trans i18nKey={'services.features-header'} />
 						</h1>
 					</div>
