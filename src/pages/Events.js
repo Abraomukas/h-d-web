@@ -32,80 +32,105 @@ function Events() {
   ];
 
   return (
-    <div style={{ position: "relative", minHeight: "100vh" }}>
-      <Navbar />
+		<div style={{ position: 'relative', minHeight: '100vh' }}>
+			<Navbar />
 
-      {/* HEADER */}
+			{/* HEADER */}
 
-      <div className="position-relative p-5 p-md-1 m-md-1 text-center">
-        <div className="col-md-6 p-lg-5 mx-auto mt-3">
-          <h1 className="display-3 fw-bold">
-            <Trans i18nKey={"events.header"} />
-          </h1>
-        </div>
-      </div>
+			<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
+				<div className='col-md-6 p-lg-5 mx-auto mt-3'>
+					<h1 className='display-3 fw-bold'>
+						<Trans i18nKey={'events.header'} />
+					</h1>
+				</div>
+			</div>
 
-      {/* EVENTS GRID */}
+			{/* NEWS */}
 
-      <div className="container mb-7">
-        <div className="row gx-3 d-flex justify-content-center">
-          {news.map((post, index) => {
-            let imageUrl = cld
-              .image("h-d-web/jan-24")
-              .format("auto")
-              .quality("auto")
-              .resize(auto().gravity(autoGravity()))
-              .toURL();
+			<div className='position-relative p-5 p-md-1 m-md-1'>
+				<div className='col-md-6 p-lg-5 mt-3'>
+					<h1 className='display-5 fw-bold'>
+						<Trans i18nKey={'events.news-header'} />
+					</h1>
+				</div>
+			</div>
 
-            return (
-              <div
-                key={index++}
-                className="col-lg-4 col-md-12 mb-3 text-center"
-              >
-                <div key={index++}>
-                  <div key={index++} className="card">
-                    <div
-                      key={index++}
-                      className="bg-image hover-overlay"
-                      data-mdb-ripple-init
-                      data-mdb-ripple-color="light"
-                    >
-                      <img
-                        index={index++}
-                        src={imageUrl}
-                        className="img-fluid"
-                      />
-                      <Link index={index++} to={`${post.label}`}>
-                        <div
-                          key={index++}
-                          className="mask"
-                          style={{
-                            backgroundColor: "rgba(251, 251, 251, 0.15)",
-                          }}
-                        ></div>
-                      </Link>
-                    </div>
-                    <div key={index++} className="card-body">
-                      <h5 key={index++} className="card-title">
-                        <strong>
-                          <Trans
-                            key={index++}
-                            i18nKey={`events.posts.${post.label}`}
-                          />
-                        </strong>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
+			{/* TEAM TAGS */}
 
-      <Footer />
-    </div>
-  );
+			<div className='position-relative p-5 p-md-1 m-md-1'>
+				<div className='col-md-6 p-lg-5 mt-3'>
+					<h1 className='display-5 fw-bold'>
+						<Trans i18nKey={'events.team-tags-header'} />
+					</h1>
+				</div>
+			</div>
+
+			{/* TEAM BUILDINGS */}
+
+			<div className='position-relative p-5 p-md-1 m-md-1'>
+				<div className='col-md-6 p-lg-5 mt-3'>
+					<h1 className='display-5 fw-bold'>
+						<Trans i18nKey={'events.team-buildings-header'} />
+					</h1>
+				</div>
+			</div>
+
+			<div className='container mb-7'>
+				<div className='row gx-3 d-flex justify-content-center'>
+					{news.map((post, index) => {
+						let imageUrl = cld
+							.image('h-d-web/jan-24')
+							.format('auto')
+							.quality('auto')
+							.resize(auto().gravity(autoGravity()))
+							.toURL();
+
+						return (
+							<div
+								key={index++}
+								className='col-lg-4 col-md-12 mb-3 text-center'>
+								<div key={index++}>
+									<div key={index++} className='card'>
+										<div
+											key={index++}
+											className='bg-image hover-overlay'
+											data-mdb-ripple-init
+											data-mdb-ripple-color='light'>
+											<img
+												index={index++}
+												src={imageUrl}
+												className='img-fluid'
+											/>
+											<Link index={index++} to={`${post.label}`}>
+												<div
+													key={index++}
+													className='mask'
+													style={{
+														backgroundColor: 'rgba(251, 251, 251, 0.15)',
+													}}></div>
+											</Link>
+										</div>
+										<div key={index++} className='card-body'>
+											<h5 key={index++} className='card-title'>
+												<strong>
+													<Trans
+														key={index++}
+														i18nKey={`events.posts.${post.label}`}
+													/>
+												</strong>
+											</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						);
+					})}
+				</div>
+			</div>
+
+			<Footer />
+		</div>
+	);
 }
 
 export default Events;
