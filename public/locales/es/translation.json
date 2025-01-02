@@ -59,6 +59,9 @@
 	},
 	"events": {
 		"header": "Sigue la actualidad en H&D España",
+		"news-header": "Noticias",
+		"team-tags-header": "Team Days",
+		"team-buildings-header": "Team Buildings",
 		"posts": {
 			"dec-23": "Cena de Navidad 2023",
 			"jan-24": "Team Day Enero 2024",
