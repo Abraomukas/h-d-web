@@ -36,6 +36,9 @@
 	},
 	"events": {
 		"header": "Neuigkeiten bei H&D Spanien",
+		"news-header": "Nachrichten",
+		"team-tags-header": "Team Days",
+		"team-buildings-header": "Team Buildings",
 		"posts": {
 			"dec-23": "Weihnachtsparty 2023",
 			"jan-24": "Teamtag Januar 2024",
