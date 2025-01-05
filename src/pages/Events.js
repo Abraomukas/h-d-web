@@ -1,37 +1,48 @@
-import React from "react";
-import Cookies from "js-cookie";
-import { Trans, useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
-import { Cloudinary } from "@cloudinary/url-gen";
-import { auto } from "@cloudinary/url-gen/actions/resize";
-import { autoGravity } from "@cloudinary/url-gen/qualifiers/gravity";
+import React from 'react';
+import Cookies from 'js-cookie';
+import { Trans, useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+import { Cloudinary } from '@cloudinary/url-gen';
+import { auto } from '@cloudinary/url-gen/actions/resize';
+import { autoGravity } from '@cloudinary/url-gen/qualifiers/gravity';
 
 //* COMPONENTS
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 function Events() {
-  useTranslation();
-  const cld = new Cloudinary({ cloud: { cloudName: "abraomukas" } });
+	useTranslation();
+	const cld = new Cloudinary({ cloud: { cloudName: 'abraomukas' } });
 
-  const currentLngCode = Cookies.get("i18next") || "es";
+	const currentLngCode = Cookies.get('i18next') || 'es';
 
-  const news = [
-    { label: "dec-23", picture: "landscape-panorama" },
-    { label: "jan-24", picture: "nature-mountains" },
-    { label: "feb-24", picture: "beach-boat" },
-    { label: "mar-24", picture: "architecture-signs" },
-    { label: "apr-24", picture: "girl-urban-view" },
-    { label: "may-24", picture: "landscape-panorama" },
-    { label: "jun-24", picture: "nature-mountains" },
-    { label: "jul-24", picture: "beach-boat" },
-    { label: "oct-1-24", picture: "architecture-signs" },
-    { label: "oct-2-24", picture: "girl-urban-view" },
-    { label: "nov-24", picture: "landscape-panorama" },
-    { label: "dec-24", picture: "nature-mountains" },
-  ];
+	let imageUrl = cld
+		.image('h-d-web/jan-24')
+		.format('auto')
+		.quality('auto')
+		.resize(auto().gravity(autoGravity()))
+		.toURL();
 
-  return (
+	const news = [
+		{ label: 'dec-23', picture: 'landscape-panorama' },
+		{ label: 'dec-24', picture: 'nature-mountains' },
+	];
+
+	const teamDays = [
+		{ label: 'jan-24', picture: 'nature-mountains' },
+		{ label: 'feb-24', picture: 'beach-boat' },
+		{ label: 'mar-24', picture: 'architecture-signs' },
+		{ label: 'may-24', picture: 'landscape-panorama' },
+		{ label: 'jun-24', picture: 'nature-mountains' },
+		{ label: 'jul-24', picture: 'beach-boat' },
+		{ label: 'oct-1-24', picture: 'architecture-signs' },
+		{ label: 'oct-2-24', picture: 'girl-urban-view' },
+		{ label: 'nov-24', picture: 'landscape-panorama' },
+	];
+
+	const teamBuildings = [{ label: 'apr-24', picture: 'girl-urban-view' }];
+
+	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
 			<Navbar />
 
@@ -55,7 +66,27 @@ function Events() {
 				</div>
 			</div>
 
-			{/* TEAM TAGS */}
+			<div className='container'>
+				<div className='d-flex overflow-auto'>
+					{news.map((item, index) => {
+						<div className='card me-3' style={{ minWidth: '18rem' }}>
+							<img
+								src='https://via.placeholder.com/150'
+								className='card-img-top'
+								alt='Product 1'
+							/>
+							<div className='card-body'>
+								<h5 className='card-title mb-3'>Product 1</h5>
+								<a href='#' className='btn btn-primary'>
+									Buy Now
+								</a>
+							</div>
+						</div>;
+					})}
+				</div>
+			</div>
+
+      {/* TEAM TAGS */}
 
 			<div className='position-relative p-5 p-md-1 m-md-1'>
 				<div className='col-md-6 p-lg-5 mt-3'>
