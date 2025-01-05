@@ -6,7 +6,14 @@
 		"careers": "Ofertas de trabajo"
 	},
 	"hero": {
-		"header": "Forma parte de una empresa líder en software para la administración pública alemana",
+		"timeline-header": "Más de 50 años innovando para las administraciones públicas",
+		"timeline-since": "Desde 1971",
+		"timeline-since-text": "<strong>AKDB</strong>, empresa matriz de H&D Aplicaciones, Software y Desarrollo, desde su creación en 1971 se ha centrado en el desarrollo de aplicaciones para comunidades, regiones y ayuntamientos en la administración pública alemana.",
+		"timeline-innovate": "Innovando",
+		"timeline-innovate-text": "Nos distinguimos por el desarrollo innovador de aplicaciones de gestión financiera, gestión de personal y gestión de procesos en todos los niveles de la administración pública. H&D Aplicaciones, Software y Desarrollo es filial, entre otras, de la compañía <a>Unternehmensberatung <strong>H&D GmbH</strong></a>",
+		"timeline-together": "Ahora contigo",
+		"timeline-together-text": "Desde hace 50 años no hemos dejado de crecer. Más de 1.000 empleados y 4.700 clientes. Ahora, <strong>en España</strong> queremos seguir creciendo contigo. Queremos que seas parte de nuestro proyecto, consulta nuestras ofertas de trabajo y envíanos tu CV. <strong>Crece profesionalmente</strong> en una empresa que cuenta con el respaldo de la administración pública alemana.",
+		"motto": "Forma parte de una empresa líder en software para la administración pública alemana",
 		"subheader": "Empresa respaldada por su matriz AKDB, operativa como institución pública de Baviera en Alemania. Una cultura laboral diferente para crecer profesionalmente.",
 		"values": {
 			"diversity": "Diversidad e inclusión",
@@ -21,7 +28,24 @@
 	},
 	"services": {
 		"header": "Desde la implantación hasta la evolución del producto digital",
-		"subheader": "Un proceso completo de acompañamiento al cliente, respaldado con sólidas alianzas de un gran número de filiales especializadas en el sector público.",
+		"subheader": "Un proceso completo de acompañamiento al cliente, respaldado con sólidas alianzas de un gran número de filiales especializadas en el sector público",
+		"teams-header": "Nuestros equipos",
+		"teams-names": {
+			"pers": "OK.PERS",
+			"pers-plus": "OK.PERS+",
+			"finn": "OK.FINN",
+			"ewo": "OK.EWO",
+			"synergo": "SYNERGO",
+			"hyd-aus": "Ausländerwesen"
+		},
+		"teams-descriptions": {
+			"pers": "LORE IPSUM",
+			"pers-plus": "LORE IPSUM",
+			"finn": "LORE IPSUM",
+			"ewo": "LORE IPSUM",
+			"synergo": "LORE IPSUM",
+			"hyd-aus": "LORE IPSUM"
+		},
 		"features-header": "Principales servicios",
 		"features": {
 			"tech": "Java, C++ y las últimas tecnologías web",
@@ -36,7 +60,7 @@
 	"events": {
 		"header": "Sigue la actualidad en H&D España",
 		"posts": {
-			"dec-23": "Team Day Diciembre 2023",
+			"dec-23": "Cena de Navidad 2023",
 			"jan-24": "Team Day Enero 2024",
 			"feb-24": "Team Day Febrero 2024",
 			"mar-24": "Team Day Marzo 2024",
@@ -45,7 +69,9 @@
 			"jun-24": "Team Day Junio 2024",
 			"jul-24": "Team Day Julio 2024",
 			"oct-1-24": "Team Day Octubre I 2024",
-			"oct-2-24": "Team Day Octubre II 2024"
+			"oct-2-24": "Team Day Octubre II 2024",
+			"nov-24": "Team Day Noviembre 2024",
+			"dec-24": "Cena de Navidad 2024"
 		}
 	},
 	"about-us": { "header": "¿Quiénes somos?", "subheader": "H&D España" },

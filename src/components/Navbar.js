@@ -14,6 +14,7 @@ const sections = [
 	{ label: 'services' },
 	{ label: 'events' },
 	{ label: 'careers' },
+	{ label: 'about' },
 ];
 
 export default function Navbar() {
@@ -32,7 +33,7 @@ export default function Navbar() {
 			<div className='d-flex align-items-center'>
 				<a href='/'>
 					<img
-						src='./images/logo.png'
+						src='./images/HyD-Spain.png'
 						height='80'
 						alt='H&D Logo'
 						loading='lazy'
@@ -58,7 +59,7 @@ export default function Navbar() {
 								<li key={index} className='nav-item m-2'>
 									<Link
 										key={index}
-										className='nav-link'
+										className='nav-link fw-bolder'
 										to={`/${section.label}`}>
 										<Trans key={index} i18nKey={`navbar.${section.label}`} />
 									</Link>
@@ -72,20 +73,6 @@ export default function Navbar() {
 			<div>
 				<div className='container'>
 					<div className='row d-flex align-items-center'>
-						<div className='col'>
-							{/* LINKEDIN */}
-
-							<Link
-								to='https://www.linkedin.com/company/hh-asd'
-								target='_blank'>
-								<button
-									type='button'
-									className='btn btn-outline-primary'
-									style={{ backgroundColor: '#3b5998' }}>
-									<i className='fab fa-linkedin text-white'></i>
-								</button>
-							</Link>
-						</div>
 						<div className='col'>
 							{/* DARK MODE */}
 							<div className='dropdown'>
@@ -103,6 +90,22 @@ export default function Navbar() {
 										<i className='fas fa-moon' style={{ color: '#000000' }} />
 									)}
 								</a>
+							</div>
+						</div>
+						<div className='col'>
+							{/* LINKEDIN */}
+							<div className='dropdown'>
+								<Link
+									to='https://www.linkedin.com/company/hh-asd'
+									target='_blank'>
+									<button
+										type='button'
+										className='btn'
+										aria-expanded='false'
+										style={{ backgroundColor: '#3b5998' }}>
+										<i className='fab fa-linkedin text-white'></i>
+									</button>
+								</Link>
 							</div>
 						</div>
 						<div className='col'>

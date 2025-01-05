@@ -4,7 +4,11 @@
 	"private": "true",
 	"description": "H&D intranet - PoC",
 	"dependencies": {
+		"@cloudinary/react": "^1.13.1",
+		"@cloudinary/url-gen": "^1.21.0",
 		"bootstrap": "^5.3.3",
+		"cloudinary": "^2.5.1",
+		"dotenv": "^16.4.7",
 		"js-cookie": "^3.0.5",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",

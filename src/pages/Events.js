@@ -7,8 +7,8 @@ import { auto } from '@cloudinary/url-gen/actions/resize';
 import { autoGravity } from '@cloudinary/url-gen/qualifiers/gravity';
 
 //* COMPONENTS
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 function Events() {
 	useTranslation();
@@ -86,7 +86,7 @@ function Events() {
 				</div>
 			</div>
 
-			{/* TEAM TAGS */}
+      {/* TEAM TAGS */}
 
 			<div className='position-relative p-5 p-md-1 m-md-1'>
 				<div className='col-md-6 p-lg-5 mt-3'>

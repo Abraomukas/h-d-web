@@ -17,7 +17,11 @@ function Careers() {
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
 			<Navbar />
 
-			<div className='container'>
+			<div
+				className='container-fluid'
+				style={{
+					minHeight: '100vh',
+				}}>
 				{/* HEADER */}
 				<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
 					<div className='col-md-6 p-lg-5 mx-auto mt-3'>

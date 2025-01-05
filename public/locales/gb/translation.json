@@ -5,13 +5,84 @@
 		"about": "About Us",
 		"careers": "Careers"
 	},
-	"hero": {},
-	"services": {},
-	"events": {},
-	"about-us": {},
+	"hero": {
+		"timeline-header": "More than 50 years innovating for public sector clientele",
+		"timeline-since": "Since 1971",
+		"timeline-since-text": "<strong>AKDB</strong>, parent company of H&D Aplicaciones, Software y Desarrollo, has since its establishment in 1971 focused on the development of applications for communities, regions and municipalities in the German public administration.",
+		"timeline-innovate": "Innovating",
+		"timeline-innovate-text": "We distinguish ourselves by the innovative development of applications for financial management, personnel management and process management at all levels of public administration. H&D Aplicaciones, Software y Desarrollo is a subsidiary of, among others, the company <a>Unternehmensberatung <strong>H&D GmbH</strong></a>",
+		"timeline-together": "Forward together",
+		"timeline-together-text": "We have been growing steadily for 50 years. More than 1000 employees and 4700 customers. Now, <strong>in Spain</strong> we want to continue growing with you. We want you to be part of our project, check our job offers and send us your résumé. <strong>Grow professionally</strong> in a company supported by the German public administration.",
+		"header": "Be part of a leading company that delivers software for Germany's public sector",
+		"subheader": "Company backed by its parent company AKDB, operating as a public institution of Bavaria in Germany. A different work culture for professional growth.",
+		"values": {
+			"diversity": "Diversity and inclusion",
+			"trust": "Confidence and collaboration",
+			"productivity": "Productivity"
+		},
+		"values-text": {
+			"diversity": "Every individual can be their true self at work",
+			"trust": "We believe that trust is the foundation of leadership",
+			"productivity": "People reach higher levels of productivity in a favorable work environment"
+		}
+	},
+	"services": {
+		"header": "From implementation to evolution of a digital product",
+		"subheader": "A fully-fledged process of client guidance, backed with solid partnerships with a high number of specialized entities in the public sector",
+		"features-header": "Main services",
+		"features": {
+			"tech": "Java, C++, and the latest web technologies",
+			"agile": "Scrum and Kanban",
+			"ai-ml": "Artificial Intelligence and Machine Learning",
+			"mobile": "Mobile application development",
+			"ci-cd": "CI/CD automation",
+			"audit": "Cibersecurity audit",
+			"monitor": "Surveillance and monitoring"
+		}
+	},
+	"events": {
+		"header": "Follow the latest news in H&D Spain",
+		"posts": {
+			"dec-23": "Christmas Dinner 2023",
+			"jan-24": "Team Day January 2024",
+			"feb-24": "Team Day February 2024",
+			"mar-24": "Team Day March 2024",
+			"apr-24": "Team Building in Valencia - April 2024",
+			"may-24": "Team Day May 2024",
+			"jun-24": "Team Day June 2024",
+			"jul-24": "Team Day July 2024",
+			"oct-1-24": "Team Day October I 2024",
+			"oct-2-24": "Team Day October II 2024",
+			"nov-24": "Team Day November 2024",
+			"dec-24": "Christmas Dinner 2024"
+		}
+	},
+	"about-us": {
+		"header": "Who are we?",
+		"subheader": "H&D Spain"
+	},
 	"careers": {
 		"header": "Available positions",
-		"generic": "Generic job offer"
+		"generic": "Generic job offer",
+		"career-benefits": {
+			"header": "Career benefits",
+			"code": "",
+			"exp": "",
+			"lang": "",
+			"digi": ""
+		},
+		"social-benefits": {
+			"header": "Social benefits",
+			"salary": "fa-solid fa-hand-holding-dollar",
+			"vacation": "fa-solid fa-bed",
+			"extra-h": "fa-solid fa-hourglass-end",
+			"social": "",
+			"flex-h": "",
+			"flex-gps": "",
+			"stability": "",
+			"agile": "",
+			"travel": ""
+		}
 	},
 	"submit_cv_header": "Do you want to work with us?",
 	"submit_cv": "Send your CV"

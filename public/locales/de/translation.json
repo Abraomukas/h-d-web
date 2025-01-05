@@ -6,6 +6,7 @@
 		"careers": "Karriere"
 	},
 	"hero": {
+		"timeline-header": "Mehr als 50 Jahre Innovation für Kunden aus dem öffentlichen Sektor",
 		"header": "Sei Teil eines führenden deutschen Softwareunternehmens für die öffentliche Verwaltung",
 		"subheader": "Das Unternehmen wird von seiner Muttergesellschaft AKDB unterstützt, die als öffentliche Einrichtung des Freistaats Bayern in Deutschland tätig ist. Eine besondere Arbeitskultur für berufliches Wachstum.",
 		"values": {
@@ -21,7 +22,7 @@
 	},
 	"services": {
 		"header": "Von der Implementierung bis zur Entwicklung des digitalen Produkts",
-		"subheader": "Ein kompletter Kundenbetreuungsprozess, der durch starke Partnerschaften mit einer Vielzahl von spezialisierten Tochtergesellschaften im öffentlichen Sektor unterstützt wird.",
+		"subheader": "Ein kompletter Kundenbetreuungsprozess, der durch starke Partnerschaften mit einer Vielzahl von spezialisierten Tochtergesellschaften im öffentlichen Sektor unterstützt wird",
 		"features-header": "Hauptleistungen",
 		"features": {
 			"tech": "Java, C++ und die neuesten Webtechnologien",
@@ -35,16 +36,20 @@
 	},
 	"events": {
 		"header": "Neuigkeiten bei H&D Spanien",
-		"dec-23": { "header": "Teamtag Dezember 2023" },
-		"jan-24": { "header": "Teamtag Januar 2024" },
-		"feb-24": "Teamtag Februar 2024",
-		"mar-24": "Teamtag März 2024",
-		"apr-24": "Teambuilding in Valencia - April 2024",
-		"may-24": "Teamtag Mai 2024",
-		"jun-24": "Teamtag Juni 2024",
-		"jul-24": "Teamtag Juli 2024",
-		"oct-1-24": "Teamtag Oktober I 2024",
-		"oct-2-24": "Teamtag Oktober II 2024"
+		"posts": {
+			"dec-23": "Weihnachtsparty 2023",
+			"jan-24": "Teamtag Januar 2024",
+			"feb-24": "Teamtag Februar 2024",
+			"mar-24": "Teamtag März 2024",
+			"apr-24": "Team Building in Valencia - April 2024",
+			"may-24": "Teamtag Mai 2024",
+			"jun-24": "Teamtag Juni 2024",
+			"jul-24": "Teamtag Juli 2024",
+			"oct-1-24": "Teamtag Oktober I 2024",
+			"oct-2-24": "Teamtag Oktober II 2024",
+			"nov-24": "Teamtag November 2024",
+			"dec-24": "Weihnachtsparty 2024"
+		}
 	},
 	"about-us": { "header": "Wer sind wir?", "subheader": "H&D Spanien" },
 	"careers": {
@@ -59,9 +64,9 @@
 		},
 		"social-benefits": {
 			"header": "Sozialleistungen",
-			"salary": "",
-			"vacation": "",
-			"extra-h": "",
+			"salary": "fa-solid fa-hand-holding-dollar",
+			"vacation": "fa-solid fa-bed",
+			"extra-h": "fa-solid fa-hourglass-end",
 			"social": "",
 			"flex-h": "",
 			"flex-gps": "",
