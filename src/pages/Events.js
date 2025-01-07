@@ -69,30 +69,84 @@ function Events() {
 			<div className='container'>
 				<div className='d-flex overflow-auto'>
 					{news.map((item, index) => {
-						<div className='card me-3' style={{ minWidth: '18rem' }}>
-							<img
-								src='https://via.placeholder.com/150'
-								className='card-img-top'
-								alt='Product 1'
-							/>
-							<div className='card-body'>
-								<h5 className='card-title mb-3'>Product 1</h5>
-								<a href='#' className='btn btn-primary'>
-									Buy Now
-								</a>
+						return (
+							<div
+								className='card me-3 text-center'
+								style={{ minWidth: '18rem' }}>
+								<div
+									key={index++}
+									style={{ maxWidth: '25rem' }}
+									className='bg-image hover-overlay'>
+									<img index={index++} src={imageUrl} className='img-fluid' />
+									<Link index={index++} to={`${item.label}`}>
+										<div
+											key={index++}
+											className='mask'
+											style={{
+												backgroundColor: 'rgba(251, 251, 251, 0.15)',
+											}}></div>
+									</Link>
+								</div>
+								<div className='card-body'>
+									<h5 className='card-title'>
+										<strong>
+											<Trans
+												key={index++}
+												i18nKey={`events.posts.${item.label}`}
+											/>
+										</strong>
+									</h5>
+								</div>
 							</div>
-						</div>;
+						);
 					})}
 				</div>
 			</div>
 
-      {/* TEAM TAGS */}
+			{/* TEAM DAYS */}
 
 			<div className='position-relative p-5 p-md-1 m-md-1'>
 				<div className='col-md-6 p-lg-5 mt-3'>
 					<h1 className='display-5 fw-bold'>
 						<Trans i18nKey={'events.team-tags-header'} />
 					</h1>
+				</div>
+			</div>
+
+			<div className='container'>
+				<div className='d-flex overflow-auto'>
+					{teamDays.map((item, index) => {
+						return (
+							<div
+								className='card me-3 text-center'
+								style={{ minWidth: '18rem' }}>
+								<div
+									key={index++}
+									style={{ maxWidth: '25rem' }}
+									className='bg-image hover-overlay'>
+									<img index={index++} src={imageUrl} className='img-fluid' />
+									<Link index={index++} to={`${item.label}`}>
+										<div
+											key={index++}
+											className='mask'
+											style={{
+												backgroundColor: 'rgba(251, 251, 251, 0.15)',
+											}}></div>
+									</Link>
+								</div>
+								<div className='card-body'>
+									<h5 className='card-title'>
+										<strong>
+											<Trans
+												key={index++}
+												i18nKey={`events.posts.${item.label}`}
+											/>
+										</strong>
+									</h5>
+								</div>
+							</div>
+						);
+					})}
 				</div>
 			</div>
 
@@ -106,58 +160,7 @@ function Events() {
 				</div>
 			</div>
 
-			<div className='container mb-7'>
-				<div className='row gx-3 d-flex justify-content-center'>
-					{news.map((post, index) => {
-						let imageUrl = cld
-							.image('h-d-web/jan-24')
-							.format('auto')
-							.quality('auto')
-							.resize(auto().gravity(autoGravity()))
-							.toURL();
-
-						return (
-							<div
-								key={index++}
-								className='col-lg-4 col-md-12 mb-3 text-center'>
-								<div key={index++}>
-									<div key={index++} className='card'>
-										<div
-											key={index++}
-											className='bg-image hover-overlay'
-											data-mdb-ripple-init
-											data-mdb-ripple-color='light'>
-											<img
-												index={index++}
-												src={imageUrl}
-												className='img-fluid'
-											/>
-											<Link index={index++} to={`${post.label}`}>
-												<div
-													key={index++}
-													className='mask'
-													style={{
-														backgroundColor: 'rgba(251, 251, 251, 0.15)',
-													}}></div>
-											</Link>
-										</div>
-										<div key={index++} className='card-body'>
-											<h5 key={index++} className='card-title'>
-												<strong>
-													<Trans
-														key={index++}
-														i18nKey={`events.posts.${post.label}`}
-													/>
-												</strong>
-											</h5>
-										</div>
-									</div>
-								</div>
-							</div>
-						);
-					})}
-				</div>
-			</div>
+			<div className='container mb-7'></div>
 
 			<Footer />
 		</div>
