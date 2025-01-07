@@ -160,7 +160,42 @@ function Events() {
 				</div>
 			</div>
 
-			<div className='container mb-7'></div>
+			<div className='container mb-7'>
+				<div className='d-flex overflow-auto'>
+					{teamBuildings.map((item, index) => {
+						return (
+							<div
+								className='card me-3 text-center'
+								style={{ minWidth: '18rem' }}>
+								<div
+									key={index++}
+									style={{ maxWidth: '25rem' }}
+									className='bg-image hover-overlay'>
+									<img index={index++} src={imageUrl} className='img-fluid' />
+									<Link index={index++} to={`${item.label}`}>
+										<div
+											key={index++}
+											className='mask'
+											style={{
+												backgroundColor: 'rgba(251, 251, 251, 0.15)',
+											}}></div>
+									</Link>
+								</div>
+								<div className='card-body'>
+									<h5 className='card-title'>
+										<strong>
+											<Trans
+												key={index++}
+												i18nKey={`events.posts.${item.label}`}
+											/>
+										</strong>
+									</h5>
+								</div>
+							</div>
+						);
+					})}
+				</div>
+			</div>
 
 			<Footer />
 		</div>
