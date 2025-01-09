@@ -14,14 +14,11 @@ function Careers() {
 	const jobs = [{ label: 'generic' }];
 
 	return (
-		<div style={{ position: 'relative', minHeight: '100vh' }}>
+		<div>
 			<Navbar />
 
-			<div
-				className='container-fluid'
-				style={{
-					minHeight: '100vh',
-				}}>
+			<div className='container-fluid'>
+				style={{ position: 'relative', minHeight: '100vh' }}
 				{/* HEADER */}
 				<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
 					<div className='col-md-6 p-lg-5 mx-auto mt-3'>
