@@ -8,20 +8,13 @@ import Footer from '../components/Footer';
 import Hero from './Hero';
 
 function Main() {
-	const sections = [Hero];
-
 	return (
-		<div style={{ position: 'relative', minHeight: '100vh' }}>
+		<div>
 			<Navbar />
 
-			{/* SECTIONS */}
-			{sections.map((SectionComponent, index) => (
-				<section key={index}>
-					<div key={index}>
-						<SectionComponent key={index} />
-					</div>
-				</section>
-			))}
+			<div style={{ position: 'relative', minHeight: '100vh' }}>
+				<Hero />
+			</div>
 
 			<Footer />
 		</div>
