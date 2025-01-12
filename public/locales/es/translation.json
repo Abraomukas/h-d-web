@@ -63,6 +63,7 @@
 		"team-tags-header": "Team Days",
 		"team-buildings-header": "Team Buildings",
 		"posts": {
+			"nov-23": "Team Day Noviembre 2023",
 			"dec-23": "Cena de Navidad 2023",
 			"jan-24": "Team Day Enero 2024",
 			"feb-24": "Team Day Febrero 2024",
@@ -75,6 +76,10 @@
 			"oct-2-24": "Team Day Octubre II 2024",
 			"nov-24": "Team Day Noviembre 2024",
 			"dec-24": "Cena de Navidad 2024"
+		},
+		"nov-23": {
+			"header": "Celebramos la tercera edición de nuestra jornada de teambuilding",
+			"content": "El 21 de noviembre tuvo lugar nuestro <strong>Team Day</strong>. Todos los compañeros que trabajan en España pudieron por fin verse en persona en las oficinas de Madrid, intercambiar novedades, sugerencias y soluciones y conocer la planificación para el año 2024.<br><br>Los nuevos compañeros también pudieron presentarse. <strong>¡Ya somos más de 34!</strong><br><br>¿Te gustaría trabajar con nosotros? Envíanos tu CV."
 		},
 		"dec-23": {
 			"header": "¡Celebremos la temporada festiva juntos!",
