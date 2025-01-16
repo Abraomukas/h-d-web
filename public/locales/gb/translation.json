@@ -29,6 +29,15 @@
 	"services": {
 		"header": "From implementation to evolution of a digital product",
 		"subheader": "A fully-fledged process of client guidance, backed with solid partnerships with a high number of specialized entities in the public sector",
+		"teams-header": "Our teams",
+		"teams-descriptions": {
+			"pers": "LORE IPSUM",
+			"pers-plus": "LORE IPSUM",
+			"finn": "LORE IPSUM",
+			"ewo": "LORE IPSUM",
+			"synergo": "LORE IPSUM",
+			"hyd-aus": "LORE IPSUM"
+		},
 		"features-header": "Main services",
 		"features": {
 			"tech": "Java, C++, and the latest web technologies",
