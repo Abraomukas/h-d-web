@@ -7,7 +7,13 @@
 	},
 	"hero": {
 		"timeline-header": "Mehr als 50 Jahre Innovation für Kunden aus dem öffentlichen Sektor",
-		"header": "Sei Teil eines führenden deutschen Softwareunternehmens für die öffentliche Verwaltung",
+		"timeline-since": "",
+		"timeline-since-text": "",
+		"timeline-innovate": "",
+		"timeline-innovate-text": "",
+		"timeline-together": "",
+		"timeline-together-text": "",
+		"motto": "Sei Teil eines führenden deutschen Softwareunternehmens für die öffentliche Verwaltung",
 		"subheader": "Das Unternehmen wird von seiner Muttergesellschaft AKDB unterstützt, die als öffentliche Einrichtung des Freistaats Bayern in Deutschland tätig ist. Eine besondere Arbeitskultur für berufliches Wachstum.",
 		"values": {
 			"diversity": "Diversität",
@@ -23,6 +29,23 @@
 	"services": {
 		"header": "Von der Implementierung bis zur Entwicklung des digitalen Produkts",
 		"subheader": "Ein kompletter Kundenbetreuungsprozess, der durch starke Partnerschaften mit einer Vielzahl von spezialisierten Tochtergesellschaften im öffentlichen Sektor unterstützt wird",
+		"teams-header": "",
+		"teams-names": {
+			"pers": "OK.PERS",
+			"pers-plus": "OK.PERS+",
+			"finn": "OK.FINN",
+			"ewo": "OK.EWO",
+			"synergo": "SYNERGO",
+			"hyd-aus": "Ausländerwesen"
+		},
+		"teams-descriptions": {
+			"pers": "LORE IPSUM",
+			"pers-plus": "LORE IPSUM",
+			"finn": "LORE IPSUM",
+			"ewo": "LORE IPSUM",
+			"synergo": "LORE IPSUM",
+			"hyd-aus": "LORE IPSUM"
+		},
 		"features-header": "Hauptleistungen",
 		"features": {
 			"tech": "Java, C++ und die neuesten Webtechnologien",
@@ -40,6 +63,9 @@
 		"team-tags-header": "Team Days",
 		"team-buildings-header": "Team Buildings",
 		"posts": {
+			"nov-22": "Smart City Expo World Congress 2022",
+			"apr-23": "Team Building in Segovia - April 2023",
+			"nov-23": "Teamtag November 2023",
 			"dec-23": "Weihnachtsparty 2023",
 			"jan-24": "Teamtag Januar 2024",
 			"feb-24": "Teamtag Februar 2024",
