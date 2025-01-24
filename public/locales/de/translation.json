@@ -78,6 +78,22 @@
 			"oct-2-24": "Teamtag Oktober II 2024",
 			"nov-24": "Teamtag November 2024",
 			"dec-24": "Weihnachtsparty 2024"
+		},
+		"nov-22": {
+			"header": "Smart Data Services auf dem Smart City Expo World Congress",
+			"content": ""
+		},
+		"apr-23": {
+			"header": "Veranstaltung “Developing Together” in Segovia mit der H&D- und AKDB-Teams",
+			"content": ""
+		},
+		"nov-23": {
+			"header": "Wir feiern die dritte Aurlage unseres Teambuilding-Tages",
+			"content": ""
+		},
+		"dec-23": {
+			"header": "Lasst uns gemeinsam die Festtage feiern!",
+			"content": ""
 		}
 	},
 	"about-us": { "header": "Wer sind wir?", "subheader": "H&D Spanien" },
