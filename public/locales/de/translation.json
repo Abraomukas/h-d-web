@@ -7,12 +7,12 @@
 	},
 	"hero": {
 		"timeline-header": "Mehr als 50 Jahre Innovation für Kunden aus dem öffentlichen Sektor",
-		"timeline-since": "",
-		"timeline-since-text": "",
-		"timeline-innovate": "",
-		"timeline-innovate-text": "",
-		"timeline-together": "",
-		"timeline-together-text": "",
+		"timeline-since": "Seit 1971",
+		"timeline-since-text": "<strong>AKDB<//strong>, die Muttergesellschaft H&D Aplicaciones, Software y Desarrollo, hat sich seit ihrer Gründung im Jahr 1971 auf die Entwicklung von Anwendungen für Kommunen, Regionen und Gemeinden in der deutschen öffentlichen Verwaltung konzentriert.",
+		"timeline-innovate": "Innovative",
+		"timeline-innovate-text": "Wir zeichnen uns durch die innovative Entwicklung von Anwendungen für Finanzmanagement, Personalmanagement und Prozessmanagement auf allen Ebenen der öffentlichen Verwaltung aus. H&D Aplicaciones, Software y Desarrollo ist eine Tochtergesellschaft u.a. des Unternehmens <a>Unternehmensberatung <strong>H&D GmbH</strong></a>",
+		"timeline-together": "Jetzt mit Ihnen",
+		"timeline-together-text": "Seit 50 Jahren wachsen wir stetig. Mehr als 1.000 Mitarbeiter und 4.700 Kunden. Jetzt, <strong>in Spanien</strong> wollen wir mit Ihnen weiter wachsen. Wir möchten, dass Sie Teil unseres Projekts werden. Informieren Sie sich über unsere Stellenangebote und senden Sie uns Ihren Lebenslauf. <strong>Beruflich wachsen</strong> in einem Unternehmen, das von der deutschen öffentlichen Verwaltung unterstützt wird.",
 		"motto": "Sei Teil eines führenden deutschen Softwareunternehmens für die öffentliche Verwaltung",
 		"subheader": "Das Unternehmen wird von seiner Muttergesellschaft AKDB unterstützt, die als öffentliche Einrichtung des Freistaats Bayern in Deutschland tätig ist. Eine besondere Arbeitskultur für berufliches Wachstum.",
 		"values": {
