@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-function Careers() {
+export default function Careers() {
 	useTranslation();
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
@@ -17,8 +17,7 @@ function Careers() {
 		<div>
 			<Navbar />
 
-			<div className='container-fluid'>
-				style={{ position: 'relative', minHeight: '100vh' }}
+			<div style={{ position: 'relative', minHeight: '100vh' }}>
 				{/* HEADER */}
 				<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
 					<div className='col-md-6 p-lg-5 mx-auto mt-3'>
@@ -40,8 +39,7 @@ function Careers() {
 											<div key={index} className='text-bg-primary p-3'>
 												<h2
 													key={index}
-													className='display-5 d-flex align-items-center justify-content-center'
-													style={{ minHeight: '115px' }}>
+													className='display-5 d-flex align-items-center justify-content-center'>
 													<Trans key={index} i18nKey={`careers.${job.label}`} />
 												</h2>
 											</div>
@@ -72,4 +70,3 @@ function Careers() {
 	);
 }
 
-export default Careers;
