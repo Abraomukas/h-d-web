@@ -98,19 +98,13 @@
 	},
 	"about-us": { "header": "¿Quiénes somos?", "subheader": "H&D España" },
 	"careers": {
-		"header": "Ofertas disponibles",
-		"generic": "Oferta genérica",
-		"career-benefits": {
-			"header": "Beneficios laborales",
-			"code": "",
-			"exp": "",
-			"lang": "",
-			"digi": ""
-		},
-		"social-benefits": {
-			"header": "Beneficios sociales",
+		"header": "Trabaja con nosotros",
+		"requirements": { "header": "Requisitos generales" },
+		"benefits": {
+			"header": "Beneficios",
 			"salary": "fa-solid fa-hand-holding-dollar",
-			"vacation": "fa-solid fa-bed",
+			"holidays": "Vacaciones",
+			"holidays-icon": "fa-solid fa-bed",
 			"extra-h": "fa-solid fa-hourglass-end",
 			"social": "",
 			"flex-h": "",
