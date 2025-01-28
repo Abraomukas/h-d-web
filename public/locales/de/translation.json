@@ -98,19 +98,13 @@
 	},
 	"about-us": { "header": "Wer sind wir?", "subheader": "H&D Spanien" },
 	"careers": {
-		"header": "Verfügbare Arbeitsstelle",
-		"generic": "allgemeine Stellenangebot",
-		"career-benefits": {
+		"header": "Arbeit mit uns",
+		"requirements": { "header": "Allgemeine Anforderungen" },
+		"benefits": {
 			"header": "Arbeitsvergünstigungen",
-			"code": "",
-			"exp": "",
-			"lang": "",
-			"digi": ""
-		},
-		"social-benefits": {
-			"header": "Sozialleistungen",
 			"salary": "fa-solid fa-hand-holding-dollar",
-			"vacation": "fa-solid fa-bed",
+			"holidays": "Vacaciones",
+			"holidays-icon": "fa-solid fa-bed",
 			"extra-h": "fa-solid fa-hourglass-end",
 			"social": "",
 			"flex-h": "",
