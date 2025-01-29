@@ -94,18 +94,12 @@
 	},
 	"careers": {
 		"header": "Available positions",
-		"generic": "Generic job offer",
-		"career-benefits": {
-			"header": "Career benefits",
-			"code": "",
-			"exp": "",
-			"lang": "",
-			"digi": ""
-		},
-		"social-benefits": {
-			"header": "Social benefits",
+		"requirements": { "header": "General requirements" },
+		"benefits": {
+			"header": "Benefits",
 			"salary": "fa-solid fa-hand-holding-dollar",
-			"vacation": "fa-solid fa-bed",
+			"holidays": "Holidays",
+			"holidays-icon": "fa-solid fa-bed",
 			"extra-h": "fa-solid fa-hourglass-end",
 			"social": "",
 			"flex-h": "",
