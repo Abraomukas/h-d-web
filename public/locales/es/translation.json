@@ -102,16 +102,20 @@
 		"requirements": { "header": "Requisitos generales" },
 		"benefits": {
 			"header": "Beneficios",
-			"salary": "fa-solid fa-hand-holding-dollar",
 			"holidays": "Vacaciones",
 			"holidays-icon": "fa-solid fa-bed",
-			"extra-h": "fa-solid fa-hourglass-end",
-			"social": "",
-			"flex-h": "",
-			"flex-gps": "",
-			"stability": "",
-			"agile": "",
-			"travel": ""
+			"flex-location": "Modalidad flexible",
+			"flex-location-icon": "",
+			"flex-hours": "Horario flexible",
+			"flex-hours-icon": "",
+			"restaurant": "Ticket resturante",
+			"restaurant-icon": "",
+			"health": "Seguro de salud",
+			"health-icon": "",
+			"transport": "Tarjeta de transporte",
+			"transport-icon": "",
+			"flex-retribution": "Retribución flexible",
+			"flex-retribution-icon": ""
 		},
 		"submit_cv_header": "¿Quieres trabajar con nosotros?",
 		"submit_cv": "Envíanos tu CV"
