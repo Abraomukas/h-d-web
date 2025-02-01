@@ -11,7 +11,18 @@ export default function Careers() {
 	useTranslation();
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
-	const jobs = [{ label: 'generic' }];
+	const benefits = [
+		{ label: 'holidays' },
+		{ label: 'flex-location' },
+		{ label: 'flex-hours' },
+		{ label: 'restaurant' },
+		{ label: 'health' },
+		{ label: 'transport' },
+		{ label: 'flex-retribution' },
+	];
+
+	//TODO image URLs
+	const imgPlaceholder = 'https://picsum.photos/200';
 
 	return (
 		<div>
@@ -26,10 +37,82 @@ export default function Careers() {
 						</h1>
 					</div>
 				</div>
+				{/* MUST-HAVE && NICE-TO-HAVE */}
+				<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
+					<div className='container-fluid'>
+						<div className='row'>
+							<div className='col-md-6'>
+								<div className='row'>
+									<p>
+										<strong>MUST-HAVE</strong>
+									</p>
+								</div>
+								<div className='row border border-primary pt-3 w-50 d-flex justify-content-center'>
+									<p>MUST-HAVE</p>
+									<br />
+									<p>MUST-HAVE</p>
+									<br />
+								</div>
+							</div>
+
+							<div className='col-md-6'>
+								<div className='row'>
+									<p>
+										<strong>NICE-TO-HAVE</strong>
+									</p>
+								</div>
+								<div className='row border border-primary pt-3 w-50'>
+									<p>MUST-HAVE</p>
+									<br />
+									<p>MUST-HAVE</p>
+									<br />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{/* MIN REQUIREMENTS */}
+				<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
+					<div className='col-md-6 p-lg-5 mx-auto mt-3'>
+						<h1 className='display-5 fw-bold'>
+							<Trans i18nKey={'careers.requirements.header'} />
+						</h1>
+					</div>
+				</div>
+				{/* MUST-HAVE && NICE-TO-HAVE */}
+				<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
+					<div className='container-fluid'>
+						<div className='row'>
+							<div className='col-md-4'>
+								<img src={imgPlaceholder} class='rounded-7' alt='...' />
+
+								<p>A</p>
+							</div>
+
+							<div className='col-md-4'>
+								<img src={imgPlaceholder} class='rounded-7' alt='...' />
+								<p>B</p>
+							</div>
+
+							<div className='col-md-4'>
+								<img src={imgPlaceholder} class='rounded-7' alt='...' />
+								<p>C</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				{/* BENEFITS */}
+				<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
+					<div className='col-md-6 p-lg-5 mx-auto mt-3'>
+						<h1 className='display-5 fw-bold'>
+							<Trans i18nKey={'careers.benefits.header'} />
+						</h1>
+					</div>
+				</div>
 				{/* GRID */}
 				<div className='container mb-3'>
 					<div className='row gx-3 d-flex justify-content-center'>
-						{jobs.map((job, index) => {
+						{benefits.map((job, index) => {
 							return (
 								<div
 									key={index}
@@ -39,8 +122,11 @@ export default function Careers() {
 											<div key={index} className='text-bg-primary p-3'>
 												<h2
 													key={index}
-													className='display-5 d-flex align-items-center justify-content-center'>
-													<Trans key={index} i18nKey={`careers.${job.label}`} />
+													className='display-6 d-flex align-items-center justify-content-center'>
+													<Trans
+														key={index}
+														i18nKey={`careers.benefits.${job.label}`}
+													/>
 												</h2>
 											</div>
 										</Link>
