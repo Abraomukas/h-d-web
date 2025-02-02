@@ -6,7 +6,7 @@ function TeamEntry(props) {
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
 	return (
-		<div className='col'>
+		<div className='container-fluid d-flex justify-content-center'>
 			<div className='card text-center' style={{ width: '18rem' }}>
 				<div className='card-body'>
 					<h5 className='card-title'>
