@@ -76,7 +76,7 @@ function Services() {
 
 				{/* TEAMS */}
 				<section>
-					<div className='position-relative p-md-1 m-md-1 text-center'>
+					<div className='text-center'>
 						<div className='col-md-6 p-lg-5 mx-auto mt-3'>
 							<h1 className='display-7 fw-bold'>
 								<Trans i18nKey={'services.teams-header'} />
@@ -85,12 +85,10 @@ function Services() {
 					</div>
 
 					<div className='container'>
-						<div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5'>
+						<div className='row py-5 d-flex justify-content-center'>
 							{teams.map((team, index) => {
 								return (
-									<div
-										key={index++}
-										className='col-lg-4 col-md-12 mb-3 text-center'>
+									<div key={index++} className='col-lg-4 col-md-8 mb-3'>
 										<TeamEntry index={index++} team={team.name} />
 									</div>
 								);
