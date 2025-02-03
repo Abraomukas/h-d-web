@@ -39,33 +39,29 @@ export default function Careers() {
 				</div>
 				{/* MUST-HAVE && NICE-TO-HAVE */}
 				<div className='position-relative p-5 p-md-1 m-md-1 text-center'>
-					<div className='container-fluid'>
+					<div className='container'>
 						<div className='row'>
 							<div className='col-md-6'>
-								<div className='row'>
-									<p>
+								<div className='flex flex-col items-center justify-center'>
+									<h5 className='text-lg'>
 										<strong>MUST-HAVE</strong>
-									</p>
-								</div>
-								<div className='row border border-primary pt-3 w-50 d-flex justify-content-center'>
-									<p>MUST-HAVE</p>
-									<br />
-									<p>MUST-HAVE</p>
-									<br />
+									</h5>
+									<div className='mt-4 border border-primary pt-3 flex flex-col items-center'>
+										<p>MUST-HAVE</p>
+										<p>MUST-HAVE</p>
+									</div>
 								</div>
 							</div>
 
 							<div className='col-md-6'>
-								<div className='row'>
-									<p>
-										<strong>NICE-TO-HAVE</strong>
-									</p>
-								</div>
-								<div className='row border border-primary pt-3 w-50'>
-									<p>MUST-HAVE</p>
-									<br />
-									<p>MUST-HAVE</p>
-									<br />
+								<div className='flex flex-col items-center justify-center'>
+									<h5 className='text-lg'>
+										<strong>MUST-HAVE</strong>
+									</h5>
+									<div className='mt-4 border border-primary pt-3 flex flex-col items-center'>
+										<p>MUST-HAVE</p>
+										<p>MUST-HAVE</p>
+									</div>
 								</div>
 							</div>
 						</div>
