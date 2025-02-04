@@ -56,11 +56,12 @@ export default function Careers() {
 							<div className='col-md-6'>
 								<div className='flex flex-col items-center justify-center'>
 									<h5 className='text-lg'>
-										<strong>MUST-HAVE</strong>
+										<strong>NICE-TO-HAVE</strong>
 									</h5>
 									<div className='mt-4 border border-primary pt-3 flex flex-col items-center'>
-										<p>MUST-HAVE</p>
-										<p>MUST-HAVE</p>
+										<p>NICE-TO-HAVE</p>
+										<p>NICE-TO-HAVE</p>
+										<p>NICE-TO-HAVE</p>
 									</div>
 								</div>
 							</div>
@@ -138,11 +139,15 @@ export default function Careers() {
 						<h1 className='display-5 fw-bold'>
 							<Trans i18nKey={'careers.submit_cv_header'} />
 						</h1>
-						<button
-							type='button'
+						<Link
+							to='#'
+							onClick={(e) => {
+								e.preventDefault();
+								window.location.href = 'mailto:abraomukas@gmail.com';
+							}}
 							className='btn btn-outline-primary btn-lg mt-2'>
 							<Trans i18nKey={'careers.submit_cv'} />
-						</button>
+						</Link>
 					</div>
 				</div>
 			</div>
