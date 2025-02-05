@@ -85,19 +85,36 @@ export default function Careers() {
 					<div className='container-fluid'>
 						<div className='row'>
 							<div className='col-md-4'>
-								<img src={imgPlaceholder} class='rounded-7' alt='...' />
+								<img src={imgPlaceholder} className='rounded-7' alt='Code' />
 
-								<p>A</p>
+								<br />
+								<br />
+
+								<p>
+									<Trans i18nKey={'careers.requirements.requirements-code'} />
+								</p>
 							</div>
 
 							<div className='col-md-4'>
-								<img src={imgPlaceholder} class='rounded-7' alt='...' />
-								<p>B</p>
+								<img src={imgPlaceholder} className='rounded-7' alt='...' />
+
+								<br />
+								<br />
+
+								<p>
+									<Trans i18nKey={'careers.requirements.requirements-exp'} />
+								</p>
 							</div>
 
 							<div className='col-md-4'>
-								<img src={imgPlaceholder} class='rounded-7' alt='...' />
-								<p>C</p>
+								<img src={imgPlaceholder} className='rounded-7' alt='...' />
+
+								<br />
+								<br />
+
+								<p>
+									<Trans i18nKey={'careers.requirements.requirements-german'} />
+								</p>
 							</div>
 						</div>
 					</div>

@@ -101,7 +101,12 @@
 		"header": "Trabaja con nosotros",
 		"must-have": "Esencial",
 		"nice-to-have": "Extraordinario",
-		"requirements": { "header": "Requisitos generales" },
+		"requirements": {
+			"header": "Requisitos generales",
+			"requirements-code": "Te gusta el código bien estructurado y documentado",
+			"requirements-exp": "Experiencia laboral",
+			"requirements-german": "Nivel de alemán"
+		},
 		"benefits": {
 			"header": "Beneficios",
 			"holidays": "Vacaciones",

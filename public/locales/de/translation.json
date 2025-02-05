@@ -102,7 +102,10 @@
 		"must-have": "wesentlich",
 		"nice-to-have": "außerordentlich",
 		"requirements": {
-			"header": "Allgemeine Anforderungen"
+			"header": "Allgemeine Anforderungen",
+			"requirements-code": "Sie mögen gut strukturierten und dokumentierten Code",
+			"requirements-exp": "Berufserfahrung",
+			"requirements-german": "Deutschkenntnisse"
 		},
 		"benefits": {
 			"header": "Arbeitsvergünstigungen",

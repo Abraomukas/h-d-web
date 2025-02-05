@@ -96,7 +96,12 @@
 		"header": "Available positions",
 		"must-have": "must-have",
 		"nice-to-have": "nice-to-have",
-		"requirements": { "header": "General requirements" },
+		"requirements": {
+			"header": "General requirements",
+			"requirements-code": "You like well written and documented code",
+			"requirements-exp": "Work experience",
+			"requirements-german": "Knowledge of the German language"
+		},
 		"benefits": {
 			"header": "Benefits",
 			"holidays": "Holidays",
