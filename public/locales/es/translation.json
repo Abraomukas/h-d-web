@@ -99,6 +99,8 @@
 	"about-us": { "header": "¿Quiénes somos?", "subheader": "H&D España" },
 	"careers": {
 		"header": "Trabaja con nosotros",
+		"must-have": "Esencial",
+		"nice-to-have": "Extraordinario",
 		"requirements": { "header": "Requisitos generales" },
 		"benefits": {
 			"header": "Beneficios",

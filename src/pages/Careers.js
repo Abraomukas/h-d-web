@@ -43,8 +43,10 @@ export default function Careers() {
 						<div className='row'>
 							<div className='col-md-6'>
 								<div className='flex flex-col items-center justify-center'>
-									<h5 className='text-lg'>
-										<strong>MUST-HAVE</strong>
+									<h5 className='text-lg text-uppercase'>
+										<strong>
+											<Trans i18nKey={'careers.must-have'} />
+										</strong>
 									</h5>
 									<div className='mt-4 border border-primary pt-3 flex flex-col items-center'>
 										<p>MUST-HAVE</p>
@@ -55,8 +57,10 @@ export default function Careers() {
 
 							<div className='col-md-6'>
 								<div className='flex flex-col items-center justify-center'>
-									<h5 className='text-lg'>
-										<strong>NICE-TO-HAVE</strong>
+									<h5 className='text-lg text-uppercase'>
+										<strong>
+											<Trans i18nKey={'careers.nice-to-have'} />
+										</strong>
 									</h5>
 									<div className='mt-4 border border-primary pt-3 flex flex-col items-center'>
 										<p>NICE-TO-HAVE</p>

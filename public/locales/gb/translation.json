@@ -94,6 +94,8 @@
 	},
 	"careers": {
 		"header": "Available positions",
+		"must-have": "must-have",
+		"nice-to-have": "nice-to-have",
 		"requirements": { "header": "General requirements" },
 		"benefits": {
 			"header": "Benefits",

@@ -99,7 +99,11 @@
 	"about-us": { "header": "Wer sind wir?", "subheader": "H&D Spanien" },
 	"careers": {
 		"header": "Arbeit mit uns",
-		"requirements": { "header": "Allgemeine Anforderungen" },
+		"must-have": "wesentlich",
+		"nice-to-have": "außerordentlich",
+		"requirements": {
+			"header": "Allgemeine Anforderungen"
+		},
 		"benefits": {
 			"header": "Arbeitsvergünstigungen",
 			"salary": "fa-solid fa-hand-holding-dollar",
