@@ -136,7 +136,6 @@ export default function Navbar() {
 													className='dropdown-item'
 													onClick={() => {
 														i18next.changeLanguage(country_code);
-														window.location.reload();
 													}}
 													disabled={country_code === currentLngCode}>
 													<span
