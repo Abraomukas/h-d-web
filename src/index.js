@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import './i18n';
 import './index.css';
+import './utils/i18n';
+import './utils/ThemeProvider';
 
 const spinnerSizing = { width: '3rem', height: '3rem' };
 
@@ -27,6 +28,7 @@ import EventDetails from './pages/EventDetails';
 import AboutUs from './pages/AboutUs';
 import Careers from './pages/Careers';
 import JobDetails from './pages/JobDetails';
+import { ThemeProvider } from './utils/ThemeProvider';
 
 const router = createBrowserRouter([
 	{
@@ -68,6 +70,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.Suspense fallback={spinnerFallback}>
-		<RouterProvider router={router} />
+		<ThemeProvider>
+			<RouterProvider router={router} />
+		</ThemeProvider>
 	</React.Suspense>
 );

@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import i18next from 'i18next';
 import { Trans, useTranslation } from 'react-i18next';
+import { useTheme } from '../utils/ThemeProvider';
 
 const languages = [
 	{ name: 'Español', country_code: 'es' },
@@ -18,7 +19,7 @@ const sections = [
 ];
 
 export default function Navbar() {
-	const [isDarkMode, setIsDarkMode] = useState(false);
+	const { theme, setTheme } = useTheme();
 
 	const currentLngCode = Cookies.get('i18next') || 'es';
 
@@ -27,8 +28,8 @@ export default function Navbar() {
 	return (
 		<nav
 			className={`navbar sticky-top navbar-expand-lg d-flex navbar-${
-				isDarkMode ? 'dark' : 'light'
-			} bg-${isDarkMode ? 'dark' : 'light'}`}>
+				theme === 'dark' ? 'dark' : 'light'
+			} bg-${theme === 'dark' ? 'dark' : 'light'}`}>
 			{/* BRAND */}
 			<div className='d-flex align-items-center'>
 				<a href='/'>
@@ -82,9 +83,9 @@ export default function Navbar() {
 									role='button'
 									aria-expanded='false'
 									onClick={() => {
-										setIsDarkMode(!isDarkMode);
+										setTheme(theme === 'dark' ? 'light' : 'dark');
 									}}>
-									{isDarkMode ? (
+									{theme === 'dark' ? (
 										<i className='fas fa-sun' style={{ color: '#ffffff' }} />
 									) : (
 										<i className='fas fa-moon' style={{ color: '#000000' }} />
@@ -119,7 +120,7 @@ export default function Navbar() {
 									<i
 										className='fas fa-globe'
 										style={{
-											color: isDarkMode ? '#ffffff' : '#000000',
+											color: theme === 'dark' ? '#ffffff' : '#000000',
 										}}></i>{' '}
 								</button>
 								<ul className='dropdown-menu dropdown-menu-end'>
