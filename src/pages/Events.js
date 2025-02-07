@@ -24,11 +24,14 @@ function Events() {
 		.toURL();
 
 	const news = [
+		{ label: 'nov-22', picture: 'landscape-panorama' },
 		{ label: 'dec-23', picture: 'landscape-panorama' },
 		{ label: 'dec-24', picture: 'nature-mountains' },
 	];
 
 	const teamDays = [
+		{ label: 'nov-23', picture: 'nature-mountains' },
+		{ label: 'dec-23', picture: 'nature-mountains' },
 		{ label: 'jan-24', picture: 'nature-mountains' },
 		{ label: 'feb-24', picture: 'beach-boat' },
 		{ label: 'mar-24', picture: 'architecture-signs' },
@@ -40,7 +43,10 @@ function Events() {
 		{ label: 'nov-24', picture: 'landscape-panorama' },
 	];
 
-	const teamBuildings = [{ label: 'apr-24', picture: 'girl-urban-view' }];
+	const teamBuildings = [
+		{ label: 'apr-23', picture: 'girl-urban-view' },
+		{ label: 'apr-24', picture: 'girl-urban-view' },
+	];
 
 	return (
 		<div>
