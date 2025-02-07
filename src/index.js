@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
+import { ThemeProvider } from './utils/ThemeProvider';
+import RootLayout from './utils/RootLayout';
+
 import './index.css';
 import './utils/i18n';
 import './utils/ThemeProvider';
@@ -28,43 +31,48 @@ import EventDetails from './pages/EventDetails';
 import AboutUs from './pages/AboutUs';
 import Careers from './pages/Careers';
 import JobDetails from './pages/JobDetails';
-import { ThemeProvider } from './utils/ThemeProvider';
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <Main />,
-		errorElement: <ErrorPage />,
-	},
-	{
-		path: '/services',
-		element: <Services />,
-		errorElement: <ErrorPage />,
-	},
-	{
-		path: '/events',
-		element: <Events />,
-		errorElement: <ErrorPage />,
-	},
-	{
-		path: '/events/:event',
-		element: <EventDetails />,
-		errorElement: <ErrorPage />,
-	},
-	{
-		path: '/about',
-		element: <AboutUs />,
-		errorElement: <ErrorPage />,
-	},
-	{
-		path: '/careers',
-		element: <Careers />,
-		errorElement: <ErrorPage />,
-	},
-	{
-		path: '/careers/:job',
-		element: <JobDetails />,
-		errorElement: <ErrorPage />,
+		element: <RootLayout />,
+		children: [
+			{
+				path: '',
+				element: <Main />,
+				errorElement: <ErrorPage />,
+			},
+			{
+				path: 'services',
+				element: <Services />,
+				errorElement: <ErrorPage />,
+			},
+			{
+				path: 'events',
+				element: <Events />,
+				errorElement: <ErrorPage />,
+			},
+			{
+				path: 'events/:event',
+				element: <EventDetails />,
+				errorElement: <ErrorPage />,
+			},
+			{
+				path: 'about',
+				element: <AboutUs />,
+				errorElement: <ErrorPage />,
+			},
+			{
+				path: 'careers',
+				element: <Careers />,
+				errorElement: <ErrorPage />,
+			},
+			{
+				path: 'careers/:job',
+				element: <JobDetails />,
+				errorElement: <ErrorPage />,
+			},
+		],
 	},
 ]);
 

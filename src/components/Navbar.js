@@ -125,7 +125,7 @@ export default function Navbar() {
 										className='fas fa-globe'
 										style={{
 											color: theme === 'dark' ? '#ffffff' : '#000000',
-										}}></i>{' '}
+										}}></i>
 								</button>
 								<ul className='dropdown-menu dropdown-menu-end'>
 									{languages.map(({ name, country_code }, index) => {
