@@ -41,6 +41,7 @@ function Events() {
 		{ label: 'oct-1-24', picture: 'architecture-signs' },
 		{ label: 'oct-2-24', picture: 'girl-urban-view' },
 		{ label: 'nov-24', picture: 'landscape-panorama' },
+		{ label: 'jan-25', picture: 'landscape-panorama' },
 	];
 
 	const teamBuildings = [
