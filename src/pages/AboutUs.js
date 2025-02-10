@@ -5,10 +5,12 @@ import { Trans, useTranslation } from 'react-i18next';
 //* COMPONENTS
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Placeholder from '../components/Placeholder';
 
 function AboutUs() {
 	const currentLngCode = Cookies.get('i18next') || 'es';
+
+	//TODO image URLs
+	const imgPlaceholder = 'https://picsum.photos/600/700';
 
 	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
@@ -28,7 +30,11 @@ function AboutUs() {
 						<div
 							className='bg-image hover-overlay ripple shadow-2-strong rounded-3'
 							data-mdb-ripple-color='light'>
-							<Placeholder width={600} height={700} />
+							<img
+								src={imgPlaceholder}
+								className='rounded-7'
+								alt='H&D España'
+							/>
 						</div>
 					</div>
 					<div className='col-lg-4 col-md-5'>
