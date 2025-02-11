@@ -1,16 +1,16 @@
 import React from "react";
 import { Cloudinary } from "@cloudinary/url-gen";
 import { auto } from "@cloudinary/url-gen/actions/resize";
-import { autoGravity } from "@cloudinary/url-gen/qualifiers/gravity";
-import Cookies from "js-cookie";
-import { Trans, useTranslation } from "react-i18next";
+import { autoGravity } from '@cloudinary/url-gen/qualifiers/gravity';
+import { Trans, useTranslation } from 'react-i18next';
 import TimelineEntry from '../components/TimelineEntry';
 import { Link } from 'react-router-dom';
 
 export default function Hero() {
+	useTranslation();
+
 	const cld = new Cloudinary({ cloud: { cloudName: 'abraomukas' } });
 
-	const currentLngCode = Cookies.get('i18next') || 'es';
 	const width = window.innerWidth;
 	const height = window.innerHeight;
 	const imageUrl = cld
@@ -19,8 +19,6 @@ export default function Hero() {
 		.quality('auto')
 		.resize(auto().gravity(autoGravity()).width(width).height(height))
 		.toURL();
-
-	useTranslation();
 
 	const timeline = [
 		{ icon: 'fas fa-globe', tag: 'since', img: './images/AKDB.png' },

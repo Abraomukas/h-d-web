@@ -1,5 +1,4 @@
 import React from 'react';
-import Cookies from 'js-cookie';
 import { Trans, useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Cloudinary } from '@cloudinary/url-gen';
@@ -7,14 +6,13 @@ import { auto } from '@cloudinary/url-gen/actions/resize';
 import { autoGravity } from '@cloudinary/url-gen/qualifiers/gravity';
 
 //* COMPONENTS
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function Events() {
 	useTranslation();
-	const cld = new Cloudinary({ cloud: { cloudName: 'abraomukas' } });
 
-	const currentLngCode = Cookies.get('i18next') || 'es';
+	const cld = new Cloudinary({ cloud: { cloudName: 'abraomukas' } });
 
 	let imageUrl = cld
 		.image('h-d-web/jan-24')

@@ -1,6 +1,5 @@
 import React from 'react';
-import Cookies from 'js-cookie';
-import { Trans } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import { Cloudinary } from '@cloudinary/url-gen';
 import { auto } from '@cloudinary/url-gen/actions/resize';
 import { autoGravity } from '@cloudinary/url-gen/qualifiers/gravity';
@@ -12,9 +11,10 @@ import TeamEntry from '../components/TeamEntry';
 import FeatureEntry from '../components/FeatureEntry';
 
 function Services() {
+	useTranslation();
+
 	const cld = new Cloudinary({ cloud: { cloudName: 'abraomukas' } });
 
-	const currentLngCode = Cookies.get('i18next') || 'es';
 	const width = window.innerWidth;
 	const height = window.innerHeight;
 	const imageUrl = cld

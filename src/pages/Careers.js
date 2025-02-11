@@ -1,5 +1,4 @@
 import React from 'react';
-import Cookies from 'js-cookie';
 import { Trans, useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
@@ -9,7 +8,6 @@ import Footer from '../components/Footer';
 
 export default function Careers() {
 	useTranslation();
-	const currentLngCode = Cookies.get('i18next') || 'es';
 
 	const benefits = [
 		{ label: 'holidays' },
@@ -177,4 +175,3 @@ export default function Careers() {
 		</div>
 	);
 }
-
