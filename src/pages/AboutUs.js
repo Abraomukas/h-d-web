@@ -1,13 +1,12 @@
 import React from 'react';
-import Cookies from 'js-cookie';
 import { Trans, useTranslation } from 'react-i18next';
 
 //* COMPONENTS
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-function AboutUs() {
-	const currentLngCode = Cookies.get('i18next') || 'es';
+export default function AboutUs() {
+	useTranslation();
 
 	//TODO image URLs
 	const imgPlaceholder = 'https://picsum.photos/600/700';
@@ -86,5 +85,3 @@ function AboutUs() {
 		</div>
 	);
 }
-
-export default AboutUs;
