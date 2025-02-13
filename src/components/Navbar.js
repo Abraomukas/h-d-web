@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Cookies from 'js-cookie';
 import i18next from 'i18next';
 import { Trans, useTranslation } from 'react-i18next';
 import { useTheme } from '../utils/ThemeProvider';
@@ -19,11 +18,9 @@ const sections = [
 ];
 
 export default function Navbar() {
-	const { theme, setTheme } = useTheme();
-
-	const currentLngCode = Cookies.get('i18next') || 'es';
-
 	useTranslation();
+
+	const { theme, setTheme } = useTheme();
 
 	return (
 		<nav
@@ -137,13 +134,13 @@ export default function Navbar() {
 													onClick={() => {
 														i18next.changeLanguage(country_code);
 													}}
-													disabled={country_code === currentLngCode}>
+													disabled={country_code === i18next.language}>
 													<span
 														key={index}
 														className={`fi fi-${country_code} fis mx-3`}
 														style={{
 															opacity:
-																country_code === currentLngCode ? 0.5 : 1,
+																country_code === i18next.language ? 0.5 : 1,
 														}}
 													/>
 
