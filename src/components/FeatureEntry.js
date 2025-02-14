@@ -1,9 +1,8 @@
 import React from 'react';
-import Cookies from 'js-cookie';
 import { Trans, useTranslation } from 'react-i18next';
 
-function FeatureEntry(props) {
-	const currentLngCode = Cookies.get('i18next') || 'es';
+export default function FeatureEntry(props) {
+	useTranslation();
 
 	return (
 		<div className='col d-flex align-items-start'>
@@ -23,5 +22,3 @@ function FeatureEntry(props) {
 		</div>
 	);
 }
-
-export default FeatureEntry;

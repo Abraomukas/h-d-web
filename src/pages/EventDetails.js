@@ -8,7 +8,7 @@ import { Resize } from '@cloudinary/url-gen/actions/resize';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-function EventDetails() {
+export default function EventDetails() {
 	useTranslation();
 
 	const cld = new Cloudinary({ cloud: { cloudName: 'abraomukas' } });
@@ -113,5 +113,3 @@ function EventDetails() {
 		</div>
 	);
 }
-
-export default EventDetails;

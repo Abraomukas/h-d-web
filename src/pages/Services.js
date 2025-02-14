@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 import TeamEntry from '../components/TeamEntry';
 import FeatureEntry from '../components/FeatureEntry';
 
-function Services() {
+export default function Services() {
 	useTranslation();
 
 	const cld = new Cloudinary({ cloud: { cloudName: 'abraomukas' } });
@@ -127,5 +127,3 @@ function Services() {
 		</div>
 	);
 }
-
-export default Services;

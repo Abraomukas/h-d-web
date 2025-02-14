@@ -5,12 +5,14 @@ import { useParams } from 'react-router-dom';
 //* COMPONENTS
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Placeholder from '../components/Placeholder';
 
-function JobDetails() {
+export default function JobDetails() {
 	useTranslation();
 
 	const { job } = useParams();
+
+	//TODO image URLs
+	const imgPlaceholder = 'https://picsum.photos/500/400';
 
 	return (
 		<div style={{ position: 'relative', minHeight: '100vh' }}>
@@ -30,7 +32,11 @@ function JobDetails() {
 					<div className='container col-xxl-8 px-4 py-5'>
 						<div className='row d-flex justify-content-around align-items-center py-5'>
 							<div className='col-10 col-sm-8 col-lg-6'>
-								<Placeholder width={500} height={400} />
+								<img
+									src={imgPlaceholder}
+									className='rounded-7'
+									alt='Job picture'
+								/>
 							</div>
 							<div className='col-lg-6'>
 								<h1 className='display-5 fw-bold text-body-emphasis lh-1 mb-3'>
@@ -81,5 +87,3 @@ function JobDetails() {
 		</div>
 	);
 }
-
-export default JobDetails;

@@ -1,9 +1,8 @@
 import React from 'react';
-import Cookies from 'js-cookie';
-import { Trans } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
-function TimelineEntry(props) {
-	const currentLngCode = Cookies.get('i18next') || 'es';
+export default function TimelineEntry(props) {
+	useTranslation();
 
 	return (
 		<div className='col'>
@@ -41,5 +40,3 @@ function TimelineEntry(props) {
 		</div>
 	);
 }
-
-export default TimelineEntry;

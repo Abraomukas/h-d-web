@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 //* PAGES
 import Hero from './Hero';
 
-function Main() {
+export default function Main() {
 	return (
 		<div>
 			<Navbar />
@@ -20,5 +20,3 @@ function Main() {
 		</div>
 	);
 }
-
-export default Main;

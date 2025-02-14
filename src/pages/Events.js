@@ -9,7 +9,7 @@ import { autoGravity } from '@cloudinary/url-gen/qualifiers/gravity';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-function Events() {
+export default function Events() {
 	useTranslation();
 
 	const cld = new Cloudinary({ cloud: { cloudName: 'abraomukas' } });
@@ -208,5 +208,3 @@ function Events() {
 		</div>
 	);
 }
-
-export default Events;

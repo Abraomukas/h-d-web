@@ -1,9 +1,8 @@
 import React from 'react';
-import Cookies from 'js-cookie';
-import { Trans } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 
-function TeamEntry(props) {
-	const currentLngCode = Cookies.get('i18next') || 'es';
+export default function TeamEntry(props) {
+	useTranslation();
 
 	return (
 		<div className='container-fluid d-flex justify-content-center'>
@@ -20,5 +19,3 @@ function TeamEntry(props) {
 		</div>
 	);
 }
-
-export default TeamEntry;
