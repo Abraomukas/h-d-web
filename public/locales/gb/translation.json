@@ -91,7 +91,8 @@
 		"jan-25": {
 			"header": "🚀 Team day in Madrid: Tech, ideas.... and series recommendations! 🎬",
 			"content": "From H&D Munich we were joined by Martin Knappe and Ana Maria Montfort and also had the pleasure of welcoming our new colleagues Lena, Adhara and Belen, who have brought a new energy to the team. What a joy to have them on board!<br>🎤 The project presentations were undoubtedly the highlight.<br>Ian Hacha caught us with a super dynamic talk about Rust, full of valuable insights about his current project. Afterwards, Miriam and Stephan Brandt blew us away with their vision and the inspiring work they are doing in the field of IKFZ (application for the management of vehicle registrations in Germany). 👏<br>😂 The funniest moment? The personal introductions. We each had to reveal our favorite series or movie, and we discovered that our tastes run the gamut from breathtaking thrillers to comedies that make your day. Now we have an infinite list for the next marathon.<br>💡 These team days remind us of something important: we are more than a tech company. We are a team eager to innovate, connect and enjoy the journey together."
-		}
+		},
+		"feb-25": { "header": "", "content": "" }
 	},
 	"about-us": {
 		"header": "Who are we?",

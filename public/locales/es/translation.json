@@ -99,7 +99,8 @@
 		"jan-25": {
 			"header": "🚀 Día de equipo en Madrid: Tech, ideas... ¡y recomendaciones de series! 🎬",
 			"content": "Desde H&D Munich nos acompañaron Martin Knappe y Ana María Montfort y además tuvimos el placer de dar la bienvenida a nuestras nuevas compañeras Lena, Adhara Monzón Varillas y Belén, que han traído una energía nueva al equipo. ¡Qué alegría tenerlas a bordo!<br>🎤 Las presentaciones de proyectos fueron, sin duda, el plato fuerte.<br>Ian Hacha nos atrapó con una charla súper dinámica sobre Rust, llena de insights valiosos sobre su proyecto actual. Después, Miriam y Stephan Brandt nos dejaron boquiabiertos con su visión y el trabajo inspirador que están llevando a cabo en el ámbito de IKFZ (aplicación para la gestión de las matriculaciones de los vehículos en Alemania). 👏<br>😂 El momento más divertido? Las presentaciones personales. Cada uno tenía que revelar su serie o película favorita, y descubrimos que nuestros gustos son de lo más variado: desde thrillers que te dejan sin aliento hasta comedias que te alegran el día. Ahora tenemos una lista infinita para el próximo maratón.<br>💡 Estos días en equipo nos recuerdan algo importante: somos más que una empresa tech. Somos un equipo con ganas de innovar, conectar y disfrutar del camino juntos."
-		}
+		},
+		"feb-25": { "header": "", "content": "" }
 	},
 	"about-us": { "header": "¿Quiénes somos?", "subheader": "H&D España" },
 	"careers": {
