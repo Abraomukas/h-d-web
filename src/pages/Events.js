@@ -1,9 +1,10 @@
-import React from 'react';
+import { useState } from 'react';
 import { Trans, useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Cloudinary } from '@cloudinary/url-gen';
 import { auto } from '@cloudinary/url-gen/actions/resize';
 import { autoGravity } from '@cloudinary/url-gen/qualifiers/gravity';
+import { InputGroup, SplitButton, Dropdown, Form } from 'react-bootstrap';
 
 //* COMPONENTS
 import Navbar from '../components/Navbar';
@@ -47,6 +48,11 @@ export default function Events() {
 		{ label: 'apr-24', picture: 'girl-urban-view' },
 	];
 
+	let items = [...news, ...teamBuildings, ...teamDays];
+
+	const [selectedYear, setSelectedYear] = useState(2022);
+	const filteredItems = items.filter((item) => item.year === selectedYear);
+
 	return (
 		<div>
 			<Navbar />
@@ -61,6 +67,20 @@ export default function Events() {
 						</h1>
 					</div>
 				</div>
+
+				{/* FILTER BY YEAR */}
+
+				<InputGroup className='mb-3'>
+					<SplitButton
+						variant='outline-secondary'
+						title='YEAR'
+						id='segmented-button-dropdown-1'>
+						<Dropdown.Item href='#'>Action</Dropdown.Item>
+						<Dropdown.Item href='#'>Another action</Dropdown.Item>
+						<Dropdown.Item href='#'>Something else here</Dropdown.Item>
+					</SplitButton>
+					<Form.Control aria-label='Text input with dropdown button' />
+				</InputGroup>
 
 				{/* NEWS */}
 
