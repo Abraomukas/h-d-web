@@ -59,6 +59,7 @@
 	},
 	"events": {
 		"header": "Sigue la actualidad en H&D España",
+		"filter-by-year": "Año",
 		"news-header": "Noticias",
 		"team-tags-header": "Team Days",
 		"team-buildings-header": "Team Buildings",

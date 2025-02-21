@@ -52,6 +52,7 @@
 	"events": {
 		"header": "Follow the latest news in H&D Spain",
 		"news-header": "News",
+		"filter-by-year": "Year",
 		"team-tags-header": "Team Days",
 		"team-buildings-header": "Team Buildings",
 		"posts": {
