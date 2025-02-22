@@ -125,8 +125,8 @@
 			"transport-icon": "",
 			"flex-retribution": "Flexible compensation",
 			"flex-retribution-icon": ""
-		}
-	},
-	"submit_cv_header": "Do you want to work with us?",
-	"submit_cv": "Send your CV"
+		},
+		"submit_cv_header": "Do you want to work with us?",
+		"submit_cv": "Send your CV"
+	}
 }
