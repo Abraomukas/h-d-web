@@ -120,7 +120,7 @@ export default function Hero() {
 							transform: 'translate(-50%, -50%)',
 							zIndex: 1,
 						}}>
-						TO SERVICES
+						<Trans i18nKey={'hero.cta-to-services'} />
 					</Link>
 				</div>
 			</section>
