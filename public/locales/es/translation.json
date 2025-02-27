@@ -1,127 +1,131 @@
 {
-	"navbar": {
-		"services": "Servicios",
-		"events": "Eventos",
-		"about": "Quiénes somos",
-		"careers": "Ofertas de trabajo"
-	},
-	"hero": {
-		"timeline-header": "Más de 50 años innovando para las administraciones públicas",
-		"timeline-since": "Desde 1971",
-		"timeline-since-text": "<strong>AKDB</strong>, empresa matriz de H&D Aplicaciones, Software y Desarrollo, desde su creación en 1971 se ha centrado en el desarrollo de aplicaciones para comunidades, regiones y ayuntamientos en la administración pública alemana.",
-		"timeline-innovate": "Innovando",
-		"timeline-innovate-text": "Nos distinguimos por el desarrollo innovador de aplicaciones de gestión financiera, gestión de personal y gestión de procesos en todos los niveles de la administración pública. H&D Aplicaciones, Software y Desarrollo es filial, entre otras, de la compañía <a>Unternehmensberatung <strong>H&D GmbH</strong></a>",
-		"timeline-together": "Ahora contigo",
-		"timeline-together-text": "Desde hace 50 años no hemos dejado de crecer. Más de 1.000 empleados y 4.700 clientes. Ahora, <strong>en España</strong> queremos seguir creciendo contigo. Queremos que seas parte de nuestro proyecto, consulta nuestras ofertas de trabajo y envíanos tu CV. <strong>Crece profesionalmente</strong> en una empresa que cuenta con el respaldo de la administración pública alemana.",
-		"motto": "Forma parte de una empresa líder en software para la administración pública alemana",
-		"cta-to-services": "Nuestros servicios"
-	},
-	"services": {
-		"header": "Desde la implantación hasta la evolución del producto digital",
-		"subheader": "Un proceso completo de acompañamiento al cliente, respaldado con sólidas alianzas de un gran número de filiales especializadas en el sector público",
-		"teams-header": "Nuestros equipos",
-		"teams-names": {
-			"pers": "OK.PERS",
-			"pers-plus": "OK.PERS+",
-			"finn": "OK.FINN",
-			"ewo": "OK.EWO",
-			"synergo": "SYNERGO",
-			"hyd-aus": "Ausländerwesen"
-		},
-		"teams-descriptions": {
-			"pers": "LORE IPSUM",
-			"pers-plus": "LORE IPSUM",
-			"finn": "LORE IPSUM",
-			"ewo": "LORE IPSUM",
-			"synergo": "LORE IPSUM",
-			"hyd-aus": "LORE IPSUM"
-		},
-		"features-header": "Principales servicios",
-		"features": {
-			"tech": "Java, C++ y las últimas tecnologías web",
-			"agile": "Scrum y Kanban",
-			"ai-ml": "Inteligencia Artificial y Machine Learning",
-			"mobile": "Desarrollo de aplicaciones móviles",
-			"ci-cd": "Automatización (CI/CD)",
-			"audit": "Auditoría de ciberseguridad",
-			"monitor": "Vigilancia y monitoreo"
-		}
-	},
-	"events": {
-		"header": "Sigue la actualidad en H&D España",
-		"filter-by-year": "Año",
-		"news-header": "Noticias",
-		"team-tags-header": "Team Days",
-		"team-buildings-header": "Team Buildings",
-		"posts": {
-			"nov-22": "Smart City Expo World Congress 2022",
-			"apr-23": "Team Building en Segovia - Abril 2023",
-			"nov-23": "Team Day Noviembre 2023",
-			"dec-23": "Cena de Navidad 2023",
-			"jan-24": "Team Day Enero 2024",
-			"feb-24": "Team Day Febrero 2024",
-			"mar-24": "Team Day Marzo 2024",
-			"apr-24": "Team Building en Valencia - Abril 2024",
-			"may-24": "Team Day Mayo 2024",
-			"jun-24": "Team Day Junio 2024",
-			"jul-24": "Team Day Julio 2024",
-			"oct-1-24": "Team Day Octubre I 2024",
-			"oct-2-24": "Team Day Octubre II 2024",
-			"nov-24": "Team Day Noviembre 2024",
-			"dec-24": "Cena de Navidad 2024",
-			"jan-25": "Team Day Enero 2025"
-		},
-		"nov-22": {
-			"header": "Smart Data Services en el Smart City Expo World Congress",
-			"content": "Smart Data Services junto con los representantes de Bayern International estará en el Smart City Expo World Congress de Barcelona durante los próximos días. SDS es un proyecto conjunto entre las empresas <strong>AKDB</strong>, <strong>ROOSI</strong>, <strong>RIWA</strong> y <strong>Digitalfabrix</strong>. H&D Aplicaciones, Software y Desarrollo también pertenece al grupo AKDB.<br><br><strong>El municipio inteligente del mañana</strong><br><br>Mediante el análisis inteligente de datos, las ciudades y los municipios pueden obtener información importante para mejorar las infraestructuras urbanas. De este modo, se desarrollan soluciones para que <strong>las zonas urbanas sean más sostenibles, habitables y eficientes</strong>. Los Smart Data Services – una iniciativa conjunta de la comunidad inteligente en el grupo de empresas AKDB con ROOSI, RIWA y digitalfabriX- contribuyen a ello. Los sensores distribuidos en la zona de la ciudad registran el clima para medir la calidad del aire o la contaminación acústica, por ejemplo. Sin embargo, el valor real sólo se crea combinando y utilizando información y datos de diferentes fuentes. <strong>Mediante el análisis inteligente de los datos se pueden crear importantes bases para la toma de decisiones, por ejemplo para la planificación y el control inteligentes del tráfico</strong>. Las infraestructuras existentes pueden digitalizarse, desarrollarse más e, idealmente, incluso conectarse en red entre sectores <strong>a través de la Internet de las cosas (IoT)</strong>.<br><br><strong>Servicios de datos inteligentes (SDS) – Open Urban Platform</strong><br><br>Los Servicios de Datos Inteligentes deben entenderse como una Open Urban Platform que <strong>conecta a los municipios, las empresas, los socios de la plataforma y los ciudadanos</strong> sobre la base de la última tecnología como un centro para los futuros proyectos de digitalización y datos y pone a disposición los productos digitales.<br><br><strong>Aplicaciones del IoT en el sector público</strong><br><br>Numerosas ciudades y municipios de Alemania ya utilizan soluciones de IoT en red. La gama de servicios incluye lo siguiente:<br><br><strong>Medio ambiente</strong><br><i>Servicio de invierno/verano, gestión de espacios verdes, gestión del agua de lluvia y vaciado de contenedores en función de las necesidades</i><br><br><strong>Movilidad</strong><br><i>Gestión de aparcamientos, análisis de tráfico y recuentos de frecuencia</i><br><br><strong>Autoridades/administración pública</strong><br><i>Datos abiertos, gestión de guarderías 2.0 y bots de servicio de chat</i><br><br><strong>Economía</strong><br><i>Edificios inteligentes y procedimientos de aplicación acelerados</i><br><br><strong>Infraestructura</strong><br><i>Redes LoRaWan, farolas inteligentes y bancos con sensores y fotovoltaicos</i>"
-		},
-		"apr-23": {
-			"header": "Evento “Developing Together” en Segovia con los equipos de H&D y AKDB",
-			"content": "Celebramos nuestro segundo evento combinando diversión, cultura y talleres de trabajo el pasado 20 y 21 de abril en Segovia. En total 38 participantes, 22 de la filial española y 16 de las alemanas AKDB y H&D partimos en autobús el jueves 20.04 hacia Segovia para iniciar nuestra aventura. Hemos reunido <strong>5 equipos</strong> dedicados a los <strong>proyectos de desarrollo</strong> de <strong>OK FIN</strong> (ERP financiero), <strong>OK Pers</strong> (Gestión de RRHH), <strong>OK EWO</strong> (Gestión del padrón), Plattforms <strong>Synergo</strong>, y <strong>KIOSK</strong> para fomentar el trabajo en equipo a través de actividades lúdicas, culturales y talleres de trabajo. Nos hemos divertido mucho, disfrutando de un tiempo buenísimo y fantástica compañía.<br><br><strong>Sobre AKDB</strong><br><br>Desde su fundación en 1971, AKDB está desarrollado una gama completa de soluciones para la digitalización de municipios e instituciones públicas. Esto incluye software, seguridad informática, consultoría, formación y una amplia gama de servicios. El espectro de servicios de TI <strong>abarca desde soluciones SaaS</strong> desde su dentro de cálculo certificado por el “Bundesamt für Sicherheit in der Informationstechnik” (BSI) para todos los <strong>departamentos oficiales, registros de población y estado civil bávaros hasta entornos de TI totalmente gestionados</strong>.<br><br>AKDB es el <strong>principal proveedor global de Tecnologías de la Información de Alemania</strong> incluyendo su gama de servicios software para finanzas, recursos humanos, transporte, asuntos sociales y bienes inmuebles. En el área de gobierno electrónico, la AKDB ofrece a los estados y municipios su portal de atención al ciudadano siendo la plataforma interoperable de mayor alcance de Alemania para servicios de administración on-line, a través de la cual los ciudadanos y las empresas procesan digitalmente cada vez más sus transacciones con la administración. Desde 2019, la AKDB proporciona a la administración federal el sistema de acceso central (proveedor de identidad) para el uso de servicios en el marco de la Ley de acceso on-line (OZG). AKDB cuenta como clientes con más de 4.700 municipios, ciudades, condados, distritos, así como instituciones públicas y el gobierno federal. La AKDB es una institución de derecho público patrocinada por las cuatro organizaciones paraguas municipales en Baviera y tiene alrededor de 1.100 empleados en el grupo de empresas.<br><br><strong>Sobre Unternehmensberatung H&D GmbH</strong><br><br>Desde 1986, la consultoría de gestión H & D GmbH ha estado colaborando con AKDB con sus <strong>clientes públicos del sector de seguridad y defensa</strong> mediante la digitalización. La implementación de la Ley de Acceso on-line (OZG) fue el enfoque en los últimos años. La innovación, las redes de socios de confianza y una cartera de servicios holística desde la consultoría, estrategia, arquitectura, innovación hasta el desarrollo de las Tecnologías de Información, por ejemplo, hicieron una contribución importante a la provisión de <strong>uno de los primeros servicios OFA en Alemania</strong>. Además de los clientes públicos, se prestan servicios a seleccionados clientes de todos los sectores industriales."
-		},
-		"nov-23": {
-			"header": "Celebramos la tercera edición de nuestra jornada de teambuilding",
-			"content": "El 21 de noviembre tuvo lugar nuestro <strong>Team Day</strong>. Todos los compañeros que trabajan en España pudieron por fin verse en persona en las oficinas de Madrid, intercambiar novedades, sugerencias y soluciones y conocer la planificación para el año 2024.<br><br>Los nuevos compañeros también pudieron presentarse. <strong>¡Ya somos más de 34!</strong><br><br>¿Te gustaría trabajar con nosotros? Envíanos tu CV."
-		},
-		"dec-23": {
-			"header": "¡Celebremos la temporada festiva juntos!",
-			"content": "En H&D España, nos enorgullece decir que <strong>nuestro último Team Day del año</strong> fue más que un evento; fue un encuentro lleno de emociones, conexiones genuinas y la magia de la Navidad.<br><br>El 15 de diciembre marcó un hito para nosotros. Reunidos en nuestras oficinas en Madrid, el equipo se reencontró desde diferentes puntos de España. Fue un día de compartir, de intercambiar ideas innovadoras, soluciones creativas y de <strong>trazar juntos la hoja de ruta para el emocionante año 2024</strong> que nos espera. El encuentro no solo fue sobre trabajo; también fue sobre fortalecer lazos y disfrutar de la temporada festiva.<br><br>La cena de Navidad fue un momento especial en un restaurante emblemático en el corazón de Madrid, donde compartimos no solo deliciosos platos, sino también risas y momentos memorables. <strong>Actividades en grupo</strong>, como una lotería navideña, agregaron aún más diversión a la noche, creando vínculos aún más fuertes entre nosotros. En H&D España, la temporada navideña no solo es una época de celebración, ¡es también un momento para crecer y compartir juntos!<br><br>Si eres alguien apasionado, enérgico y <strong>te gustaría formar parte de nuestro equipo</strong>, ¡te invitamos a unirte a nosotros!<br><br><strong>Envíanos tu CV y sé parte de una comunidad comprometida con la excelencia</strong>, la colaboración y el entusiasmo por lo que hacemos. ¡Forma parte de nuestros próximos retos!"
-		},
-		"jan-25": {
-			"header": "🚀 Día de equipo en Madrid: Tech, ideas... ¡y recomendaciones de series! 🎬",
-			"content": "Desde H&D Munich nos acompañaron Martin Knappe y Ana María Montfort y además tuvimos el placer de dar la bienvenida a nuestras nuevas compañeras Lena, Adhara Monzón Varillas y Belén, que han traído una energía nueva al equipo. ¡Qué alegría tenerlas a bordo!<br>🎤 Las presentaciones de proyectos fueron, sin duda, el plato fuerte.<br>Ian Hacha nos atrapó con una charla súper dinámica sobre Rust, llena de insights valiosos sobre su proyecto actual. Después, Miriam y Stephan Brandt nos dejaron boquiabiertos con su visión y el trabajo inspirador que están llevando a cabo en el ámbito de IKFZ (aplicación para la gestión de las matriculaciones de los vehículos en Alemania). 👏<br>😂 El momento más divertido? Las presentaciones personales. Cada uno tenía que revelar su serie o película favorita, y descubrimos que nuestros gustos son de lo más variado: desde thrillers que te dejan sin aliento hasta comedias que te alegran el día. Ahora tenemos una lista infinita para el próximo maratón.<br>💡 Estos días en equipo nos recuerdan algo importante: somos más que una empresa tech. Somos un equipo con ganas de innovar, conectar y disfrutar del camino juntos."
-		},
-		"feb-25": { "header": "", "content": "" }
-	},
-	"about-us": { "header": "¿Quiénes somos?", "subheader": "H&D España" },
-	"careers": {
-		"header": "Trabaja con nosotros",
-		"must-have": "Esencial",
-		"nice-to-have": "Extraordinario",
-		"requirements": {
-			"header": "Requisitos generales",
-			"requirements-code": "Te gusta el código bien estructurado y documentado",
-			"requirements-exp": "Experiencia laboral",
-			"requirements-german": "Nivel de alemán"
-		},
-		"benefits": {
-			"header": "Beneficios",
-			"holidays": "Vacaciones",
-			"holidays-icon": "fa-solid fa-bed",
-			"flex-location": "Modalidad flexible",
-			"flex-location-icon": "",
-			"flex-hours": "Horario flexible",
-			"flex-hours-icon": "",
-			"restaurant": "Ticket restaurante",
-			"restaurant-icon": "",
-			"health": "Seguro de salud",
-			"health-icon": "",
-			"transport": "Tarjeta de transporte",
-			"transport-icon": "",
-			"flex-retribution": "Retribución flexible",
-			"flex-retribution-icon": ""
-		},
-		"submit_cv_header": "¿Quieres trabajar con nosotros?",
-		"submit_cv": "Envíanos tu CV"
-	}
+  "navbar": {
+    "services": "Servicios",
+    "events": "Eventos",
+    "about": "Quiénes somos",
+    "careers": "Ofertas de trabajo"
+  },
+  "hero": {
+    "timeline-header": "Más de 50 años innovando para las administraciones públicas",
+    "timeline-since": "Desde 1971",
+    "timeline-since-text": "<strong>AKDB</strong>, empresa matriz de H&D Aplicaciones, Software y Desarrollo, desde su creación en 1971 se ha centrado en el desarrollo de aplicaciones para comunidades, regiones y ayuntamientos en la administración pública alemana.",
+    "timeline-innovate": "Innovando",
+    "timeline-innovate-text": "Nos distinguimos por el desarrollo innovador de aplicaciones de gestión financiera, gestión de personal y gestión de procesos en todos los niveles de la administración pública. H&D Aplicaciones, Software y Desarrollo es filial, entre otras, de la compañía <a>Unternehmensberatung <strong>H&D GmbH</strong></a>",
+    "timeline-together": "Ahora contigo",
+    "timeline-together-text": "Desde hace 50 años no hemos dejado de crecer. Más de 1.000 empleados y 4.700 clientes. Ahora, <strong>en España</strong> queremos seguir creciendo contigo. Queremos que seas parte de nuestro proyecto, consulta nuestras ofertas de trabajo y envíanos tu CV. <strong>Crece profesionalmente</strong> en una empresa que cuenta con el respaldo de la administración pública alemana.",
+    "motto": "Forma parte de una empresa líder en software para la administración pública alemana",
+    "cta-to-services": "Nuestros servicios"
+  },
+  "services": {
+    "header": "Desde la implantación hasta la evolución del producto digital",
+    "subheader": "Un proceso completo de acompañamiento al cliente, respaldado con sólidas alianzas de un gran número de filiales especializadas en el sector público",
+    "teams-header": "Nuestros equipos",
+    "teams-names": {
+      "pers": "OK.PERS",
+      "pers-plus": "OK.PERS+",
+      "finn": "OK.FINN",
+      "ewo": "OK.EWO",
+      "synergo": "SYNERGO",
+      "hyd-aus": "Ausländerwesen"
+    },
+    "teams-descriptions": {
+      "pers": "LORE IPSUM",
+      "pers-plus": "LORE IPSUM",
+      "finn": "LORE IPSUM",
+      "ewo": "LORE IPSUM",
+      "synergo": "LORE IPSUM",
+      "hyd-aus": "LORE IPSUM"
+    },
+    "features-header": "Principales servicios",
+    "features": {
+      "tech": "Java, C++ y las últimas tecnologías web",
+      "agile": "Scrum y Kanban",
+      "ai-ml": "Inteligencia Artificial y Machine Learning",
+      "mobile": "Desarrollo de aplicaciones móviles",
+      "ci-cd": "Automatización (CI/CD)",
+      "audit": "Auditoría de ciberseguridad",
+      "monitor": "Vigilancia y monitoreo"
+    }
+  },
+  "events": {
+    "header": "Sigue la actualidad en H&D España",
+    "filter-by-year": "Año",
+    "news-header": "Noticias",
+    "team-tags-header": "Team Days",
+    "team-buildings-header": "Team Buildings",
+    "posts": {
+      "nov-22": "Smart City Expo World Congress 2022",
+      "apr-23": "Team Building en Segovia - Abril 2023",
+      "nov-23": "Team Day Noviembre 2023",
+      "dec-23": "Cena de Navidad 2023",
+      "jan-24": "Team Day Enero 2024",
+      "feb-24": "Team Day Febrero 2024",
+      "mar-24": "Team Day Marzo 2024",
+      "apr-24": "Team Building en Valencia - Abril 2024",
+      "may-24": "Team Day Mayo 2024",
+      "jun-24": "Team Day Junio 2024",
+      "jul-24": "Team Day Julio 2024",
+      "oct-1-24": "Team Day Octubre I 2024",
+      "oct-2-24": "Team Day Octubre II 2024",
+      "nov-24": "Team Day Noviembre 2024",
+      "dec-24": "Cena de Navidad 2024",
+      "jan-25": "Team Day Enero 2025",
+      "feb-25": "Team Day Febrero 2025"
+    },
+    "nov-22": {
+      "header": "Smart Data Services en el Smart City Expo World Congress",
+      "content": "Smart Data Services junto con los representantes de Bayern International estará en el Smart City Expo World Congress de Barcelona durante los próximos días. SDS es un proyecto conjunto entre las empresas <strong>AKDB</strong>, <strong>ROOSI</strong>, <strong>RIWA</strong> y <strong>Digitalfabrix</strong>. H&D Aplicaciones, Software y Desarrollo también pertenece al grupo AKDB.<br><br><strong>El municipio inteligente del mañana</strong><br><br>Mediante el análisis inteligente de datos, las ciudades y los municipios pueden obtener información importante para mejorar las infraestructuras urbanas. De este modo, se desarrollan soluciones para que <strong>las zonas urbanas sean más sostenibles, habitables y eficientes</strong>. Los Smart Data Services – una iniciativa conjunta de la comunidad inteligente en el grupo de empresas AKDB con ROOSI, RIWA y digitalfabriX- contribuyen a ello. Los sensores distribuidos en la zona de la ciudad registran el clima para medir la calidad del aire o la contaminación acústica, por ejemplo. Sin embargo, el valor real sólo se crea combinando y utilizando información y datos de diferentes fuentes. <strong>Mediante el análisis inteligente de los datos se pueden crear importantes bases para la toma de decisiones, por ejemplo para la planificación y el control inteligentes del tráfico</strong>. Las infraestructuras existentes pueden digitalizarse, desarrollarse más e, idealmente, incluso conectarse en red entre sectores <strong>a través de la Internet de las cosas (IoT)</strong>.<br><br><strong>Servicios de datos inteligentes (SDS) – Open Urban Platform</strong><br><br>Los Servicios de Datos Inteligentes deben entenderse como una Open Urban Platform que <strong>conecta a los municipios, las empresas, los socios de la plataforma y los ciudadanos</strong> sobre la base de la última tecnología como un centro para los futuros proyectos de digitalización y datos y pone a disposición los productos digitales.<br><br><strong>Aplicaciones del IoT en el sector público</strong><br><br>Numerosas ciudades y municipios de Alemania ya utilizan soluciones de IoT en red. La gama de servicios incluye lo siguiente:<br><br><strong>Medio ambiente</strong><br><i>Servicio de invierno/verano, gestión de espacios verdes, gestión del agua de lluvia y vaciado de contenedores en función de las necesidades</i><br><br><strong>Movilidad</strong><br><i>Gestión de aparcamientos, análisis de tráfico y recuentos de frecuencia</i><br><br><strong>Autoridades/administración pública</strong><br><i>Datos abiertos, gestión de guarderías 2.0 y bots de servicio de chat</i><br><br><strong>Economía</strong><br><i>Edificios inteligentes y procedimientos de aplicación acelerados</i><br><br><strong>Infraestructura</strong><br><i>Redes LoRaWan, farolas inteligentes y bancos con sensores y fotovoltaicos</i>"
+    },
+    "apr-23": {
+      "header": "Evento “Developing Together” en Segovia con los equipos de H&D y AKDB",
+      "content": "Celebramos nuestro segundo evento combinando diversión, cultura y talleres de trabajo el pasado 20 y 21 de abril en Segovia. En total 38 participantes, 22 de la filial española y 16 de las alemanas AKDB y H&D partimos en autobús el jueves 20.04 hacia Segovia para iniciar nuestra aventura. Hemos reunido <strong>5 equipos</strong> dedicados a los <strong>proyectos de desarrollo</strong> de <strong>OK FIN</strong> (ERP financiero), <strong>OK Pers</strong> (Gestión de RRHH), <strong>OK EWO</strong> (Gestión del padrón), Plattforms <strong>Synergo</strong>, y <strong>KIOSK</strong> para fomentar el trabajo en equipo a través de actividades lúdicas, culturales y talleres de trabajo. Nos hemos divertido mucho, disfrutando de un tiempo buenísimo y fantástica compañía.<br><br><strong>Sobre AKDB</strong><br><br>Desde su fundación en 1971, AKDB está desarrollado una gama completa de soluciones para la digitalización de municipios e instituciones públicas. Esto incluye software, seguridad informática, consultoría, formación y una amplia gama de servicios. El espectro de servicios de TI <strong>abarca desde soluciones SaaS</strong> desde su dentro de cálculo certificado por el “Bundesamt für Sicherheit in der Informationstechnik” (BSI) para todos los <strong>departamentos oficiales, registros de población y estado civil bávaros hasta entornos de TI totalmente gestionados</strong>.<br><br>AKDB es el <strong>principal proveedor global de Tecnologías de la Información de Alemania</strong> incluyendo su gama de servicios software para finanzas, recursos humanos, transporte, asuntos sociales y bienes inmuebles. En el área de gobierno electrónico, la AKDB ofrece a los estados y municipios su portal de atención al ciudadano siendo la plataforma interoperable de mayor alcance de Alemania para servicios de administración on-line, a través de la cual los ciudadanos y las empresas procesan digitalmente cada vez más sus transacciones con la administración. Desde 2019, la AKDB proporciona a la administración federal el sistema de acceso central (proveedor de identidad) para el uso de servicios en el marco de la Ley de acceso on-line (OZG). AKDB cuenta como clientes con más de 4.700 municipios, ciudades, condados, distritos, así como instituciones públicas y el gobierno federal. La AKDB es una institución de derecho público patrocinada por las cuatro organizaciones paraguas municipales en Baviera y tiene alrededor de 1.100 empleados en el grupo de empresas.<br><br><strong>Sobre Unternehmensberatung H&D GmbH</strong><br><br>Desde 1986, la consultoría de gestión H & D GmbH ha estado colaborando con AKDB con sus <strong>clientes públicos del sector de seguridad y defensa</strong> mediante la digitalización. La implementación de la Ley de Acceso on-line (OZG) fue el enfoque en los últimos años. La innovación, las redes de socios de confianza y una cartera de servicios holística desde la consultoría, estrategia, arquitectura, innovación hasta el desarrollo de las Tecnologías de Información, por ejemplo, hicieron una contribución importante a la provisión de <strong>uno de los primeros servicios OFA en Alemania</strong>. Además de los clientes públicos, se prestan servicios a seleccionados clientes de todos los sectores industriales."
+    },
+    "nov-23": {
+      "header": "Celebramos la tercera edición de nuestra jornada de teambuilding",
+      "content": "El 21 de noviembre tuvo lugar nuestro <strong>Team Day</strong>. Todos los compañeros que trabajan en España pudieron por fin verse en persona en las oficinas de Madrid, intercambiar novedades, sugerencias y soluciones y conocer la planificación para el año 2024.<br><br>Los nuevos compañeros también pudieron presentarse. <strong>¡Ya somos más de 34!</strong><br><br>¿Te gustaría trabajar con nosotros? Envíanos tu CV."
+    },
+    "dec-23": {
+      "header": "¡Celebremos la temporada festiva juntos!",
+      "content": "En H&D España, nos enorgullece decir que <strong>nuestro último Team Day del año</strong> fue más que un evento; fue un encuentro lleno de emociones, conexiones genuinas y la magia de la Navidad.<br><br>El 15 de diciembre marcó un hito para nosotros. Reunidos en nuestras oficinas en Madrid, el equipo se reencontró desde diferentes puntos de España. Fue un día de compartir, de intercambiar ideas innovadoras, soluciones creativas y de <strong>trazar juntos la hoja de ruta para el emocionante año 2024</strong> que nos espera. El encuentro no solo fue sobre trabajo; también fue sobre fortalecer lazos y disfrutar de la temporada festiva.<br><br>La cena de Navidad fue un momento especial en un restaurante emblemático en el corazón de Madrid, donde compartimos no solo deliciosos platos, sino también risas y momentos memorables. <strong>Actividades en grupo</strong>, como una lotería navideña, agregaron aún más diversión a la noche, creando vínculos aún más fuertes entre nosotros. En H&D España, la temporada navideña no solo es una época de celebración, ¡es también un momento para crecer y compartir juntos!<br><br>Si eres alguien apasionado, enérgico y <strong>te gustaría formar parte de nuestro equipo</strong>, ¡te invitamos a unirte a nosotros!<br><br><strong>Envíanos tu CV y sé parte de una comunidad comprometida con la excelencia</strong>, la colaboración y el entusiasmo por lo que hacemos. ¡Forma parte de nuestros próximos retos!"
+    },
+    "jan-25": {
+      "header": "🚀 Día de equipo en Madrid: Tech, ideas... ¡y recomendaciones de series! 🎬",
+      "content": "Desde H&D Munich nos acompañaron Martin Knappe y Ana María Montfort y además tuvimos el placer de dar la bienvenida a nuestras nuevas compañeras Lena, Adhara Monzón Varillas y Belén, que han traído una energía nueva al equipo. ¡Qué alegría tenerlas a bordo!<br>🎤 Las presentaciones de proyectos fueron, sin duda, el plato fuerte.<br>Ian Hacha nos atrapó con una charla súper dinámica sobre Rust, llena de insights valiosos sobre su proyecto actual. Después, Miriam y Stephan Brandt nos dejaron boquiabiertos con su visión y el trabajo inspirador que están llevando a cabo en el ámbito de IKFZ (aplicación para la gestión de las matriculaciones de los vehículos en Alemania). 👏<br>😂 El momento más divertido? Las presentaciones personales. Cada uno tenía que revelar su serie o película favorita, y descubrimos que nuestros gustos son de lo más variado: desde thrillers que te dejan sin aliento hasta comedias que te alegran el día. Ahora tenemos una lista infinita para el próximo maratón.<br>💡 Estos días en equipo nos recuerdan algo importante: somos más que una empresa tech. Somos un equipo con ganas de innovar, conectar y disfrutar del camino juntos."
+    },
+    "feb-25": {
+      "header": "Nuestro Team Day mensual en Madrid: Ideas frescas y nuevos formatos de trabajo",
+      "content": ""
+    }
+  },
+  "about-us": { "header": "¿Quiénes somos?", "subheader": "H&D España" },
+  "careers": {
+    "header": "Trabaja con nosotros",
+    "must-have": "Esencial",
+    "nice-to-have": "Extraordinario",
+    "requirements": {
+      "header": "Requisitos generales",
+      "requirements-code": "Te gusta el código bien estructurado y documentado",
+      "requirements-exp": "Experiencia laboral",
+      "requirements-german": "Nivel de alemán"
+    },
+    "benefits": {
+      "header": "Beneficios",
+      "holidays": "Vacaciones",
+      "holidays-icon": "fa-solid fa-bed",
+      "flex-location": "Modalidad flexible",
+      "flex-location-icon": "",
+      "flex-hours": "Horario flexible",
+      "flex-hours-icon": "",
+      "restaurant": "Ticket restaurante",
+      "restaurant-icon": "",
+      "health": "Seguro de salud",
+      "health-icon": "",
+      "transport": "Tarjeta de transporte",
+      "transport-icon": "",
+      "flex-retribution": "Retribución flexible",
+      "flex-retribution-icon": ""
+    },
+    "submit_cv_header": "¿Quieres trabajar con nosotros?",
+    "submit_cv": "Envíanos tu CV"
+  }
 }
