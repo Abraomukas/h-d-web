@@ -1,127 +1,131 @@
 {
-	"navbar": {
-		"services": "Lösungen",
-		"events": "Unser Veranstaltungen",
-		"about": "Unternehmen & Team",
-		"careers": "Karriere"
-	},
-	"hero": {
-		"timeline-header": "Mehr als 50 Jahre Innovation für Kunden aus dem öffentlichen Sektor",
-		"timeline-since": "Seit 1971",
-		"timeline-since-text": "<strong>AKDB<//strong>, die Muttergesellschaft H&D Aplicaciones, Software y Desarrollo, hat sich seit ihrer Gründung im Jahr 1971 auf die Entwicklung von Anwendungen für Kommunen, Regionen und Gemeinden in der deutschen öffentlichen Verwaltung konzentriert.",
-		"timeline-innovate": "Innovative",
-		"timeline-innovate-text": "Wir zeichnen uns durch die innovative Entwicklung von Anwendungen für Finanzmanagement, Personalmanagement und Prozessmanagement auf allen Ebenen der öffentlichen Verwaltung aus. H&D Aplicaciones, Software y Desarrollo ist eine Tochtergesellschaft u.a. des Unternehmens <a>Unternehmensberatung <strong>H&D GmbH</strong></a>",
-		"timeline-together": "Jetzt mit Ihnen",
-		"timeline-together-text": "Seit 50 Jahren wachsen wir stetig. Mehr als 1.000 Mitarbeiter und 4.700 Kunden. Jetzt, <strong>in Spanien</strong> wollen wir mit Ihnen weiter wachsen. Wir möchten, dass Sie Teil unseres Projekts werden. Informieren Sie sich über unsere Stellenangebote und senden Sie uns Ihren Lebenslauf. <strong>Beruflich wachsen</strong> in einem Unternehmen, das von der deutschen öffentlichen Verwaltung unterstützt wird.",
-		"motto": "Sei Teil eines führenden deutschen Softwareunternehmens für die öffentliche Verwaltung",
-		"cta-to-services": "Unsere Lösungen"
-	},
-	"services": {
-		"header": "Von der Implementierung bis zur Entwicklung des digitalen Produkts",
-		"subheader": "Ein kompletter Kundenbetreuungsprozess, der durch starke Partnerschaften mit einer Vielzahl von spezialisierten Tochtergesellschaften im öffentlichen Sektor unterstützt wird",
-		"teams-header": "",
-		"teams-descriptions": {
-			"pers": "LORE IPSUM",
-			"pers-plus": "LORE IPSUM",
-			"finn": "LORE IPSUM",
-			"ewo": "LORE IPSUM",
-			"synergo": "LORE IPSUM",
-			"hyd-aus": "LORE IPSUM"
-		},
-		"teams-names": {
-			"pers": "OK.PERS",
-			"pers-plus": "OK.PERS+",
-			"finn": "OK.FINN",
-			"ewo": "OK.EWO",
-			"synergo": "SYNERGO",
-			"hyd-aus": "Ausländerwesen"
-		},
-		"features-header": "Hauptleistungen",
-		"features": {
-			"tech": "Java, C++ und die neuesten Webtechnologien",
-			"agile": "Scrum und Kanban",
-			"ai-ml": "Künstliche Intelligenz und Machine Learning",
-			"mobile": "Entwicklung mobiler Applikationen",
-			"ci-cd": "Automatisierung (CI/CD)",
-			"audit": "Cybersicherheitsaudit",
-			"monitor": "Überwachung und Monitoring"
-		}
-	},
-	"events": {
-		"header": "Neuigkeiten bei H&D Spanien",
-		"filter-by-year": "Jahr",
-		"news-header": "Nachrichten",
-		"team-tags-header": "Team Days",
-		"team-buildings-header": "Team Buildings",
-		"posts": {
-			"nov-22": "Smart City Expo World Congress 2022",
-			"apr-23": "Team Building in Segovia - April 2023",
-			"nov-23": "Teamtag November 2023",
-			"dec-23": "Weihnachtsparty 2023",
-			"jan-24": "Teamtag Januar 2024",
-			"feb-24": "Teamtag Februar 2024",
-			"mar-24": "Teamtag März 2024",
-			"apr-24": "Team Building in Valencia - April 2024",
-			"may-24": "Teamtag Mai 2024",
-			"jun-24": "Teamtag Juni 2024",
-			"jul-24": "Teamtag Juli 2024",
-			"oct-1-24": "Teamtag Oktober I 2024",
-			"oct-2-24": "Teamtag Oktober II 2024",
-			"nov-24": "Teamtag November 2024",
-			"dec-24": "Weihnachtsparty 2024",
-			"jan-25": "Teamtag Januar 2025"
-		},
-		"nov-22": {
-			"header": "Smart Data Services auf dem Smart City Expo World Congress",
-			"content": ""
-		},
-		"apr-23": {
-			"header": "Veranstaltung “Developing Together” in Segovia mit der H&D- und AKDB-Teams",
-			"content": ""
-		},
-		"nov-23": {
-			"header": "Wir feiern die dritte Aurlage unseres Teambuilding-Tages",
-			"content": ""
-		},
-		"dec-23": {
-			"header": "Lasst uns gemeinsam die Festtage feiern!",
-			"content": ""
-		},
-		"jan-25": {
-			"header": "🚀 Teamtag in Madrid: Technologie, Ideen... und Serienempfehlungen! 🎬",
-			"content": "Von H&D München gesellten sich <strong>Martin Knappe</strong> und <strong>Ana María Montfort</strong> zu uns und wir durften auch unsere neuen Kolleginnen <strong>Lena</strong>, <strong>Adhara</strong> und <strong>Belén</strong> begrüßen, die neuen Schwung in das Team gebracht haben. Was für eine Freude, sie an Bord zu haben!<br>🎤 Die Projektpräsentationen waren zweifelsohne der Höhepunkt.<br>Ian Hacha fesselte uns mit einem superdynamischen Vortrag über Rust, voll mit wertvollen Einblicken in sein aktuelles Projekt. Anschließend begeisterten uns Miriam und Stephan Brandt mit ihrer Vision und der inspirierenden Arbeit, die sie im Bereich IKFZ (Anwendung zur Verwaltung von Fahrzeugzulassungen in Deutschland) leisten. 👏<br>😂 Der lustigste Moment? Die persönliche Vorstellung. Jeder von uns musste seine Lieblingsserie oder seinen Lieblingsfilm verraten, und wir stellten fest, dass unsere Vorlieben von atemberaubenden Thrillern bis hin zu Komödien reichen, die einem den Tag versüßen. Jetzt haben wir eine endlose Liste für den nächsten Marathon.<br>💡 Diese Teamtage erinnern uns an etwas Wichtiges: Wir sind mehr als ein Technologieunternehmen. Wir sind ein Team, das sich darauf freut, innovativ zu sein, sich zu vernetzen und die Reise gemeinsam zu genießen."
-		},
-		"feb-25": { "header": "", "content": "" }
-	},
-	"about-us": { "header": "Wer sind wir?", "subheader": "H&D Spanien" },
-	"careers": {
-		"header": "Arbeit mit uns",
-		"must-have": "wesentlich",
-		"nice-to-have": "außerordentlich",
-		"requirements": {
-			"header": "Allgemeine Anforderungen",
-			"requirements-code": "Sie mögen gut strukturierten und dokumentierten Code",
-			"requirements-exp": "Berufserfahrung",
-			"requirements-german": "Deutschkenntnisse"
-		},
-		"benefits": {
-			"header": "Arbeitsvergünstigungen",
-			"holidays": "Feiertage",
-			"holidays-icon": "fa-solid fa-bed",
-			"flex-location": "Flexible Arbeitsweise",
-			"flex-location-icon": "",
-			"flex-hours": "Flexible Arbeitszeiten",
-			"flex-hours-icon": "",
-			"restaurant": "Restaurant-Ticket",
-			"restaurant-icon": "",
-			"health": "Krankenversicherung",
-			"health-icon": "",
-			"transport": "Transport-Karte",
-			"transport-icon": "",
-			"flex-retribution": "Flexible Vergütung",
-			"flex-retribution-icon": ""
-		},
-		"submit_cv_header": "Möchten Sie mit uns zusammenarbeiten?",
-		"submit_cv": "Senden Sie uns Ihren Lebenslauf"
-	}
+  "navbar": {
+    "services": "Lösungen",
+    "events": "Unser Veranstaltungen",
+    "about": "Unternehmen & Team",
+    "careers": "Karriere"
+  },
+  "hero": {
+    "timeline-header": "Mehr als 50 Jahre Innovation für Kunden aus dem öffentlichen Sektor",
+    "timeline-since": "Seit 1971",
+    "timeline-since-text": "<strong>AKDB<//strong>, die Muttergesellschaft H&D Aplicaciones, Software y Desarrollo, hat sich seit ihrer Gründung im Jahr 1971 auf die Entwicklung von Anwendungen für Kommunen, Regionen und Gemeinden in der deutschen öffentlichen Verwaltung konzentriert.",
+    "timeline-innovate": "Innovative",
+    "timeline-innovate-text": "Wir zeichnen uns durch die innovative Entwicklung von Anwendungen für Finanzmanagement, Personalmanagement und Prozessmanagement auf allen Ebenen der öffentlichen Verwaltung aus. H&D Aplicaciones, Software y Desarrollo ist eine Tochtergesellschaft u.a. des Unternehmens <a>Unternehmensberatung <strong>H&D GmbH</strong></a>",
+    "timeline-together": "Jetzt mit Ihnen",
+    "timeline-together-text": "Seit 50 Jahren wachsen wir stetig. Mehr als 1.000 Mitarbeiter und 4.700 Kunden. Jetzt, <strong>in Spanien</strong> wollen wir mit Ihnen weiter wachsen. Wir möchten, dass Sie Teil unseres Projekts werden. Informieren Sie sich über unsere Stellenangebote und senden Sie uns Ihren Lebenslauf. <strong>Beruflich wachsen</strong> in einem Unternehmen, das von der deutschen öffentlichen Verwaltung unterstützt wird.",
+    "motto": "Sei Teil eines führenden deutschen Softwareunternehmens für die öffentliche Verwaltung",
+    "cta-to-services": "Unsere Lösungen"
+  },
+  "services": {
+    "header": "Von der Implementierung bis zur Entwicklung des digitalen Produkts",
+    "subheader": "Ein kompletter Kundenbetreuungsprozess, der durch starke Partnerschaften mit einer Vielzahl von spezialisierten Tochtergesellschaften im öffentlichen Sektor unterstützt wird",
+    "teams-header": "",
+    "teams-descriptions": {
+      "pers": "LORE IPSUM",
+      "pers-plus": "LORE IPSUM",
+      "finn": "LORE IPSUM",
+      "ewo": "LORE IPSUM",
+      "synergo": "LORE IPSUM",
+      "hyd-aus": "LORE IPSUM"
+    },
+    "teams-names": {
+      "pers": "OK.PERS",
+      "pers-plus": "OK.PERS+",
+      "finn": "OK.FINN",
+      "ewo": "OK.EWO",
+      "synergo": "SYNERGO",
+      "hyd-aus": "Ausländerwesen"
+    },
+    "features-header": "Hauptleistungen",
+    "features": {
+      "tech": "Java, C++ und die neuesten Webtechnologien",
+      "agile": "Scrum und Kanban",
+      "ai-ml": "Künstliche Intelligenz und Machine Learning",
+      "mobile": "Entwicklung mobiler Applikationen",
+      "ci-cd": "Automatisierung (CI/CD)",
+      "audit": "Cybersicherheitsaudit",
+      "monitor": "Überwachung und Monitoring"
+    }
+  },
+  "events": {
+    "header": "Neuigkeiten bei H&D Spanien",
+    "filter-by-year": "Jahr",
+    "news-header": "Nachrichten",
+    "team-tags-header": "Team Days",
+    "team-buildings-header": "Team Buildings",
+    "posts": {
+      "nov-22": "Smart City Expo World Congress 2022",
+      "apr-23": "Team Building in Segovia - April 2023",
+      "nov-23": "Teamtag November 2023",
+      "dec-23": "Weihnachtsparty 2023",
+      "jan-24": "Teamtag Januar 2024",
+      "feb-24": "Teamtag Februar 2024",
+      "mar-24": "Teamtag März 2024",
+      "apr-24": "Team Building in Valencia - April 2024",
+      "may-24": "Teamtag Mai 2024",
+      "jun-24": "Teamtag Juni 2024",
+      "jul-24": "Teamtag Juli 2024",
+      "oct-1-24": "Teamtag Oktober I 2024",
+      "oct-2-24": "Teamtag Oktober II 2024",
+      "nov-24": "Teamtag November 2024",
+      "dec-24": "Weihnachtsparty 2024",
+      "jan-25": "Teamtag Januar 2025",
+      "feb-25": "Teamtag Februar 2025"
+    },
+    "nov-22": {
+      "header": "Smart Data Services auf dem Smart City Expo World Congress",
+      "content": ""
+    },
+    "apr-23": {
+      "header": "Veranstaltung “Developing Together” in Segovia mit der H&D- und AKDB-Teams",
+      "content": ""
+    },
+    "nov-23": {
+      "header": "Wir feiern die dritte Aurlage unseres Teambuilding-Tages",
+      "content": ""
+    },
+    "dec-23": {
+      "header": "Lasst uns gemeinsam die Festtage feiern!",
+      "content": ""
+    },
+    "jan-25": {
+      "header": "🚀 Teamtag in Madrid: Technologie, Ideen... und Serienempfehlungen! 🎬",
+      "content": "Von H&D München gesellten sich <strong>Martin Knappe</strong> und <strong>Ana María Montfort</strong> zu uns und wir durften auch unsere neuen Kolleginnen <strong>Lena</strong>, <strong>Adhara</strong> und <strong>Belén</strong> begrüßen, die neuen Schwung in das Team gebracht haben. Was für eine Freude, sie an Bord zu haben!<br>🎤 Die Projektpräsentationen waren zweifelsohne der Höhepunkt.<br>Ian Hacha fesselte uns mit einem superdynamischen Vortrag über Rust, voll mit wertvollen Einblicken in sein aktuelles Projekt. Anschließend begeisterten uns Miriam und Stephan Brandt mit ihrer Vision und der inspirierenden Arbeit, die sie im Bereich IKFZ (Anwendung zur Verwaltung von Fahrzeugzulassungen in Deutschland) leisten. 👏<br>😂 Der lustigste Moment? Die persönliche Vorstellung. Jeder von uns musste seine Lieblingsserie oder seinen Lieblingsfilm verraten, und wir stellten fest, dass unsere Vorlieben von atemberaubenden Thrillern bis hin zu Komödien reichen, die einem den Tag versüßen. Jetzt haben wir eine endlose Liste für den nächsten Marathon.<br>💡 Diese Teamtage erinnern uns an etwas Wichtiges: Wir sind mehr als ein Technologieunternehmen. Wir sind ein Team, das sich darauf freut, innovativ zu sein, sich zu vernetzen und die Reise gemeinsam zu genießen."
+    },
+    "feb-25": {
+      "header": "Unser monatlicher Teamtag in Madrid: Frische Ideen und neue Arbeitsformate",
+      "content": ""
+    }
+  },
+  "about-us": { "header": "Wer sind wir?", "subheader": "H&D Spanien" },
+  "careers": {
+    "header": "Arbeit mit uns",
+    "must-have": "wesentlich",
+    "nice-to-have": "außerordentlich",
+    "requirements": {
+      "header": "Allgemeine Anforderungen",
+      "requirements-code": "Sie mögen gut strukturierten und dokumentierten Code",
+      "requirements-exp": "Berufserfahrung",
+      "requirements-german": "Deutschkenntnisse"
+    },
+    "benefits": {
+      "header": "Arbeitsvergünstigungen",
+      "holidays": "Feiertage",
+      "holidays-icon": "fa-solid fa-bed",
+      "flex-location": "Flexible Arbeitsweise",
+      "flex-location-icon": "",
+      "flex-hours": "Flexible Arbeitszeiten",
+      "flex-hours-icon": "",
+      "restaurant": "Restaurant-Ticket",
+      "restaurant-icon": "",
+      "health": "Krankenversicherung",
+      "health-icon": "",
+      "transport": "Transport-Karte",
+      "transport-icon": "",
+      "flex-retribution": "Flexible Vergütung",
+      "flex-retribution-icon": ""
+    },
+    "submit_cv_header": "Möchten Sie mit uns zusammenarbeiten?",
+    "submit_cv": "Senden Sie uns Ihren Lebenslauf"
+  }
 }
