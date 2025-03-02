@@ -62,7 +62,8 @@
       "nov-24": "Team Day November 2024",
       "dec-24": "Christmas Dinner 2024",
       "jan-25": "Team Day January 2025",
-      "feb-25": "Team Day February 2025"
+      "feb-25": "Team Day February 2025",
+      "mar-25": "Team Building in Toledo - March 2025"
     },
     "nov-22": {
       "header": "Smart Data Services at the Smart City Expo World Congress",
@@ -86,6 +87,10 @@
     },
     "feb-25": {
       "header": "Our monthly Team Day in Madrid: Fresh ideas and new work formats",
+      "content": ""
+    },
+    "mar-25": {
+      "header": "",
       "content": ""
     }
   },
